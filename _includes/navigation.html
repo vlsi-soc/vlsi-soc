@@ -11,7 +11,7 @@
       </li>
 
       <li class="nav-item dropdown {% if page.url contains 'committee' %}activex{% endif %}">
-        <a style="font-size:15px!important" class="nav-link ops" href="#" id="navbarDropdown" role="button"
+        <a class="nav-link ops" href="#" id="navbarDropdown" role="button"
           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Organization
         </a>
@@ -23,7 +23,7 @@
       </li>
 
       <li class="nav-item dropdown {% if page.url contains 'submission' %}activex{% endif %}">
-        <a style="font-size:15px!important" class="nav-link ops" href="#" id="navbarDropdown" role="button"
+        <a class="nav-link ops" href="#" id="navbarDropdown" role="button"
           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Submission
         </a>
@@ -31,12 +31,11 @@
           <a class="dropdown-item" href="{{ '/submission.html' | relative_url }}#call4paper">Call For Papers</a>
           <a class="dropdown-item" href="{{ '/submission.html' | relative_url }}#authorguide">Authors' Guidelines</a>
           <a class="dropdown-item" href="{{ '/submission.html' | relative_url }}#cameraready">Camera Ready</a>
-          <a class="dropdown-item" href="#">Submission Site</a>
         </div>
       </li>
 
       <li class="nav-item dropdown {% if page.url contains 'specialsession' %}activex{% endif %}">
-        <a style="font-size:15px!important" class="nav-link ops" href="#" id="navbarDropdown" role="button"
+        <a class="nav-link ops" href="#" id="navbarDropdown" role="button"
           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Special Sessions
         </a>
@@ -44,23 +43,15 @@
           <a class="dropdown-item" href="{{ '/specialsession.html' | relative_url }}#spec">Call For Special Sessions</a>
           <a class="dropdown-item" href="{{ '/specialsession.html' | relative_url }}#cha">Special Session Chairs</a>
           <a class="dropdown-item" href="{{ '/specialsession.html' | relative_url }}#prop">Special Session Proposals</a>
-          <a class="dropdown-item" href="{{ '/specialsession.html' | relative_url }}#specials">Submission Site</a>
         </div>
       </li>
 
-      <li class="nav-item dropdown {% if page.url contains 'phd' %}activex{% endif %}">
-        <a style="font-size:15px!important" class="nav-link ops" href="#" id="navbarDropdown" role="button"
-          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          PhD &amp; Student Forum
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="{{ '/phd.html' | relative_url }}#phdforum">PhD Forum</a>
-          <a class="dropdown-item" href="{{ '/phd.html' | relative_url }}#phdsc">Student Forum</a>
-        </div>
+      <li class="nav-item ops {% if page.url contains 'phd' %}active{% endif %}">
+        <a class="nav-link" href="{{ '/phd.html' | relative_url }}#reg">PhD &amp; Student Forum</a>
       </li>
 
       <li class="nav-item dropdown {% if page.url contains 'program' %}activex{% endif %}">
-        <a style="font-size:15px!important" class="nav-link ops" href="#" id="navbarDropdown" role="button"
+        <a class="nav-link ops" href="#" id="navbarDropdown" role="button"
           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Program
         </a>
@@ -76,7 +67,7 @@
       </li>
 
       <li class="nav-item dropdown {% if page.url contains 'travel' %}activex{% endif %}">
-        <a style="font-size:15px!important;" class="nav-link ops" href="#" id="navbarDropdown" role="button"
+        <a  class="nav-link ops" href="#" id="navbarDropdown" role="button"
           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Travel &amp; Stay
         </a>

@@ -79,7 +79,7 @@ description: "Special sessions call and proposals for VLSI-SoC 2026"
       </div>
    </div>
 
-   <div class="justify-content-center" id="specials">
+   <!-- <div class="justify-content-center" id="specials">
       <h2 class="ops-tt txtcenter mts-10" style="color:red">Important dates</h2>
       <br />
 
@@ -93,5 +93,5 @@ description: "Special sessions call and proposals for VLSI-SoC 2026"
          <br />
          <br /><br />
       </div>
-   </div>
+   </div> -->
 </div>

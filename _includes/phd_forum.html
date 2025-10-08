@@ -1,0 +1,25 @@
+<!-- MAIN CONTENT -->
+<div class="container" id="phdforum">
+   <div class="justify-content-center txtcenter">
+      <h2 class="ops-tt txtcenter mts-10">{{ site.data.phd_forum.title }}</h2>
+      <p class="ops-t txtcenter same-line">{{ site.data.phd_forum.download_text }} <a style="a-no ops-t" target="_blank" href="{{ site.data.phd_forum.download_link | relative_url }}">here <i
+               class="fa fa-download same-line" aria-hidden="true"></i></a> </p><br />
+      <br />
+      <p class="ops-t txtcenter same-line" style="text-align:justify">{{ site.data.phd_forum.description }}<br /><br /></p>
+      
+      {% for section in site.data.phd_forum.sections %}
+      <div class="row col-md-12">
+         <div class="col-md-4 align-left-mobile" style="text-align:right;">
+            <i class="fa fa-info-circle inline-mobile" style="display:none;color:black" aria-hidden="true"></i>
+            <p class="ops c-orange inline-mobile"><b>{{ section.title }}</b></p>
+         </div>
+         <div class="col-md-8" style="text-align:left;border-left: solid 1px #E85F28">
+            <p class="ops-2t">{% if section.title == "DEADLINES" %}<b>{{ section.content }}</b>{% else %}{{ section.content }}{% endif %}</p>
+         </div>
+      </div>
+      <br />
+      {% endfor %}
+      
+      <br />
+   </div>
+</div>
