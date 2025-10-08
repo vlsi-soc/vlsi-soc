@@ -1,0 +1,28 @@
+<!-- MAIN CONTENT -->
+<div class="col-md-12" style=" background-color: rgb(230,230,230);">
+  
+  <div id="phdforum">
+    <h2 class="ops-tt txtcenter" style="padding-top:50px">Previous Conferences</h2>
+    <br />
+    <!-- The Timeline -->
+
+    <ul class="timeline">
+      {% for conf in site.data.previous_conferences.conferences %}
+      <li>
+        {% assign remainder = forloop.index | modulo: 2 %}
+        <div class="direction-{% if remainder == 1 %}r{% else %}l{% endif %}">
+          <div class="flag-wrapper">
+            <span class="flag"{% if conf.highlight %} style="background-color:red;color:white"{% endif %}>
+              {% if conf.url %}<a href="{{ conf.url }}" target="_blank">{{ conf.city }}</a>{% else %}{{ conf.city }}{% endif %}
+            </span>
+            <span class="time-wrapper"><span class="time">{{ conf.year }}</span></span>
+          </div>
+          <div class="desc">{{ conf.country }}</div>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+
+    <br /><br />
+  </div>
+</div>

@@ -8,14 +8,14 @@
     <div class="row col-md-12 txtcenter">
       <div class="col-md-5 txtcenter">
         <img src="{{ '/img/vlsi-logo.png' | relative_url }}" class="img-fluid" style="max-height:80px" />
-        <h3 class="ops-tt txtcenter mts-10 card-margin c-white">{{ site.conference.name }}</h3>
+        <h3 class="ops-tt txtcenter mts-10 card-margin c-white">{{ site.data.conference.name }}</h3>
       </div>
 
       <div class="col-md-7" style="text-align:center !important">
         <p class="ops-tt txtcenter mts-10 card-margin c-white" style="padding-top:18px">
-          <b>{{ site.conference.year | minus: 1992 | plus: 1 }}<sup>th</sup> IFIP/IEEE</b> 
+          <b>{{ site.data.conference.edition }}<sup>th</sup> IFIP/IEEE</b> 
           International Conference<br /> on <b> Very Large Scale Integration</b>
-          <br />{{ site.conference.location }}, {{ site.conference.dates }}, {{ site.conference.venue }}.
+          <br />{{ site.data.conference.location }}, {{ site.data.conference.dates }}, {{ site.data.conference.venue }}.
         </p>
       </div>
     </div>

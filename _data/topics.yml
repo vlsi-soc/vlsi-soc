@@ -1,0 +1,37 @@
+# Conference Topics/Tracks
+tracks:
+  - number: 1
+    title: "Applications and Architectures for AI and ML"
+  
+  - number: 2
+    title: "Communication Architectures and Technologies"
+  
+  - number: 3
+    title: "Computing Paradigms"
+  
+  - number: 4
+    title: "Digital Circuits Design and Synthesis"
+  
+  - number: 5
+    title: "Embedded System Design"
+  
+  - number: 6
+    title: "Emerging Technologies and Applications"
+  
+  - number: 7
+    title: "Low-Power, Energy-Efficient and Thermal-Aware Design"
+  
+  - number: 8
+    title: "Security"
+  
+  - number: 9
+    title: "Sensing and Signal Processing Technologies"
+  
+  - number: 10
+    title: "Smart Systems, Devices and Applications"
+  
+  - number: 11
+    title: "System Specification, Simulation and Verification"
+
+  - number: 12
+    title: "Test and Dependability"

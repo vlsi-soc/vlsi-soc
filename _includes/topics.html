@@ -1,0 +1,33 @@
+<!-- TOPICS SECTION -->
+<div class="bg-gray-ns bxshadow-top bxshadow-bottom">
+  <div class="container">
+    <h2 class="ops-tt txtcenter wow fadeIn" style="padding-top:80px;">TOPICS</h2>
+    <p class="ops-t txtcenter wow fadeIn">Topics of interest include, <b>but are not limited to:</b></p>
+    <div class="row col-md-12 mts-10" style="padding-bottom:80px">
+      <div class="col-md-6" style="text-align:justify">
+        <table class="table">
+          <tbody>
+            {% for track in site.data.topics.tracks limit:6 %}
+            <tr>
+              <td class="ops-t" style="min-width:100px"><b>TRACK {{ track.number }}:</b></td>
+              <td class="ops-t">{{ track.title }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md-6" style="text-align:justify">
+        <table class="table">
+          <tbody>
+            {% for track in site.data.topics.tracks offset:6 %}
+            <tr>
+              <td class="ops-t" style="min-width:100px"><b>TRACK {{ track.number }}:</b></td>
+              <td class="ops-t">{{ track.title }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

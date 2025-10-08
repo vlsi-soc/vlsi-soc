@@ -1,0 +1,10 @@
+# Conference News and Updates
+news_items:
+  - date: "October 8, 2025"
+    title: "Website is live!"
+    content: "Stay tuned for more updates."
+  
+  # Add more news items here
+  # - date: "January 15, 2026"
+  #   title: "Call for Papers Released"
+  #   content: "The official Call for Papers for VLSI-SOC 2026 is now available. Submit your best work!"

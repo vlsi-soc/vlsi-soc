@@ -1,0 +1,28 @@
+<!-- News Section -->
+<div class="bxshadow-top">
+  <div class="container" style="padding-top:80px">
+    <div class="justify-content-center txtcenter">
+      <h3 id="news" class="ops-tt txtcenter c-azure">NEWS</h3>
+      <br />
+      {% for news in site.data.news.news_items %}
+      <div class="row col-md-12 txt-center">
+        <div class="row col-md-12">
+          <div class="col-md-6 align-left-mobile wow fadeIn" style="text-align:right;">
+            <i class="fa fa-calendar inline-mobile" aria-hidden="true" style="display:none;color:#5A8FDC"></i>
+            <p class="ops-t c-azure inline-mobile">{{ news.date }}</p>
+          </div>
+          <div class="col-md-6" style="text-align:left;border-left: solid 1px #5A8FDC">
+            <p class="ops-2t">
+              <b>{{ news.title }}</b><br />
+              {{ news.content }}
+            </p>
+          </div>
+        </div>
+      </div>
+      {% unless forloop.last %}<br /><br />{% endunless %}
+      {% endfor %}
+      <br /><br />
+    </div>
+    <br />
+  </div>
+</div>

@@ -32,71 +32,7 @@ description: "IFIP/IEEE International Conference on Very Large Scale Integration
   </div>
 </div>
 
-<!-- TOPICS SECTION -->
-<div class="bg-gray-ns bxshadow-top bxshadow-bottom">
-  <div class="container">
-    <h2 class="ops-tt txtcenter wow fadeIn" style="padding-top:100px;">TOPICS</h2>
-    <p class="ops-t txtcenter wow fadeIn">Topics of interest include, <b>but are not limited to:</b></p>
-    <div class="row col-md-12 mts-10" style="padding-bottom:80px">
-      <div class="col-md-6" style="text-align:justify">
-        <table class="table">
-          <tbody>
-            <tr>
-              <td class="ops-t" style="min-width:110px"><b>TRACK 1:</b></td>
-              <td class="ops-t">Analog, mixed-signal, and sensor architectures</td>
-            </tr>
-            <tr>
-              <td class="ops-t" style="min-width:110px"><b>TRACK 2:</b></td>
-              <td class="ops-t">Digital architectures: NoC, multi- and many-core, hybrid, and reconfigurable</td>
-            </tr>
-            <tr>
-              <td class="ops-t" style="min-width:110px"><b>TRACK 3:</b></td>
-              <td class="ops-t">CAD: Synthesis and analysis</td>
-            </tr>
-            <tr>
-              <td class="ops-t" style="min-width:110px"><b>TRACK 4:</b></td>
-              <td class="ops-t">Prototyping, verification, modeling, and simulation</td>
-            </tr>
-            <tr>
-              <td class="ops-t" style="min-width:110px"><b>TRACK 5:</b></td>
-              <td class="ops-t">Circuits and systems for signal processing and communications</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="col-md-6" style="text-align:justify">
-        <table class="table">
-          <tbody>
-            <tr>
-              <td class="ops-t" style="min-width:110px"><b>TRACK 6:</b></td>
-              <td class="ops-t">IoT, embedded and cyberphysical systems: Architecture, design, and software</td>
-            </tr>
-            <tr>
-              <td class="ops-t" style="min-width:110px"><b>TRACK 7:</b></td>
-              <td class="ops-t">Low-power and thermal-aware IC design</td>
-            </tr>
-            <tr>
-              <td class="ops-t" style="min-width:110px"><b>TRACK 8:</b></td>
-              <td class="ops-t">Emerging technologies and computing paradigms</td>
-            </tr>
-            <tr>
-              <td class="ops-t" style="min-width:110px"><b>TRACK 9:</b></td>
-              <td class="ops-t">Variability, reliability, and test</td>
-            </tr>
-            <tr>
-              <td class="ops-t" style="min-width:110px"><b>TRACK 10:</b></td>
-              <td class="ops-t">Hardware security</td>
-            </tr>
-            <tr>
-              <td class="ops-t" style="min-width:110px"><b>TRACK 11:</b></td>
-              <td class="ops-t">Machine learning for SoC design and for electronic design automation</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div>
-</div>
+{% include topics.html %}
 
 <!-- MAIN CONTENT - Organizing Committee Section -->
 <div class="bxshadow-top" style="background-color:#292C33">
@@ -130,73 +66,9 @@ description: "IFIP/IEEE International Conference on Very Large Scale Integration
   </div>
 </div>
 
-<!-- Deadlines Section -->
-<div class="bxshadow-top" style="background-color:#F0641B">
-  <div class="container" style="padding-top:80px">
-    <div class="justify-content-center txtcenter">
-      <h3 id="deadlines" class="ops-tt txtcenter" style="color:white;"><b>DEADLINES</b></h3>
-      <br />
-      <div class="row col-md-12 txt-center">
-        <div class="row col-md-12">
-          <div class="col-md-6 align-left-mobile wow fadeIn" style="text-align:right;">
-            <i class="fa fa-clock inline-mobile" aria-hidden="true" style="display:none;color:white"></i>
-            <p class="ops-t c-white inline-mobile"><b>Regular papers & Special sessions</b></p>
-          </div>
-          <div class="col-md-6" style="text-align:left;border-left: solid 1px white">
-            <p class="ops-2t c-gray"><b> Abstract registration: April 28, 2026<br />
-                Full paper submission: May 05, 2026
-                <br /> Special session proposal: April 27, 2026
-                <br /> Notification of acceptance: June 16, 2026
-                <br /> Camera ready: July 07, 2026</b></p>
-          </div>
-        </div>
-      </div>
-      <br /><br />
-      <div class="row col-md-12 txt-center">
-        <div class="row col-md-12">
-          <div class="col-md-6 align-left-mobile wow fadeIn" style="text-align:right;">
-            <i class="fa fa-clock inline-mobile" aria-hidden="true" style="display:none;color:white"></i>
-            <p class="ops-t c-white inline-mobile">PhD Contributions</p>
-          </div>
-          <div class="col-md-6" style="text-align:left;border-left: solid 1px white">
-            <p class="ops-2t c-gray"><b> PhD &amp; Student Forum submission:: July 02, 2026
-                <br /> Notification of acceptance: July 23, 2026
-                <br /> Camera ready: July 23, 2026</b></p>
-          </div>
-        </div>
-        <br /><br />
-      </div>
-    </div>
-    <br />
-    <br />
-  </div>
-</div>
+{% include deadlines.html %}
 
-<!-- News Section -->
-<div class="bxshadow-top">
-  <div class="container" style="padding-top:80px">
-    <div class="justify-content-center txtcenter">
-      <h3 id="news" class="ops-tt txtcenter c-azure">NEWS</h3>
-      <br />
-      <div class="row col-md-12 txt-center">
-        <div class="row col-md-12">
-          <div class="col-md-6 align-left-mobile wow fadeIn" style="text-align:right;">
-            <i class="fa fa-newspaper inline-mobile" aria-hidden="true" style="display:none;color:#5A8FDC"></i>
-            <p class="ops-t c-azure inline-mobile">Latest Updates</p>
-          </div>
-          <div class="col-md-6" style="text-align:left;border-left: solid 1px #5A8FDC">
-            <p class="ops-2t">
-              <b>Website is live!</b><br />
-              Stay tuned for more updates.
-            </p>
-          </div>
-        </div>
-      </div>
-      <br /><br />
-    </div>
-    <br />
-  </div>
-</div>
+{% include news.html %}
 
 <!-- About Conference Section -->
 <div class="bxshadow-top" style="background-color:#292C33">

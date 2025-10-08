@@ -1,0 +1,31 @@
+<!-- Deadlines Section -->
+<div class="bxshadow-top" style="background-color:#F0641B">
+  <div class="container" style="padding-top:80px">
+    <div class="justify-content-center txtcenter">
+      <h3 id="deadlines" class="ops-tt txtcenter" style="color:white;"><b>DEADLINES</b></h3>
+      <br />
+      {% for category in site.data.deadlines.categories %}
+      <div class="row col-md-12 txt-center">
+        <div class="row col-md-12">
+          <div class="col-md-6 align-left-mobile wow fadeIn" style="text-align:right;">
+            <i class="fa {{ category.icon }} inline-mobile" aria-hidden="true" style="display:none;color:white"></i>
+            <p class="ops-t c-white inline-mobile">{% if category.name contains 'Regular' %}<b>{{ category.name }}</b>{% else %}{{ category.name }}{% endif %}</p>
+          </div>
+          <div class="col-md-6" style="text-align:left;border-left: solid 1px white">
+            <p class="ops-2t c-gray"><b>
+              {% for deadline in category.deadlines %}
+                {{ deadline.label }}: {{ deadline.date }}
+                {% unless forloop.last %}<br />{% endunless %}
+              {% endfor %}
+            </b></p>
+          </div>
+        </div>
+      </div>
+      {% unless forloop.last %}<br /><br />{% endunless %}
+      {% endfor %}
+      <br /><br />
+    </div>
+    <br />
+    <br />
+  </div>
+</div>

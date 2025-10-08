@@ -4,15 +4,6 @@ description: "IFIP/IEEE International Conference on Very Large Scale Integration
 baseurl: "/vlsi-soc" # the subpath of your site, e.g. /blog (for GitHub Pages: /repository-name)
 url: "https://vlsi-soc.github.io" # the base hostname & protocol for your site
 
-# Conference details
-conference:
-  name: "VLSI-SoC 2026"
-  full_name: "34th IFIP/IEEE International Conference on Very Large Scale Integration"
-  location: "Limassol (Cyprus)"
-  dates: "11-14 October"
-  venue: "St. Raphael Resort"
-  year: 2026
-
 # Build settings
 markdown: kramdown
 exclude:

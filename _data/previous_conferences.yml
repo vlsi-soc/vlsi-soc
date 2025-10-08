@@ -1,0 +1,153 @@
+# Previous VLSI-SoC Conferences
+conferences:
+  - city: "Limassol"
+    year: 2026
+    country: "Cyprus"
+    highlight: true  # Current conference
+  
+  - city: "Puerto Varas"
+    year: 2025
+    country: "Chile"
+    url: "https://asic-chile.cl/vlsisoc/"
+  
+  - city: "Tangier"
+    year: 2024
+    country: "Morocco"
+  
+  - city: "Sarja"
+    year: 2023
+    country: "UAE"
+  
+  - city: "Patras"
+    year: 2022
+    country: "Greece"
+  
+  - city: "Singapore"
+    year: 2021
+    country: "Singapore"
+  
+  - city: "Salt Lake City"
+    year: 2020
+    country: "USA"
+  
+  - city: "Cusco"
+    year: 2019
+    country: "Peru"
+  
+  - city: "Verona"
+    year: 2018
+    country: "Italy"
+    url: "https://cisd.di.univr.it/wg10-5/vlsi-soc/2018/index.html"
+  
+  - city: "Yas Island"
+    year: 2017
+    country: "Abu Dhabi, UAE"
+    url: "http://vlsisoc2017.ozyegin.edu.tr/"
+  
+  - city: "Tallinn"
+    year: 2016
+    country: "Estonia"
+    url: "http://ati.ttu.ee/vlsi-soc2016/"
+  
+  - city: "Daejeon"
+    year: 2015
+    country: "Korea"
+    url: "http://vlsi-soc.yu.ac.kr/"
+  
+  - city: "Playa del Carmen"
+    year: 2014
+    country: "Mexico"
+    url: "http://www.inaoep.mx/vlsi-soc2014/"
+  
+  - city: "Istanbul"
+    year: 2013
+    country: "Turkey"
+  
+  - city: "Santa Cruz"
+    year: 2012
+    country: "USA"
+    url: "https://vlsisoc2012.soe.ucsc.edu/home"
+  
+  - city: "Kowloon"
+    year: 2011
+    country: "Hong Kong"
+  
+  - city: "Madrid"
+    year: 2010
+    country: "Spain"
+  
+  - city: "Florianópolis"
+    year: 2009
+    country: "Brazil"
+    url: "http://www.inf.ufrgs.br/vlsisoc/"
+  
+  - city: "Rhodes Island"
+    year: 2008
+    country: "Greece"
+  
+  - city: "Atlanta"
+    year: 2007
+    country: "USA"
+    url: "http://www.vlsisoc2007.gatech.edu/"
+  
+  - city: "Nice"
+    year: 2006
+    country: "France"
+    url: "http://tima.imag.fr/conferences/VLSI-SoC06/"
+  
+  - city: "Perth"
+    year: 2005
+    country: "Australia"
+  
+  - city: "Darmstadt"
+    year: 2003
+    country: "Germany"
+  
+  - city: "Montpellier"
+    year: 2001
+    country: "France"
+  
+  - city: "Lisbon"
+    year: 1999
+    country: "Portugal"
+    url: "http://algos.inesc-id.pt/vlsi99/"
+  
+  - city: "Gramado"
+    year: 1997
+    country: "Brazil"
+  
+  - city: "Chiba"
+    year: 1995
+    country: "Japan"
+  
+  - city: "Trondheim"
+    year: 1993
+    country: "Norway"
+  
+  - city: "Grenoble"
+    year: 1993
+    country: "France"
+  
+  - city: "Edinburgh"
+    year: 1991
+    country: "Scotland"
+  
+  - city: "Munich"
+    year: 1989
+    country: "Germany"
+  
+  - city: "Vancouver"
+    year: 1987
+    country: "Canada"
+  
+  - city: "Tokyo"
+    year: 1985
+    country: "Japan"
+  
+  - city: "Trondheim"
+    year: 1983
+    country: "Norway"
+  
+  - city: "Edinburgh"
+    year: 1981
+    country: "Scotland"
