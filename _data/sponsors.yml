@@ -1,0 +1,44 @@
+# Sponsors and affiliated organizations
+sponsors:
+  - name: "CAS"
+    full_name: "IEEE Circuits and Systems Society"
+    url: "http://ieee-cas.org"
+    logo: "CAS_r.png"
+  
+  - name: "CEDA"
+    full_name: "IEEE Council on Electronic Design Automation"
+    url: "http://www.ieee-ceda.org"
+    logo: "CEDA_r.png"
+  
+  - name: "SIGDA"
+    full_name: "ACM Special Interest Group on Design Automation"
+    url: "http://www.sigda.org"
+    logo: "SIGDA_r.png"
+  
+  - name: "IFIP"
+    full_name: "International Federation for Information Processing"
+    url: "http://www.ifip.org"
+    logo: "IFIP_r.png"
+  
+  - name: "IEEE"
+    full_name: "Institute of Electrical and Electronics Engineers"
+    url: "https://www.ieee.org/index.html"
+    logo: "IEEE_r.png"
+
+# Partner institutions
+partners:
+  - name: "University of Limerick"
+    url: "https://www.ul.ie/"
+    logo: "ul-logo.svg"
+  
+  - name: "École Centrale de Lyon"
+    url: "https://www.ec-lyon.fr/"
+    logo: "lyon-logo.png"
+  
+  - name: "University of Stavanger"
+    url: "https://www.uis.no/en"
+    logo: "UiS-logo.png"
+  
+  - name: "UCLan Cyprus"
+    url: "https://www.uclancyprus.ac.cy/"
+    logo: "uclan-logo.png"

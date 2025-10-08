@@ -4,45 +4,29 @@
       <div class="col-md-4 txtcenter">
         <h5 class="ops-tt c-white">CONTACTS</h5>
         <br />
+        {% for contact in site.data.contacts.contacts %}
         <i class="fa fa-user same-line c-white" aria-hidden="true"></i>
-        <p class="ops-2t c-gray same-line" style="color:#F8CF5F !important;"> Tiziana Margaria</p>
+        <p class="ops-2t c-gray same-line" style="color:#F8CF5F !important;"> {{ contact.name }}</p>
         <br />
         <i class="fa fa-envelope same-line c-white" aria-hidden="true"></i>
         <p class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray"
-            href="mailto:tiziana.margaria@ul.ie">tiziana.margaria@ul.ie</a></p>
+            href="mailto:{{ contact.email }}">{{ contact.email }}</a></p>
         <br />
         <i class="fa fa-phone same-line c-white" aria-hidden="true"></i>
-        <p class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray" href="tel:+35361213072">(+353) 61 213072</a>
+        <p class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray" href="tel:{{ contact.phone }}">{{ contact.phone_display }}</a>
         </p>
-        <br /><br />
-        <i class="fa fa-user same-line c-white" aria-hidden="true"></i>
-        <p class="ops-2t c-gray same-line" style="color:#F8CF5F !important;"> Ian O'Connor</p>
-        <br />
-        <i class="fa fa-envelope same-line c-white" aria-hidden="true"></i>
-        <p class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray"
-            href="mailto:ian.oconnor@ec-lyon.fr">ian.oconnor@ec-lyon.fr</a></p>
-        <br />
-        <i class="fa fa-phone same-line c-white" aria-hidden="true"></i>
-        <p class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray" href="tel:+33645478120">(+33) 645 478 120</a>
-        </p>
+        {% unless forloop.last %}<br /><br />{% endunless %}
+        {% endfor %}
       </div>
       <div class="col-md-4 txtcenter margin-mobile">
         <h5 class="ops-tt c-white">SPONSOR</h5>
         <p class="ops-tt c-gray"><i>We are grateful to all our academic, institutional, and industrial sponsors:</i>
         </p>
 
-        <h5 class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray" href="http://ieee-cas.org">- CAS</a></h5>
+        {% for sponsor in site.data.sponsors.sponsors %}
+        <h5 class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray" href="{{ sponsor.url }}">- {{ sponsor.name }}</a></h5>
         <br />
-        <h5 class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray" href="https://www.ieee.org/index.html">-
-            IFIP</a></h5>
-        <br />
-        <h5 class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray" href="http://www.sigda.org">- SIGDA</a></h5>
-        <br />
-        <h5 class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray" href="https://www.ieee.org/index.html">-
-            IEEE</a></h5>
-        <br />
-        <h5 class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray" href="http://www.ieee-ceda.org">- CEDA</a>
-        </h5>
+        {% endfor %}
       </div>
       <div class="col-md-4 txtcenter margin-mobile">
         <img src="{{ '/img/vlsi-logo.png' | relative_url }}" width="150" height="100" alt="">

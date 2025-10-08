@@ -5,195 +5,21 @@
   </h3>
   <br />
 
-  <!-- General Chairs -->
-  <div class="row col-md-12">
+  {% for role in site.data.organizing_committee.roles %}
+  <!-- {{ role.title }} -->
+  <div class="row col-md-12 {% if role.key == 'phd_student_forum_chairs' or role.key == 'award_chairs' %}align-left-mobile{% endif %}">
     <div class="col-md-6 align-left-mobile wow fadeIn" style="text-align:right;">
       <i class="fa fa-user inline-mobile" aria-hidden="true" style="display:none;{% if include.dark_bg %}color:white{% else %}color: #5A8FDC{% endif %}"></i>
-      <p class="ops-t {% if include.dark_bg %}c-white{% else %}c-azure{% endif %} inline-mobile">GENERAL CHAIRS</p>
+      <p class="ops-t {% if include.dark_bg %}c-white{% else %}c-azure{% endif %} inline-mobile">{{ role.title }}</p>
     </div>
-    <div class="col-md-6 wow fadeIn" style="text-align:left;border-left: solid 1px {% if include.dark_bg %}white{% else %}#5A8FDC{% endif %}">
+    <div class="col-md-6 {% if role.key == 'phd_student_forum_chairs' or role.key == 'award_chairs' %}align-left-mobile {% endif %}wow fadeIn" style="text-align:left;border-left: solid 1px {% if include.dark_bg %}white{% else %}#5A8FDC{% endif %}">
       <p class="ops-2t {% if include.dark_bg %}c-gray{% else %}{% endif %}">
-        {% for chair in site.data.organizing_committee.general_chairs %}
-          <b>{{ chair.name }}</b> ({{ chair.affiliation }}){% unless forloop.last %}<br />{% endunless %}
+        {% for member in role.members %}
+          <b>{{ member.name }}</b> ({{ member.affiliation }}){% unless forloop.last %}<br />{% endunless %}
         {% endfor %}
       </p>
     </div>
   </div>
   <br />
-
-  <!-- Program Chairs -->
-  <div class="row col-md-12">
-    <div class="col-md-6 align-left-mobile wow fadeIn" style="text-align:right;">
-      <i class="fa fa-user inline-mobile" aria-hidden="true" style="display:none;{% if include.dark_bg %}color:white{% else %}color: #5A8FDC{% endif %}"></i>
-      <p class="ops-t {% if include.dark_bg %}c-white{% else %}c-azure{% endif %} inline-mobile">PROGRAM CHAIRS</p>
-    </div>
-    <div class="col-md-6 wow fadeIn" style="text-align:left;border-left: solid 1px {% if include.dark_bg %}white{% else %}#5A8FDC{% endif %}">
-      <p class="ops-2t {% if include.dark_bg %}c-gray{% else %}{% endif %}">
-        {% for chair in site.data.organizing_committee.program_chairs %}
-          <b>{{ chair.name }}</b> ({{ chair.affiliation }}){% unless forloop.last %}<br />{% endunless %}
-        {% endfor %}
-      </p>
-    </div>
-  </div>
-  <br />
-
-  <!-- Special Session Chairs -->
-  <div class="row col-md-12">
-    <div class="col-md-6 align-left-mobile wow fadeIn" style="text-align:right;">
-      <i class="fa fa-user inline-mobile" aria-hidden="true" style="display:none;{% if include.dark_bg %}color:white{% else %}color: #5A8FDC{% endif %}"></i>
-      <p class="ops-t {% if include.dark_bg %}c-white{% else %}c-azure{% endif %} inline-mobile">SPECIAL SESSION CHAIRS</p>
-    </div>
-    <div class="col-md-6 align-left-mobile wow fadeIn" style="text-align:left;border-left: solid 1px {% if include.dark_bg %}white{% else %}#5A8FDC{% endif %}">
-      <p class="ops-2t {% if include.dark_bg %}c-gray{% else %}{% endif %}">
-        {% for chair in site.data.organizing_committee.special_session_chairs %}
-          <b>{{ chair.name }}</b> ({{ chair.affiliation }}){% unless forloop.last %}<br />{% endunless %}
-        {% endfor %}
-      </p>
-    </div>
-  </div>
-  <br />
-
-  <!-- Tutorial Chairs -->
-  <div class="row col-md-12">
-    <div class="col-md-6 align-left-mobile wow fadeIn" style="text-align:right;">
-      <i class="fa fa-user inline-mobile" aria-hidden="true" style="display:none;{% if include.dark_bg %}color:white{% else %}color: #5A8FDC{% endif %}"></i>
-      <p class="ops-t {% if include.dark_bg %}c-white{% else %}c-azure{% endif %} inline-mobile">TUTORIAL CHAIRS</p>
-    </div>
-    <div class="col-md-6 wow fadeIn" style="text-align:left;border-left: solid 1px {% if include.dark_bg %}white{% else %}#5A8FDC{% endif %}">
-      <p class="ops-2t {% if include.dark_bg %}c-gray{% else %}{% endif %}">
-        {% for chair in site.data.organizing_committee.tutorial_chairs %}
-          <b>{{ chair.name }}</b> ({{ chair.affiliation }}){% unless forloop.last %}<br />{% endunless %}
-        {% endfor %}
-      </p>
-    </div>
-  </div>
-  <br />
-
-  <!-- PhD & Student Forum Chairs -->
-  <div class="row col-md-12 align-left-mobile">
-    <div class="col-md-6 align-left-mobile wow fadeIn" style="text-align:right;">
-      <i class="fa fa-user inline-mobile" aria-hidden="true" style="display:none;{% if include.dark_bg %}color:white{% else %}color: #5A8FDC{% endif %}"></i>
-      <p class="ops-t {% if include.dark_bg %}c-white{% else %}c-azure{% endif %} inline-mobile">PhD &amp; Student Forum CHAIRS</p>
-    </div>
-    <div class="col-md-6 align-left-mobile wow fadeIn" style="text-align:left;border-left: solid 1px {% if include.dark_bg %}white{% else %}#5A8FDC{% endif %}">
-      <p class="ops-2t {% if include.dark_bg %}c-gray{% else %}{% endif %}">
-        {% for chair in site.data.organizing_committee.phd_student_forum_chairs %}
-          <b>{{ chair.name }}</b> ({{ chair.affiliation }}){% unless forloop.last %}<br />{% endunless %}
-        {% endfor %}
-      </p>
-    </div>
-  </div>
-  <br />
-
-  <!-- Award Chairs -->
-  <div class="row col-md-12 align-left-mobile">
-    <div class="col-md-6 align-left-mobile wow fadeIn" style="text-align:right;">
-      <i class="fa fa-user inline-mobile" aria-hidden="true" style="display:none;{% if include.dark_bg %}color:white{% else %}color: #5A8FDC{% endif %}"></i>
-      <p class="ops-t {% if include.dark_bg %}c-white{% else %}c-azure{% endif %} inline-mobile">AWARD CHAIRS</p>
-    </div>
-    <div class="col-md-6 align-left-mobile wow fadeIn" style="text-align:left;border-left: solid 1px {% if include.dark_bg %}white{% else %}#5A8FDC{% endif %}">
-      <p class="ops-2t {% if include.dark_bg %}c-gray{% else %}{% endif %}">
-        {% for chair in site.data.organizing_committee.award_chairs %}
-          <b>{{ chair.name }}</b> ({{ chair.affiliation }}){% unless forloop.last %}<br />{% endunless %}
-        {% endfor %}
-      </p>
-    </div>
-  </div>
-  <br />
-
-  <!-- Industrial Chairs -->
-  <div class="row col-md-12">
-    <div class="col-md-6 align-left-mobile wow fadeIn" style="text-align:right;">
-      <i class="fa fa-user inline-mobile" aria-hidden="true" style="display:none;{% if include.dark_bg %}color:white{% else %}color: #5A8FDC{% endif %}"></i>
-      <p class="ops-t {% if include.dark_bg %}c-white{% else %}c-azure{% endif %} inline-mobile inline-mobile">INDUSTRIAL CHAIRS</p>
-    </div>
-    <div class="col-md-6 wow fadeIn" style="text-align:left;border-left: solid 1px {% if include.dark_bg %}white{% else %}#5A8FDC{% endif %}">
-      <p class="ops-2t {% if include.dark_bg %}c-gray{% else %}{% endif %}">
-        {% for chair in site.data.organizing_committee.industrial_chairs %}
-          <b>{{ chair.name }}</b> ({{ chair.affiliation }}){% unless forloop.last %}<br />{% endunless %}
-        {% endfor %}
-      </p>
-    </div>
-  </div>
-  <br />
-
-  <!-- Publicity Chairs -->
-  <div class="row col-md-12">
-    <div class="col-md-6 align-left-mobile wow fadeIn" style="text-align:right;">
-      <i class="fa fa-user inline-mobile" aria-hidden="true" style="display:none;{% if include.dark_bg %}color:white{% else %}color: #5A8FDC{% endif %}"></i>
-      <p class="ops-t {% if include.dark_bg %}c-white{% else %}c-azure{% endif %} inline-mobile">PUBLICITY CHAIRS</p>
-    </div>
-    <div class="col-md-6 wow fadeIn" style="text-align:left;border-left: solid 1px {% if include.dark_bg %}white{% else %}#5A8FDC{% endif %}">
-      <p class="ops-2t {% if include.dark_bg %}c-gray{% else %}{% endif %}">
-        {% for chair in site.data.organizing_committee.publicity_chairs %}
-          <b>{{ chair.name }}</b> ({{ chair.affiliation }}){% unless forloop.last %}<br />{% endunless %}
-        {% endfor %}
-      </p>
-    </div>
-  </div>
-  <br />
-
-  <!-- Finance Chair -->
-  <div class="row col-md-12">
-    <div class="col-md-6 align-left-mobile wow fadeIn" style="text-align:right;">
-      <i class="fa fa-user inline-mobile" aria-hidden="true" style="display:none;{% if include.dark_bg %}color:white{% else %}color: #5A8FDC{% endif %}"></i>
-      <p class="ops-t {% if include.dark_bg %}c-white{% else %}c-azure{% endif %} inline-mobile">FINANCE CHAIR</p>
-    </div>
-    <div class="col-md-6 wow fadeIn" style="text-align:left;border-left: solid 1px {% if include.dark_bg %}white{% else %}#5A8FDC{% endif %}">
-      <p class="ops-2t {% if include.dark_bg %}c-gray{% else %}{% endif %}">
-        {% for chair in site.data.organizing_committee.finance_chair %}
-          <b>{{ chair.name }}</b> ({{ chair.affiliation }}){% unless forloop.last %}<br />{% endunless %}
-        {% endfor %}
-      </p>
-    </div>
-  </div>
-  <br />
-
-  <!-- Publication Chairs -->
-  <div class="row col-md-12">
-    <div class="col-md-6 align-left-mobile wow fadeIn" style="text-align:right;">
-      <i class="fa fa-user inline-mobile" aria-hidden="true" style="display:none;{% if include.dark_bg %}color:white{% else %}color: #5A8FDC{% endif %}"></i>
-      <p class="ops-t {% if include.dark_bg %}c-white{% else %}c-azure{% endif %} inline-mobile">PUBLICATION CHAIRS</p>
-    </div>
-    <div class="col-md-6 wow fadeIn" style="text-align:left;border-left: solid 1px {% if include.dark_bg %}white{% else %}#5A8FDC{% endif %}">
-      <p class="ops-2t {% if include.dark_bg %}c-gray{% else %}{% endif %}">
-        {% for chair in site.data.organizing_committee.publication_chairs %}
-          <b>{{ chair.name }}</b> ({{ chair.affiliation }}){% unless forloop.last %}<br />{% endunless %}
-        {% endfor %}
-      </p>
-    </div>
-  </div>
-  <br />
-
-  <!-- Local and Registration Chairs -->
-  <div class="row col-md-12">
-    <div class="col-md-6 align-left-mobile wow fadeIn" style="text-align:right;">
-      <i class="fa fa-user inline-mobile" aria-hidden="true" style="display:none;{% if include.dark_bg %}color:white{% else %}color: #5A8FDC{% endif %}"></i>
-      <p class="ops-t {% if include.dark_bg %}c-white{% else %}c-azure{% endif %} inline-mobile">LOCAL and REGISTRATION CHAIRS</p>
-    </div>
-    <div class="col-md-6 wow fadeIn" style="text-align:left;border-left: solid 1px {% if include.dark_bg %}white{% else %}#5A8FDC{% endif %}">
-      <p class="ops-2t {% if include.dark_bg %}c-gray{% else %}{% endif %}">
-        {% for chair in site.data.organizing_committee.local_registration_chairs %}
-          <b>{{ chair.name }}</b> ({{ chair.affiliation }}){% unless forloop.last %}<br />{% endunless %}
-        {% endfor %}
-      </p>
-    </div>
-  </div>
-  <br />
-
-  <!-- Web Chair -->
-  <div class="row col-md-12">
-    <div class="col-md-6 align-left-mobile wow fadeIn" style="text-align:right;">
-      <i class="fa fa-user inline-mobile" aria-hidden="true" style="display:none;{% if include.dark_bg %}color:white{% else %}color: #5A8FDC{% endif %}"></i>
-      <p class="ops-t {% if include.dark_bg %}c-white{% else %}c-azure{% endif %} inline-mobile">WEB CHAIR</p>
-    </div>
-    <div class="col-md-6 wow fadeIn" style="text-align:left;border-left: solid 1px {% if include.dark_bg %}white{% else %}#5A8FDC{% endif %}">
-      <p class="ops-2t {% if include.dark_bg %}c-gray{% else %}{% endif %}">
-        {% for chair in site.data.organizing_committee.web_chair %}
-          <b>{{ chair.name }}</b> ({{ chair.affiliation }}){% unless forloop.last %}<br />{% endunless %}
-        {% endfor %}
-      </p>
-    </div>
-  </div>
-  <br />
+  {% endfor %}
 </div>

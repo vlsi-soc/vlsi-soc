@@ -1,4 +1,95 @@
 # Organizing Committee Data
+# Structured for easy iteration
+roles:
+  - title: "GENERAL CHAIRS"
+    key: "general_chairs"
+    members:
+      - name: "Tiziana Margaria"
+        affiliation: "University of Limerick, Ireland"
+      - name: "Ian O'Connor"
+        affiliation: "Ecole Centrale de Lyon, France"
+
+  - title: "PROGRAM CHAIRS"
+    key: "program_chairs"
+    members:
+      - name: "Florenc Demrozi"
+        affiliation: "University of Stavanger, Norway"
+      - name: "Panagiota Nikolaou"
+        affiliation: "University of Central Lancashire, Cyprus"
+
+  - title: "SPECIAL SESSION CHAIRS"
+    key: "special_session_chairs"
+    members:
+      - name: "Theocharis Theocharides"
+        affiliation: "University of Cyprus, Cyprus"
+      - name: "Pierluigi Nuzzo"
+        affiliation: "University of California, Berkeley, USA"
+
+  - title: "TUTORIAL CHAIRS"
+    key: "tutorial_chairs"
+    members:
+      - name: "Alberto Bosio"
+        affiliation: "Ecole Centrale de Lyon, France"
+      - name: "Name Surname"
+        affiliation: "University of Name, Country"
+
+  - title: "PhD & Student Forum CHAIRS"
+    key: "phd_student_forum_chairs"
+    members:
+      - name: "Michele Lora"
+        affiliation: "University of Verona, Italy"
+      - name: "Fatih Ugurdag"
+        affiliation: "Ozyegin University, Turkey"
+
+  - title: "AWARD CHAIRS"
+    key: "award_chairs"
+    members:
+      - name: "Nicola Bombieri"
+        affiliation: "University of Verona, Italy"
+      - name: "Sorin A. Huss"
+        affiliation: "Technische Universität Darmstadt, Germany"
+
+  - title: "INDUSTRIAL CHAIRS"
+    key: "industrial_chairs"
+    members:
+      - name: "Name Surname"
+        affiliation: "University of Name, Country"
+      - name: "Name Surname"
+        affiliation: "University of Name, Country"
+
+  - title: "PUBLICITY CHAIRS"
+    key: "publicity_chairs"
+    members:
+      - name: "Dimitrios Kritharidis"
+        affiliation: "University of Patras, Greece"
+
+  - title: "FINANCE CHAIR"
+    key: "finance_chair"
+    members:
+      - name: "Tiziana Margaria"
+        affiliation: "University of Limerick, Ireland"
+
+  - title: "PUBLICATION CHAIRS"
+    key: "publication_chairs"
+    members:
+      - name: "Michael Huebner"
+        affiliation: "Brandenburg University of Technology Cottbus-Senftenberg, Germany"
+
+  - title: "LOCAL AND REGISTRATION CHAIRS"
+    key: "local_registration_chairs"
+    members:
+      - name: "Panagiota Nikolaou"
+        affiliation: "University of Central Lancashire, Cyprus"
+      - name: "Theocharis Theocharides"
+        affiliation: "University of Cyprus, Cyprus"
+
+  - title: "WEB CHAIR"
+    key: "web_chair"
+    members:
+      - name: "Matteo Ferretti"
+        affiliation: "University of Verona, Italy"
+
+# Legacy structure maintained for backward compatibility
 general_chairs:
   - name: "Tiziana Margaria"
     affiliation: "University of Limerick, Ireland"

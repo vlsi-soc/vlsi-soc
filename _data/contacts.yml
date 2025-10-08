@@ -1,0 +1,11 @@
+# Conference contact persons
+contacts:
+  - name: "Tiziana Margaria"
+    email: "tiziana.margaria@ul.ie"
+    phone: "+353 61 213072"
+    phone_display: "(+353) 61 213072"
+  
+  - name: "Ian O'Connor"
+    email: "ian.oconnor@ec-lyon.fr"
+    phone: "+33 645 478 120"
+    phone_display: "(+33) 645 478 120"
