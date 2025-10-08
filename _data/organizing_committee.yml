@@ -22,72 +22,70 @@ roles:
     members:
       - name: "Theocharis Theocharides"
         affiliation: "University of Cyprus, Cyprus"
-      - name: "Pierluigi Nuzzo"
-        affiliation: "University of California, Berkeley, USA"
 
   - title: "TUTORIAL CHAIRS"
     key: "tutorial_chairs"
     members:
       - name: "Alberto Bosio"
-        affiliation: "Ecole Centrale de Lyon, France"
-      - name: "Name Surname"
-        affiliation: "University of Name, Country"
+        affiliation: "École Centrale de Lyon, France"
 
   - title: "PhD & Student Forum CHAIRS"
     key: "phd_student_forum_chairs"
     members:
-      - name: "Michele Lora"
-        affiliation: "University of Verona, Italy"
       - name: "Fatih Ugurdag"
         affiliation: "Ozyegin University, Turkey"
 
   - title: "AWARD CHAIRS"
     key: "award_chairs"
     members:
-      - name: "Nicola Bombieri"
-        affiliation: "University of Verona, Italy"
-      - name: "Sorin A. Huss"
-        affiliation: "Technische Universität Darmstadt, Germany"
+      - name: "Katell Morin-Allory"
+        affiliation: "TIMA Laboratory, France"
 
   - title: "INDUSTRIAL CHAIRS"
     key: "industrial_chairs"
     members:
-      - name: "Name Surname"
-        affiliation: "University of Name, Country"
-      - name: "Name Surname"
-        affiliation: "University of Name, Country"
+      - name: "Leticia B. Pöhls"
+        affiliation: "Leibniz IHP Microelectronics, Germany"
+      - name: "Andreas Diavastos"
+        affiliation: "Cyprus University of Technology, Cyprus"
 
   - title: "PUBLICITY CHAIRS"
     key: "publicity_chairs"
     members:
-      - name: "Dimitrios Kritharidis"
-        affiliation: "University of Patras, Greece"
+      - name: "Alessio Burello"
+        affiliation: "Politecnico di Torino, Italy"
 
   - title: "FINANCE CHAIR"
     key: "finance_chair"
     members:
-      - name: "Tiziana Margaria"
-        affiliation: "University of Limerick, Ireland"
+      - name: "Petros Stratis"
+        affiliation: "EasyConferences, Cyprus"
 
   - title: "PUBLICATION CHAIRS"
     key: "publication_chairs"
     members:
-      - name: "Michael Huebner"
-        affiliation: "Brandenburg University of Technology Cottbus-Senftenberg, Germany"
+      - name: "Enrico Fraccaroli"
+        affiliation: "UNC Chapel Hill, USA"
 
   - title: "LOCAL AND REGISTRATION CHAIRS"
     key: "local_registration_chairs"
     members:
-      - name: "Panagiota Nikolaou"
-        affiliation: "University of Central Lancashire, Cyprus"
-      - name: "Theocharis Theocharides"
-        affiliation: "University of Cyprus, Cyprus"
+      - name: "Nicolas Stratis"
+        affiliation: "EasyConferences, Cyprus"
+      - name: "Petros Stratis"
+        affiliation: "EasyConferences, Cyprus"
 
   - title: "WEB CHAIR"
     key: "web_chair"
     members:
-      - name: "Matteo Ferretti"
-        affiliation: "University of Verona, Italy"
+      - name: "Matteo Iervasi"
+        affiliation: "University of Stavanger, Norway"
+
+  - title: "PANEL CHAIR"
+    key: "panel_chair"
+    members:
+      - name: "Sara Vinco"
+        affiliation: "Politecnico di Torino, Italy"
 
 # Legacy structure maintained for backward compatibility
 general_chairs:
@@ -105,52 +103,36 @@ program_chairs:
 special_session_chairs:
   - name: "Theocharis Theocharides"
     affiliation: "University of Cyprus, Cyprus"
-  - name: "Pierluigi Nuzzo"
-    affiliation: "University of California, Berkeley, USA"
 
 tutorial_chairs:
   - name: "Alberto Bosio"
-    affiliation: "Ecole Centrale de Lyon, France"
-  - name: "Name Surname"
-    affiliation: "University of Name, Country"
+    affiliation: "École Centrale de Lyon, France"
 
 phd_student_forum_chairs:
-  - name: "Michele Lora"
-    affiliation: "University of Verona, Italy"
   - name: "Fatih Ugurdag"
     affiliation: "Ozyegin University, Turkey"
 
 award_chairs:
   - name: "Katell Morin-Allory"
-    affiliation: "TIMA LAboratory, France"
-  - name: "Name Surname"
-    affiliation: "University of Name, Country"
+    affiliation: "TIMA Laboratory, France"
 
 industrial_chairs:
-  - name: "Name Surname"
-    affiliation: "University of Name, Country"
-  - name: "Name Surname"
-    affiliation: "University of Name, Country"
+  - name: "Leticia B. Pöhls"
+    affiliation: "Leibniz IHP Microelectronics, Germany"
+  - name: "Andreas Diavastos"
+    affiliation: "Cyprus University of Technology, Cyprus"
 
 publicity_chairs:
-  - name: "Ricardo Reis"
-    affiliation: "UFRGS, Brasil"
   - name: "Alessio Burello"
     affiliation: "Politecnico di Torino, Italy"
-  - name: "Name Surname"
-    affiliation: "University of Name, ASIA"
-  - name: "Name Surname"
-    affiliation: "University of Name, USA"
 
 finance_chair:
-  - name: "Graziano Pravadelli"
-    affiliation: "University of Verona, Italy"
+  - name: "Petros Stratis"
+    affiliation: "EasyConferences, Cyprus"
 
 publication_chairs:
   - name: "Enrico Fraccaroli"
-    affiliation: "University of North Carolina at Chapel Hill, USA"
-  - name: "Name Surname"
-    affiliation: "University of Name, Country"
+    affiliation: "UNC Chapel Hill, USA"
 
 local_registration_chairs:
   - name: "Nicolas Stratis"
@@ -161,3 +143,7 @@ local_registration_chairs:
 web_chair:
   - name: "Matteo Iervasi"
     affiliation: "University of Stavanger, Norway"
+
+panel_chair:
+  - name: "Sara Vinco"
+    affiliation: "Politecnico di Torino, Italy"
