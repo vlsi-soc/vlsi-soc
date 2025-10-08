@@ -1,8 +1,8 @@
 # Site settings
 title: "VLSI-SoC 2026"
 description: "IFIP/IEEE International Conference on Very Large Scale Integration SoC (VLSI-SoC)"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: "/vlsi-soc" # the subpath of your site, e.g. /blog (for GitHub Pages: /repository-name)
+url: "https://vlsi-soc.github.io" # the base hostname & protocol for your site
 
 # Conference details
 conference:
