@@ -3,14 +3,14 @@
     {% for sponsor in site.data.sponsors.sponsors %}
     <li class="nav-item wow fadeIn">
       <a href="{{ sponsor.url }}" title="{{ sponsor.full_name }}">
-        <img src="{{ '/img/' | append: sponsor.logo | relative_url }}" class="img-mh img-fluid" alt="{{ sponsor.name }}" />
+        <img src="{{ '/img/logos/' | append: sponsor.logo | relative_url }}" class="img-mh img-fluid" alt="{{ sponsor.name }}" />
       </a>
     </li>
     {% endfor %}
     {% for partner in site.data.sponsors.partners %}
     <li class="nav-item wow fadeIn">
       <a href="{{ partner.url }}" title="{{ partner.name }}">
-        <img src="{{ '/img/' | append: partner.logo | relative_url }}" class="img-mh img-fluid" alt="{{ partner.name }}" />
+        <img src="{{ '/img/logos/' | append: partner.logo | relative_url }}" class="img-mh img-fluid" alt="{{ partner.name }}" />
       </a>
     </li>
     {% endfor %}
