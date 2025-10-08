@@ -1,0 +1,34 @@
+<!-- Keynotes Section -->
+{% for keynote in site.data.keynotes.keynotes %}
+<div class="keynote-container">
+   <!-- Speaker Info -->
+   <div class="keynote-left">
+      <img src="{{ '/img/' | append: keynote.photo | relative_url }}" alt="{{ keynote.name }}" class="keynote-image">
+      <div class="speaker-info">
+         <h3>{{ keynote.name }}</h3>
+         <p>Affiliation: {{ keynote.affiliation }}</p>
+         {% if keynote.email %}
+         <p>Email: <a href="mailto:{{ keynote.email }}">{{ keynote.email }}</a></p>
+         {% endif %}
+         {% if keynote.website %}
+         <p>Website: <a href="{{ keynote.website }}" target="_blank">{{ keynote.website | replace: 'http://', '' | replace: 'https://', '' }}</a></p>
+         {% endif %}
+      </div>
+   </div>
+
+   <!-- Speaker Bio -->
+   <div class="keynote-right">
+      <h4>Bio</h4>
+      <p>{{ keynote.bio }}</p>
+   </div>
+
+   <!-- Keynote Details -->
+   <div class="keynote-details">
+      <h4>Keynote Title</h4>
+      <p>{{ keynote.keynote_title }}</p>
+      <h4>Abstract</h4>
+      <p>{{ keynote.abstract }}</p>
+   </div>
+</div>
+{% unless forloop.last %}<hr>{% endunless %}
+{% endfor %}

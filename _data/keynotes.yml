@@ -1,0 +1,21 @@
+# Keynote Speakers Data
+keynotes:
+  - name: "Dr. Jane Doe"
+    title: "Dr."
+    affiliation: "University of Technology"
+    email: "jane.doe@example.com"
+    website: "http://janedoe.com"
+    photo: "speaker-placeholder-female.png"
+    bio: "Dr. Jane Doe is a renowned researcher in artificial intelligence and robotics, with over 20 years of experience in academia and industry. Her work has focused on developing machine learning algorithms for autonomous systems."
+    keynote_title: "Exploring the Future of AI in Human-Centric Systems"
+    abstract: "This keynote will explore the advancements in AI technologies and their application in designing human-centric systems for healthcare, transportation, and beyond. Dr. Doe will discuss key challenges and emerging trends."
+
+  - name: "Prof. John Smith"
+    title: "Prof."
+    affiliation: "Institute of Advanced Computing"
+    email: "john.smith@example.com"
+    website: "http://johnsmithresearch.com"
+    photo: "speaker-placeholder-female.png"
+    bio: "Prof. John Smith is an expert in quantum computing and its applications in big data analysis. His pioneering work has been recognized with numerous awards and honors globally."
+    keynote_title: "Quantum Computing: Transforming Data-Driven Industries"
+    abstract: "In this keynote, Prof. Smith will provide insights into how quantum computing is set to revolutionize industries reliant on big data. Topics include breakthroughs, practical challenges, and future directions."

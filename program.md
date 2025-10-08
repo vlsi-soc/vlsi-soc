@@ -16,60 +16,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
       <h2 class="ops-tt txtcenter mts-10">KEYNOTES</h2>
       <br />
 
-      <!-- Keynote 1 -->
-      <div class="keynote-container">
-         <!-- Speaker Info -->
-         <div class="keynote-left">
-            <img src="{{ '/img/speaker-placeholder-female.png' | relative_url }}" alt="Speaker 1" class="keynote-image">
-            <div class="speaker-info">
-               <h3>Dr. Jane Doe</h3>
-               <p>Affiliation: University of Technology</p>
-               <p>Email: <a href="mailto:jane.doe@example.com">jane.doe@example.com</a></p>
-               <p>Website: <a href="http://janedoe.com" target="_blank">janedoe.com</a></p>
-            </div>
-         </div>
-
-         <!-- Speaker Bio -->
-         <div class="keynote-right">
-            <h4>Bio</h4>
-            <p>Dr. Jane Doe is a renowned researcher in artificial intelligence and robotics, with over 20 years of experience in academia and industry. Her work has focused on developing machine learning algorithms for autonomous systems.</p>
-         </div>
-
-         <!-- Keynote Details -->
-         <div class="keynote-details">
-            <h4>Keynote Title</h4>
-            <p>Exploring the Future of AI in Human-Centric Systems</p>
-            <h4>Abstract</h4>
-            <p>This keynote will explore the advancements in AI technologies and their application in designing human-centric systems for healthcare, transportation, and beyond. Dr. Doe will discuss key challenges and emerging trends.</p>
-         </div>
-      </div>
-      <hr>
-
-      <!-- Keynote 2 -->
-      <div class="keynote-container">
-         <div class="keynote-left">
-            <img src="{{ '/img/speaker-placeholder-female.png' | relative_url }}" alt="Speaker 2" class="keynote-image">
-            <div class="speaker-info">
-               <h3>Prof. John Smith</h3>
-               <p>Affiliation: Institute of Advanced Computing</p>
-               <p>Email: <a href="mailto:john.smith@example.com">john.smith@example.com</a></p>
-               <p>Website: <a href="http://johnsmithresearch.com" target="_blank">johnsmithresearch.com</a></p>
-            </div>
-         </div>
-
-         <div class="keynote-right">
-            <h4>Bio</h4>
-            <p>Prof. John Smith is an expert in quantum computing and its applications in big data analysis. His pioneering work has been recognized with numerous awards and honors globally.</p>
-         </div>
-
-         <div class="keynote-details">
-            <h4>Keynote Title</h4>
-            <p>Quantum Computing: Transforming Data-Driven Industries</p>
-            <h4>Abstract</h4>
-            <p>In this keynote, Prof. Smith will provide insights into how quantum computing is set to revolutionize industries reliant on big data. Topics include breakthroughs, practical challenges, and future directions.</p>
-         </div>
-      </div>
-      <hr>
+      {% include keynotes.html %}
    </div>
 
    <div class="justify-content-center txtcenter" id="tec">
