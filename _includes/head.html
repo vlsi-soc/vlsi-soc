@@ -1,0 +1,33 @@
+<head>
+  <title>{{ page.title | default: site.title }} | {{ site.conference.full_name }}</title>
+  
+  <!-- META -->
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <meta property="og:title" content="{{ page.title | default: site.title }} | {{ site.conference.full_name }}">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:type" content="website">
+  <meta name="keywords" content="VLSI-Soc, Limassol, VLSI, SoC, vlsi soc {{ site.conference.year }}">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="demrozi.no">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#4285f4">
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+    integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  
+  <!-- STYLES -->
+  <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,500,600" />
+  <link href="https://use.fontawesome.com/releases/v5.0.0/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+
+<style>
+  @media (min-width: 992px) and (max-width: 1192px) {
+    #cont-special.container {
+      max-width: 720px;
+    }
+  }
+</style>

@@ -1,0 +1,34 @@
+# Site settings
+title: "VLSI-SoC 2026"
+description: "IFIP/IEEE International Conference on Very Large Scale Integration SoC (VLSI-SoC)"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Conference details
+conference:
+  name: "VLSI-SoC 2026"
+  full_name: "34th IFIP/IEEE International Conference on Very Large Scale Integration"
+  location: "Limassol (Cyprus)"
+  dates: "11-14 October"
+  venue: "St. Raphael Resort"
+  year: 2026
+
+# Build settings
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"

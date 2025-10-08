@@ -1,0 +1,72 @@
+# Organizing Committee Data
+general_chairs:
+  - name: "Tiziana Margaria"
+    affiliation: "University of Limerick, Ireland"
+  - name: "Ian O'Connor"
+    affiliation: "Ecole Centrale de Lyon, France"
+
+program_chairs:
+  - name: "Florenc Demrozi"
+    affiliation: "University of Stavanger, Norway"
+  - name: "Panagiota Nikolaou"
+    affiliation: "University of Central Lancashire, Cyprus"
+
+special_session_chairs:
+  - name: "Theocharis Theocharides"
+    affiliation: "University of Cyprus, Cyprus"
+  - name: "Pierluigi Nuzzo"
+    affiliation: "University of California, Berkeley, USA"
+
+tutorial_chairs:
+  - name: "Alberto Bosio"
+    affiliation: "Ecole Centrale de Lyon, France"
+  - name: "Name Surname"
+    affiliation: "University of Name, Country"
+
+phd_student_forum_chairs:
+  - name: "Michele Lora"
+    affiliation: "University of Verona, Italy"
+  - name: "Fatih Ugurdag"
+    affiliation: "Ozyegin University, Turkey"
+
+award_chairs:
+  - name: "Katell Morin-Allory"
+    affiliation: "TIMA LAboratory, France"
+  - name: "Name Surname"
+    affiliation: "University of Name, Country"
+
+industrial_chairs:
+  - name: "Name Surname"
+    affiliation: "University of Name, Country"
+  - name: "Name Surname"
+    affiliation: "University of Name, Country"
+
+publicity_chairs:
+  - name: "Ricardo Reis"
+    affiliation: "UFRGS, Brasil"
+  - name: "Alessio Burello"
+    affiliation: "Politecnico di Torino, Italy"
+  - name: "Name Surname"
+    affiliation: "University of Name, ASIA"
+  - name: "Name Surname"
+    affiliation: "University of Name, USA"
+
+finance_chair:
+  - name: "Graziano Pravadelli"
+    affiliation: "University of Verona, Italy"
+
+publication_chairs:
+  - name: "Enrico Fraccaroli"
+    affiliation: "University of North Carolina at Chapel Hill, USA"
+  - name: "Name Surname"
+    affiliation: "University of Name, Country"
+
+local_registration_chairs:
+  - name: "Nicolas Stratis"
+    affiliation: "EasyConferences, Cyprus"
+  - name: "Petros Stratis"
+    affiliation: "EasyConferences, Cyprus"
+
+web_chair:
+  - name: "Matteo Iervasi"
+    affiliation: "University of Stavanger, Norway"

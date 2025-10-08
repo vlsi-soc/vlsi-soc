@@ -1,0 +1,49 @@
+<!-- SLIDER -->
+<div class="bg-slider">
+  <!-- particles.js container -->
+  <div id="particles-js"></div>
+  <!-- SLIDER CONTAINER -->
+  <div id="cont-special" class="container">
+    <br /><br /><br />
+    <div class="row col-md-12 txtcenter">
+      <div class="col-md-5 txtcenter">
+        <img src="{{ '/img/vlsi-logo.png' | relative_url }}" class="img-fluid" style="max-height:80px" />
+        <h3 class="ops-tt txtcenter mts-10 card-margin c-white">{{ site.conference.name }}</h3>
+      </div>
+
+      <div class="col-md-7" style="text-align:center !important">
+        <p class="ops-tt txtcenter mts-10 card-margin c-white" style="padding-top:18px">
+          <b>{{ site.conference.year | minus: 1992 | plus: 1 }}<sup>th</sup> IFIP/IEEE</b> 
+          International Conference<br /> on <b> Very Large Scale Integration</b>
+          <br />{{ site.conference.location }}, {{ site.conference.dates }}, {{ site.conference.venue }}.
+        </p>
+      </div>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"
+      style="padding-top:25px;padding-bottom:25px;">
+      <ol class="carousel-indicators">
+        {% for image in site.data.carousel.images %}
+        <li data-target="#carouselExampleIndicators" data-slide-to="{{ forloop.index0 }}" 
+            {% if forloop.first %}class="active"{% endif %}></li>
+        {% endfor %}
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        {% for image in site.data.carousel.images %}
+        <div class="carousel-item {% if forloop.first %}active{% endif %}">
+          <img class="d-block img-fluid carousel-image" src="{{ image.src | relative_url }}" alt="{{ image.alt }}">
+        </div>
+        {% endfor %}
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+</div>
+<!-- END SLIDER CONTAINER -->

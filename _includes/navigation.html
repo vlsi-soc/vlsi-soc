@@ -1,0 +1,100 @@
+<nav class="navbar navbar-expand-xl fixed-top navbar-light bg-white">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    <a> Menu</a>
+  </button>
+  <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item {% if page.url == '/' or page.url == '/index.html' %}active{% endif %}">
+        <a class="nav-link ops" href="{{ '/' | relative_url }}">Home</a>
+      </li>
+
+      <li class="nav-item dropdown {% if page.url contains 'committee' %}activex{% endif %}">
+        <a style="font-size:15px!important" class="nav-link ops" href="#" id="navbarDropdown" role="button"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Organization
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="{{ '/committee.html' | relative_url }}#orgcomit">Organizing Committee</a>
+          <a class="dropdown-item" href="{{ '/committee.html' | relative_url }}#progcomit">Program Committee</a>
+          <a class="dropdown-item" href="{{ '/committee.html' | relative_url }}#stcomit">Steering Committee</a>
+        </div>
+      </li>
+
+      <li class="nav-item dropdown {% if page.url contains 'submission' %}activex{% endif %}">
+        <a style="font-size:15px!important" class="nav-link ops" href="#" id="navbarDropdown" role="button"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Submission
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="{{ '/submission.html' | relative_url }}#call4paper">Call For Papers</a>
+          <a class="dropdown-item" href="{{ '/submission.html' | relative_url }}#authorguide">Authors' Guidelines</a>
+          <a class="dropdown-item" href="{{ '/submission.html' | relative_url }}#cameraready">Camera Ready</a>
+          <a class="dropdown-item" href="#">Submission Site</a>
+        </div>
+      </li>
+
+      <li class="nav-item dropdown {% if page.url contains 'specialsession' %}activex{% endif %}">
+        <a style="font-size:15px!important" class="nav-link ops" href="#" id="navbarDropdown" role="button"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Special Sessions
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="{{ '/specialsession.html' | relative_url }}#spec">Call For Special Sessions</a>
+          <a class="dropdown-item" href="{{ '/specialsession.html' | relative_url }}#cha">Special Session Chairs</a>
+          <a class="dropdown-item" href="{{ '/specialsession.html' | relative_url }}#prop">Special Session Proposals</a>
+          <a class="dropdown-item" href="{{ '/specialsession.html' | relative_url }}#specials">Submission Site</a>
+        </div>
+      </li>
+
+      <li class="nav-item dropdown {% if page.url contains 'phd' %}activex{% endif %}">
+        <a style="font-size:15px!important" class="nav-link ops" href="#" id="navbarDropdown" role="button"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          PhD &amp; Student Forum
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="{{ '/phd.html' | relative_url }}#phdforum">PhD Forum</a>
+          <a class="dropdown-item" href="{{ '/phd.html' | relative_url }}#phdsc">Student Forum</a>
+        </div>
+      </li>
+
+      <li class="nav-item dropdown {% if page.url contains 'program' %}activex{% endif %}">
+        <a style="font-size:15px!important" class="nav-link ops" href="#" id="navbarDropdown" role="button"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Program
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="{{ '/program.html' | relative_url }}#key">Keynotes</a>
+          <a class="dropdown-item" href="{{ '/program.html' | relative_url }}#tec">Technical Program</a>
+          <a class="dropdown-item" href="{{ '/program.html' | relative_url }}#soc">Social Program</a>
+        </div>
+      </li>
+
+      <li class="nav-item ops {% if page.url contains 'registration' %}active{% endif %}">
+        <a class="nav-link" href="{{ '/registration.html' | relative_url }}#reg">Registration</a>
+      </li>
+
+      <li class="nav-item dropdown {% if page.url contains 'travel' %}activex{% endif %}">
+        <a style="font-size:15px!important;" class="nav-link ops" href="#" id="navbarDropdown" role="button"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Travel &amp; Stay
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="{{ '/travel.html' | relative_url }}#venue">Venue</a>
+          <a class="dropdown-item" href="{{ '/travel.html' | relative_url }}#travel">Travel</a>
+          <a class="dropdown-item" href="{{ '/travel.html' | relative_url }}#accomodation">Accomodation</a>
+          <a class="dropdown-item" href="{{ '/travel.html' | relative_url }}#tinfo">Touristic Information</a>
+        </div>
+      </li>
+
+      <li class="nav-item ops {% if page.url contains 'prevconference' %}active{% endif %}">
+        <a class="nav-link" href="{{ '/prevconference.html' | relative_url }}#prev">Previous Conferences</a>
+      </li>
+
+      <li class="nav-item ops">
+        <a class="nav-link" href="#footer">Contacts</a>
+      </li>
+    </ul>
+  </div>
+</nav>
