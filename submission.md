@@ -23,58 +23,24 @@ description: "Call for papers and submission guidelines for VLSI-SoC 2026"
          <div class="col-md-6" style="text-align:justify">
             <table class="table">
                <tbody>
+                  {% for track in site.data.topics.tracks limit:6 %}
                   <tr>
-                     <td class="ops-t" style="min-width:110px"><b>TRACK 1:</b></td>
-                     <td class="ops-t">Analog, mixed-signal, and sensor architectures</td>
+                     <td class="ops-t" style="min-width:110px"><b>TRACK {{ track.number }}:</b></td>
+                     <td class="ops-t">{{ track.title }}</td>
                   </tr>
-                  <tr>
-                     <td class="ops-t" style="min-width:110px"><b>TRACK 2:</b></td>
-                     <td class="ops-t">Digital architectures: NoC, multi- and many-core, hybrid, and reconfigurable
-                     </td>
-                  </tr>
-                  <tr>
-                     <td class="ops-t" style="min-width:110px"><b>TRACK 3:</b></td>
-                     <td class="ops-t">CAD: Synthesis and analysis</td>
-                  </tr>
-                  <tr>
-                     <td class="ops-t" style="min-width:110px"><b>TRACK 4:</b></td>
-                     <td class="ops-t"> Prototyping, verification, modeling, and simulation</td>
-                  </tr>
-                  <tr>
-                     <td class="ops-t" style="min-width:110px"><b>TRACK 5:</b></td>
-                     <td class="ops-t">Circuits and systems for signal processing and communications</td>
-                  </tr>
+                  {% endfor %}
                </tbody>
             </table>
          </div>
          <div class="col-md-6" style="text-align:justify">
             <table class="table">
                <tbody>
+                  {% for track in site.data.topics.tracks offset:6 %}
                   <tr>
-                     <td class="ops-t" style="min-width:110px"><b>TRACK 6:</b></td>
-                     <td class="ops-t">IoT, embedded and cyberphysical systems: Architecture, design, and software
-                     </td>
+                     <td class="ops-t" style="min-width:110px"><b>TRACK {{ track.number }}:</b></td>
+                     <td class="ops-t">{{ track.title }}</td>
                   </tr>
-                  <tr>
-                     <td class="ops-t" style="min-width:110px"><b>TRACK 7:</b></td>
-                     <td class="ops-t">Low-power and thermal-aware IC design</td>
-                  </tr>
-                  <tr>
-                     <td class="ops-t" style="min-width:110px"><b>TRACK 8:</b></td>
-                     <td class="ops-t">Emerging technologies and computing paradigms</td>
-                  </tr>
-                  <tr>
-                     <td class="ops-t" style="min-width:110px"><b>TRACK 9:</b></td>
-                     <td class="ops-t">Variability, reliability, and test</td>
-                  </tr>
-                  <tr>
-                     <td class="ops-t" style="min-width:110px"><b>TRACK 10:</b></td>
-                     <td class="ops-t">Hardware security</td>
-                  </tr>
-                  <tr>
-                     <td class="ops-t" style="min-width:110px"><b>TRACK 11:</b></td>
-                     <td class="ops-t">Machine learning for SoC design and for electronic design automation</td>
-                  </tr>
+                  {% endfor %}
                </tbody>
             </table>
          </div>
