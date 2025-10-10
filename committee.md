@@ -28,7 +28,11 @@ description: "Organizing, Program, and Steering Committees for VLSI-SoC 2026"
       <div>
         {% for track in site.data.program_committee.tracks %}
         {% assign topic = site.data.topics.tracks | where: "number", track.number | first %}
-        {% assign track_title = topic.title | default: track.name %}
+          {% if topic %}
+          {% assign track_title = topic.title %}
+          {% else %}
+          {% capture track_title %}Track {{ track.number }}{% endcapture %}
+          {% endif %}
         <br />
         <div class="offset-md-3">
           <p class="ops-t c-white inline-mobile"><b>Track {{ track.number }}: {{ track_title }}</b></p>
