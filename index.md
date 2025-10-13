@@ -13,19 +13,22 @@ description: "IFIP/IEEE International Conference on Very Large Scale Integration
 <!-- CONFERENCE THEME & DESCRIPTION -->
 <div class="container">
   <div class="justify-content-center">
-    <h5 class="ops-t txtcenter wow fadeIn"><br /><br /><b>Conference Theme: "<i>To Be Announced</i>"</b></h5>
+  {% assign home_intro = site.data.home_intro %}
+  <h5 class="ops-t txtcenter wow fadeIn"><br /><br /><b>{{ home_intro.theme.label }}: "<i>{{ home_intro.theme.title }}</i>"</b></h5>
 
     <div class="col-md-12 mt-5">
       <div class="row mt-5">
         <div class="divider-dashed"></div>
         <div class="col-md-6 mt-5" style="text-align:justify">
-          <p class="ops-tt"><b>VLSI-SOC 2026 is the 34<sup>th</sup></b> in a series of international conferences sponsored by the International Federation for Information Processing Technical Committee 10 Working Group 5, IEEE CEDA, and IEEE CASS. The conference serves as a global platform for academic and industrial experts to exchange ideas and present groundbreaking research in <b>Very Large Scale Integration</b> (VLSI) and <b>System-on-Chip</b> (SoC) design. Topics span architectures, circuits, devices, design automation, verification, test, and security for digital, analog, and mixed-signal systems.
-          <br /><b>Under the theme "To Be Announced,"</b> VLSI-SOC 2026 will explore advanced research areas including heterogeneous, neuromorphic, brain-inspired, biologically-inspired, and approximate computing systems. The conference will foster collaboration and innovation to address the rapidly evolving challenges in the field.</p>
+          {% for paragraph in home_intro.intro_columns.left.paragraphs %}
+          <p class="{{ paragraph.class }}">{{ paragraph.content }}</p>
+          {% endfor %}
         </div>
 
         <div class="col-md-6 mt-5" style="text-align:justify">
-          <p class="ops-t"><b>VLSI-SOC 2026 will be held in Limassol, Cyprus,</b> a vibrant city known for its rich history, cultural heritage, and picturesque coastal landscapes. Situated along the Mediterranean coast, Limassol seamlessly blends ancient traditions with modern attractions. The city boasts UNESCO World Heritage Sites, including the Kourion archaeological site and Amathus ruins, offering a glimpse into its storied past. Visitors will also enjoy its renowned culinary scene, lively festivals, and pristine beaches.</p>
-          <p class="ops-t">Limassol's dynamic urban setting, combined with its status as a leading Mediterranean destination, provides an ideal backdrop for fostering intellectual exchange and professional networking during VLSI-SOC 2026. We look forward to welcoming you to this unforgettable event.</p>
+          {% for paragraph in home_intro.intro_columns.right.paragraphs %}
+          <p class="{{ paragraph.class }}">{{ paragraph.content }}</p>
+          {% endfor %}
         </div>
       </div>
     </div>
