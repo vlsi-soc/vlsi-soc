@@ -35,7 +35,7 @@ description: "Organizing, Program, and Steering Committees for VLSI-SoC 2026"
           {% endif %}
         <br />
         <div class="offset-md-3" style="margin-right:30px">
-          <details class="topic-spoiler committee wow fadeIn" data-wow-delay="0.1s">
+          <details class="committee wow fadeIn" data-wow-delay="0.1s">
             <summary class="ops-t c-white inline-mobile">
               <span class="topic-label"><b>Track {{ track.number }}:</b></span>
               <span class="topic-title"><b>{{ track_title }}</b></span>
