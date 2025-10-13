@@ -34,21 +34,36 @@ description: "Organizing, Program, and Steering Committees for VLSI-SoC 2026"
           {% capture track_title %}Track {{ track.number }}{% endcapture %}
           {% endif %}
         <br />
-        <div class="offset-md-3">
-          <p class="ops-t c-white inline-mobile"><b>Track {{ track.number }}: {{ track_title }}</b></p>
+        <div class="offset-md-3" style="margin-right:30px">
+          <details class="topic-spoiler committee wow fadeIn" data-wow-delay="0.1s">
+            <summary class="ops-t c-white inline-mobile">
+              <span class="topic-label"><b>Track {{ track.number }}:</b></span>
+              <span class="topic-title"><b>{{ track_title }}</b></span>
+              <ul style="color:white">
+              {% for chair in track.chairs %}
+              <li>
+                <u>{{ chair.name }}</u>, {{ chair.affiliation }} <i>(Track Chair)</i>
+              </li>
+              {% endfor %}
+              {% for member in track.members %}
+              <li>
+                {{ member.name }}, {{ member.affiliation }}
+              </li>
+              {% endfor %}
+              </ul>
+            </summary>
+            {% if topic and topic.description %}
+            <p style="color:white" class="topic-description">{{ topic.description }}</p>
+            {% if topic.subtopics %}
+            <ul style="color:white" class="topic-subtopics">
+              {% for subtopic in topic.subtopics %}
+              <li>{{ subtopic }}</li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+            {% endif %}
+          </details>
         </div>
-        <ul style="color:white;text-align:left;margin-left:30%">
-          {% for chair in track.chairs %}
-          <li>
-            <p class="ops-t c-white"><u>{{ chair.name }}</u>, {{ chair.affiliation }} <i>(Track Chair)</i></p>
-          </li>
-          {% endfor %}
-          {% for member in track.members %}
-          <li>
-            <p class="ops-t c-white">{{ member.name }}, {{ member.affiliation }}</p>
-          </li>
-          {% endfor %}
-        </ul>
         <br />
         {% endfor %}
       </div>

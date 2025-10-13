@@ -197,6 +197,10 @@ table {
 	color: rgb(6, 6, 6);
 }
 
+.text-left {
+	text-align: left !important;
+}
+
 .topic-spoiler {
 	margin-bottom: 20px;
 	border: 1px solid rgba(0, 0, 0, 0.1);
@@ -249,6 +253,21 @@ table {
 .topic-subtopics {
 	padding-left: 20px;
 	margin-bottom: 0;
+}
+
+.topic-spoiler.committee {
+	background-color: transparent;
+	border-color: rgba(255, 255, 255, 0.4);
+	color: #F9F9FA;
+}
+
+.topic-spoiler.committee summary {
+	color: #F9F9FA;
+}
+
+.topic-spoiler.committee .topic-description,
+.topic-spoiler.committee .topic-subtopics li {
+	color: #F9F9FA;
 }
 
 /* COLORED-DIV */

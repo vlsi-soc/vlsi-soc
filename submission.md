@@ -20,29 +20,41 @@ description: "Call for papers and submission guidelines for VLSI-SoC 2026"
                class="fa fa-download same-line" aria-hidden="true"></i></a> </p>
       <p class="ops-tt txtcenter c-azure"><b>Research topics of interest include, but are not limited to:</b></p>
       <div class="row col-md-12 txtcenter mts-10" style="padding-bottom:80px">
-         <div class="col-md-6" style="text-align:justify">
-            <table class="table">
-               <tbody>
-                  {% for track in site.data.topics.tracks limit:6 %}
-                  <tr>
-                     <td class="ops-t" style="min-width:110px"><b>TRACK {{ track.number }}:</b></td>
-                     <td class="ops-t">{{ track.title }}</td>
-                  </tr>
+         <div class="col-md-6 text-left">
+            {% for track in site.data.topics.tracks limit:6 %}
+            <details class="topic-spoiler wow fadeIn" data-wow-delay="0.1s">
+               <summary class="ops-t">
+                  <span class="topic-label"><b>Track {{ track.number }}:</b></span>
+                  <span class="topic-title">{{ track.title }}</span>
+               </summary>
+               <p class="ops-t topic-description">{{ track.description }}</p>
+               {% if track.subtopics %}
+               <ul class="ops-t topic-subtopics">
+                  {% for subtopic in track.subtopics %}
+                  <li>{{ subtopic }}</li>
                   {% endfor %}
-               </tbody>
-            </table>
+               </ul>
+               {% endif %}
+            </details>
+            {% endfor %}
          </div>
-         <div class="col-md-6" style="text-align:justify">
-            <table class="table">
-               <tbody>
-                  {% for track in site.data.topics.tracks offset:6 %}
-                  <tr>
-                     <td class="ops-t" style="min-width:110px"><b>TRACK {{ track.number }}:</b></td>
-                     <td class="ops-t">{{ track.title }}</td>
-                  </tr>
+         <div class="col-md-6 text-left">
+            {% for track in site.data.topics.tracks offset:6 %}
+            <details class="topic-spoiler wow fadeIn" data-wow-delay="0.1s">
+               <summary class="ops-t">
+                  <span class="topic-label"><b>Track {{ track.number }}:</b></span>
+                  <span class="topic-title">{{ track.title }}</span>
+               </summary>
+               <p class="ops-t topic-description">{{ track.description }}</p>
+               {% if track.subtopics %}
+               <ul class="ops-t topic-subtopics">
+                  {% for subtopic in track.subtopics %}
+                  <li>{{ subtopic }}</li>
                   {% endfor %}
-               </tbody>
-            </table>
+               </ul>
+               {% endif %}
+            </details>
+            {% endfor %}
          </div>
       </div>
       <br />
