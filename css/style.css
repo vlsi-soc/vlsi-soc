@@ -237,11 +237,12 @@ table {
 }
 
 .topic-label {
-	min-width: 120px;
+	min-width: 16%;
 	text-transform: uppercase;
 }
 
 .topic-title {
+	min-width: 80%;
 	font-weight: 600;
 }
 
