@@ -16,6 +16,9 @@ description: "IFIP/IEEE International Conference on Very Large Scale Integration
   {% assign home_intro = site.data.home_intro %}
   <h5 class="ops-t txtcenter wow fadeIn"><br /><br /><b>{{ home_intro.theme.label }}: "<i>{{ home_intro.theme.title }}</i>"</b></h5>
 
+    <div class="row">
+      <embed src="{{ '/docs/VLSI-SoC-2026-Presentation.pdf' | relative_url }}" type="application/pdf" width="100%" height="800px">
+    </div>
     <div class="col-md-12 mt-5">
       <div class="row mt-5">
         <div class="divider-dashed"></div>
