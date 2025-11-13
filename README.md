@@ -2,7 +2,7 @@
 
 Official website for the 35th IFIP/IEEE International Conference on Very Large Scale Integration, October 11-14, 2026, Limassol, Cyprus.
 
-## Quick Start
+## Quick Start for local setup
 
 ```bash
 # Install dependencies
@@ -12,7 +12,7 @@ bundle install
 bundle exec jekyll serve
 ```
 
-Open browser to `http://localhost:4000`
+Open browser to `http://localhost:4000/vlsi-soc`
 
 ## Updating Content
 
