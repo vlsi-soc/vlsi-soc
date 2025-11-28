@@ -24,7 +24,11 @@ description: "IFIP/IEEE International Conference on Very Large Scale Integration
         <div class="divider-dashed"></div>
         <div class="col-md-6 mt-5" style="text-align:justify">
           {% for paragraph in home_intro.intro_columns.left.paragraphs %}
-          <p class="{{ paragraph.class }}">{{ paragraph.content }}</p>
+            <p class="{{ paragraph.class }}">
+              {{ paragraph.content 
+                | replace: '__EDITION__', site.data.conference.edition 
+                | replace: '__YEAR__', site.data.conference.year }}
+            </p>
           {% endfor %}
         </div>
 
