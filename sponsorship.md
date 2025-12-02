@@ -168,8 +168,10 @@ description: "VLSI-SoC Sponsorship Opportunities"
         outstanding exposure and networking opportunities within the global technology community.
       </p>
       <p>
-        If you have any questions or wish to confirm your sponsorship, please contact the
-        <a href="{{ '/committee' | relative_url }}">{{ site.data.conference.name }} Organizing Committee</a>.
+        If you have any questions or wish to confirm your sponsorship, please contact
+        <a href="mailto:petros@easyconferences.eu?cc=tiziana.margaria@ul.ie%2Cian.oconnor@ec-lyon.fr%2Cflorenc.demrozi@uis.no%2Cpnikolaou1@uclan.ac.uk%2Cleticia@poehls.com%2Candreas.diavastos@cut.ac.cy%2Cns@easyconferences.eu&subject=VLSI-SoC%202026%20Sponsorship%20Inquiry">
+          Petros Stratis (Finance Chair)</a>.
+        Alternatively visit the <a href="{{ '/committee' | relative_url }}">{{ site.data.conference.name }} Organizing Committee</a> page.
         We look forward to partnering with you to make this event a great success.
       </p>
 
