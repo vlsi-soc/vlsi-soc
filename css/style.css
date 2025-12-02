@@ -50,6 +50,121 @@
 	background-color: #915DB0;
 }
 
+/* Sponsorship header styles and tier colors */
+.sponsor-header {
+	display: block;
+	padding: 12px 16px;
+	border-radius: 8px 8px 0 0;
+	font-weight: 700;
+	position: relative;
+	margin-bottom: 0;
+	background-size: 200% 100%;
+}
+
+/* Position the price at the right of the header */
+.sponsor-header .pull-right {
+	position: absolute;
+	right: 16px;
+	top: 50%;
+	transform: translateY(-50%);
+	margin: 0;
+}
+
+/* On small screens keep the price on its own line */
+@media (max-width: 575px) {
+	.sponsor-header .pull-right {
+		position: static;
+		display: block;
+		transform: none;
+		margin-top: 8px;
+		float: none;
+		text-align: right;
+	}
+}
+
+.sponsor-header:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+ 	width: 8px;
+ 	border-radius: 8px 0 0 0;
+}
+
+/* Bronze */
+.sponsor-header.sponsor-bronze {
+ 	color: #fff;
+ 	background-image: linear-gradient(90deg, #b0723b 0%, #cd7f32 100%), repeating-linear-gradient(45deg, rgba(255,255,255,0.03) 0 4px, transparent 4px 8px);
+}
+.sponsor-header.sponsor-bronze:before { background: rgba(0,0,0,0.12); }
+
+/* Silver */
+.sponsor-header.sponsor-silver {
+ 	color: #222;
+ 	background-image: linear-gradient(90deg, #e6e6e6 0%, #cfcfcf 100%), repeating-linear-gradient(45deg, rgba(0,0,0,0.02) 0 4px, transparent 4px 8px);
+}
+.sponsor-header.sponsor-silver:before { background: rgba(255,255,255,0.6); }
+
+/* Gold */
+.sponsor-header.sponsor-gold {
+ 	color: #111;
+ 	background-image: linear-gradient(90deg, #e6b800 0%, #ffd700 100%), repeating-linear-gradient(45deg, rgba(255,255,255,0.03) 0 4px, transparent 4px 8px);
+}
+.sponsor-header.sponsor-gold:before { background: rgba(0,0,0,0.12); }
+
+/* Platinum */
+.sponsor-header.sponsor-platinum {
+ 	color: #111;
+ 	background-image: linear-gradient(90deg, #d5d5d5 0%, #e5e4e2 100%), repeating-linear-gradient(45deg, rgba(0,0,0,0.02) 0 4px, transparent 4px 8px);
+}
+.sponsor-header.sponsor-platinum:before { background: rgba(255,255,255,0.6); }
+
+/* Sponsor body: thin border matching header color */
+.sponsor-body {
+	padding: 12px 14px 8px 14px;
+	border-radius: 0 0 8px 8px;
+	border: 1px solid transparent;
+	border-top: 0;
+	background-clip: padding-box;
+	margin-bottom: 18px;
+}
+
+.sponsor-body.sponsor-bronze { border-color: #CD7F32; }
+.sponsor-body.sponsor-silver { border-color: #C0C0C0; }
+.sponsor-body.sponsor-gold { border-color: #FFD700; }
+.sponsor-body.sponsor-platinum { border-color: #E5E4E2; }
+
+.sponsor-body hr {
+	margin-top: 6px;
+	margin-bottom: 8px;
+	border: 0;
+	border-top: 1px solid rgba(0,0,0,0.06);
+}
+
+/* reduce extra spacing after lists inside sponsor bodies */
+.sponsor-body ul {
+	margin-bottom: 0;
+}
+
+/* Justify text where it improves readability (desktop and larger tablets)
+	 Keep left-aligned on very small screens for better line breaks */
+@media (min-width: 576px) {
+	/* main sponsorship paragraphs */
+	#sponsorship p,
+	#sponsorship .sponsor-body p,
+	#sponsorship .sponsor-body ul,
+	#sponsorship .sponsor-body li {
+		text-align: justify;
+		text-justify: inter-word;
+	}
+
+	/* ensure list items layout nicely when justified */
+	#sponsorship .sponsor-body ul {
+		padding-left: 1.15rem;
+	}
+}
+
 .bg-orange-ng {
 	background-color: #E85F28;
 }
