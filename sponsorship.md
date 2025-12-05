@@ -175,6 +175,20 @@ description: "VLSI-SoC Sponsorship Opportunities"
         We look forward to partnering with you to make this event a great success.
       </p>
 
+      <p>
+        Should you wish to sponsor {{ site.data.conference.name }}, please fill the below form and
+        email it to the conference Secretariat at
+        <a href="mailto:info@easyconferences.eu">info@easyconferences.eu</a>.
+      </p>
+      <p>
+        <a class="btn btn-primary" href="{{ '/docs/Sponsor Form - Fillable.pdf' | relative_url }}" target="_blank" rel="noopener">
+          Sponsor Form (fillable PDF)
+        </a>
+      </p>
+      <p>
+        Once we receive this form, we will be sending an invoice and other information directly.
+      </p>
+
       <br />
     </div>
   </div>
