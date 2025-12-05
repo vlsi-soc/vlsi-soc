@@ -19,11 +19,6 @@ sponsors:
     full_name: "IEEE Council on Electronic Design Automation"
     url: "http://www.ieee-ceda.org"
     logo: "CEDA_r.png"
-  
-  - name: "SIGDA"
-    full_name: "ACM Special Interest Group on Design Automation"
-    url: "http://www.sigda.org"
-    logo: "SIGDA_r.png"
 
 # Partner institutions
 partners:
