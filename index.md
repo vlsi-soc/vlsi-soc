@@ -13,15 +13,9 @@ description: "IFIP/IEEE International Conference on Very Large Scale Integration
 <!-- CONFERENCE THEME & DESCRIPTION -->
 <div class="container">
   <div class="justify-content-center">
-  {% assign home_intro = site.data.home_intro %}
-  <h5 class="ops-t txtcenter wow fadeIn"><br /><br /><b>{{ home_intro.theme.label }}: "<i>{{ home_intro.theme.title }}</i>"</b></h5>
-
-    <div class="row">
-      <embed src="{{ '/docs/VLSI-SoC-2026-Presentation.pdf' | relative_url }}" type="application/pdf" width="100%" height="800px">
-    </div>
-    <div class="col-md-12 mt-5">
+    {% assign home_intro = site.data.home_intro %} 
+    <div class="col-md-16 mt-5">
       <div class="row mt-5">
-        <div class="divider-dashed"></div>
         <div class="col-md-6 mt-5" style="text-align:justify">
           {% for paragraph in home_intro.intro_columns.left.paragraphs %}
             <p class="{{ paragraph.class }}">
