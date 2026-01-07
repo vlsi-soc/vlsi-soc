@@ -20,7 +20,7 @@ description: "VLSI-SoC Sponsorship Opportunities"
       <!-- Intro -->
       <p>
         We are pleased to invite you to sponsor the <strong>{{ site.data.conference.edition_text }} IFIP/IEEE International Conference
-        on Very Large Scale Integration (<span class="nowrap">{{ site.data.conference.name }}</span>)</strong>, which will take place in
+        on Very Large Scale Integration SoC (<span class="nowrap">{{ site.data.conference.name }}</span>)</strong>, which will take place in
         <strong>{{ site.data.conference.location }}</strong>, <strong>{{ site.data.conference.dates }} {{ site.data.conference.year }}</strong>. This prestigious
         conference is a global forum for researchers, industry experts, and academics to engage in
         discussions on the latest trends in semiconductor design, System-on-Chip (SoC) technology,

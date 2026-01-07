@@ -17,7 +17,7 @@ description: "Special sessions call and proposals for VLSI-SoC 2026"
       <br />
       <div class="row col-md-12">
          <p class="ops c-black">The VLSI-SOC 2026 Organizing Committee invites proposals for Special Sessions to be
-            held during the IFIP/IEEE International Conference on Very Large Scale Integration (VLSI-SoC 2026) in
+            held during the IFIP/IEEE International Conference on Very Large Scale Integration SoC (VLSI-SoC 2026) in
             Limassol, Cyprus from 8th October to 10th October 2026. Special sessions complement the regular technical
             program by highlighting new and emerging research topics or innovative applications of established
             approaches. </p>

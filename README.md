@@ -1,6 +1,6 @@
 # VLSI-SoC 2026 Conference Website
 
-Official website for the 35th IFIP/IEEE International Conference on Very Large Scale Integration, October 11-14, 2026, Limassol, Cyprus.
+Official website for the 35th IFIP/IEEE International Conference on Very Large Scale Integration SoC, October 11-14, 2026, Limassol, Cyprus.
 
 ## Quick Start for local setup
 

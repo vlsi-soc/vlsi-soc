@@ -87,7 +87,7 @@ description: "IFIP/IEEE International Conference on Very Large Scale Integration
       <div class="row col-md-12">
         <div class="col-md-12 wow fadeIn">
           <p class="ops-2t c-gray" style="text-align:justify;">
-            The IFIP/IEEE International Conference on Very Large Scale Integration (VLSI-SoC) is a well-established 
+            The IFIP/IEEE International Conference on Very Large Scale Integration SoC (VLSI-SoC) is a well-established 
             international forum to present and discuss the latest research and developments in all aspects of VLSI 
             and SoC design. The conference provides a platform for researchers and practitioners from academia and 
             industry to exchange ideas and share their experiences in all aspects of VLSI and SoC design.
