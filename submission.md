@@ -87,7 +87,7 @@ description: "Call for papers and submission guidelines for VLSI-SoC 2026"
             <div class="col-md-8" style="text-align:left;border-left: solid 1px #477ED2">
                <p class="ops-2t">Papers should present original research and industrial results not published or
                   submitted for publication in other forums. Electronic submission in PDF format to
-                  <a class="a-no ops" href="https://easychair.org/conferences/?conf=vlsisoc2026"> easychair VLSI-SOC
+                  <a class="a-no ops" href="https://easychair.org/conferences/?conf=ifipieeevlsisoc2026"> easychair VLSI-SOC
                      2026 </a> website is required. The proceedings will be published by IEEE and will be made
                   available through IEEE Xplore.
                   A selection of the conference best papers will be invited to submit an extended version to be
@@ -102,7 +102,7 @@ description: "Call for papers and submission guidelines for VLSI-SoC 2026"
                <p class="ops c-azure inline-mobile"><b>PAPERS FORMAT</b></p>
             </div>
             <div class="col-md-8" style="text-align:left;border-left: solid 1px #477ED2">
-               <p class="ops-2t">Papers should not exceed 6 pages (single-spaced, 2 columns, 10pt font). Submissions
+               <p class="ops-2t">Papers should not exceed 4 pages + 1 page with only references (single-spaced, 2 columns, 10pt font). Submissions
                   should be camera-ready, following the IEEE proceedings specifications.</p>
             </div>
          </div>
