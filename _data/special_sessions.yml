@@ -1,0 +1,39 @@
+# Special Sessions Data
+
+call:
+  title: "Call for Special Sessions"
+  description: "The VLSI-SOC 2026 Organizing Committee invites proposals for Special Sessions to be held during the IFIP/IEEE International Conference on Very Large Scale Integration SoC (VLSI-SoC 2026) in Limassol, Cyprus from 8th October to 10th October 2026. Special sessions complement the regular technical program by highlighting new and emerging research topics or innovative applications of established approaches."
+  
+suggested_topics:
+  - "IoT, Embedded and Cyberphysical Systems: Architecture, design, and software"
+  - "Hardware security"
+  - "Machine learning for SoC design and for electronic design automation"
+  - "Neuromorphic computing"
+  - "Quantum computing"
+
+peer_review_note: "All papers will be subject to the same peer review process as for regular papers."
+
+chairs:
+  - name: "Theocharis Theocharides"
+    affiliation: "University of Cyprus, Cyprus"
+    email: "theocharides.theocharis@ucy.ac.cy"
+  - name: "Maria Michael"
+    affiliation: "University of Cyprus, Cyprus"
+    email: "mmichael@ucy.ac.cy"
+
+program_chairs:
+  - name: "Florenc Demrozi"
+    email: "florenc.demrozi@uis.no"
+  - name: "Petros Nikolaou"
+    email: "pnikolaou1@uclan.ac.uk"
+
+proposal_requirements:
+  title: "Special Session Proposals"
+  submission: "Please submit proposals (2 pages) in PDF format by email to the Special Sessions Chairs"
+  information_required:
+    - "Session Title, Session Abstract, Theme(s) & Topic Area(s)"
+    - "Organizer information"
+    - "Session Chair information"
+    - "Speaker Paper/Presentation Titles and Abstracts"
+    - "Intended audience"
+  evaluation_criteria: "Important aspect in the evaluation of special session proposals will be the timeliness of the topic, quality/track record of the proposers and speakers, coherence of the session and expected value added to the overall technical program."

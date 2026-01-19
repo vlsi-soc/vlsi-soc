@@ -1,0 +1,71 @@
+<!-- Special Sessions Section -->
+<div class="container" id="spec">
+   <!-- CALL FOR SPECIAL SESSIONS -->
+   <div>
+      <h2 class="ops-tt txtcenter mts-10" style="color:red">{{ site.data.special_sessions.call.title }}</h2>
+      <br />
+      <div class="row col-md-12">
+         <p class="ops c-black">{{ site.data.special_sessions.call.description }}</p>
+         <br />
+         <p class="ops c-black">Suggested topics include, but are not limited to:</p>
+         <br /><br />
+         <ul style="text-align:left">
+            {% for topic in site.data.special_sessions.suggested_topics %}
+            <li>{{ topic }}</li>
+            {% endfor %}
+         </ul>
+         <br /><br />
+         <br /><br />
+         <p id="cha" class="ops c-black">{{ site.data.special_sessions.peer_review_note }}</p>
+      </div>
+   </div>
+
+   <!-- SPECIAL SESSION CHAIRS -->
+   <div class="justify-content-center">
+      <h2 class="ops-tt txtcenter mts-10" style="color:red">Special Session Chairs</h2>
+      <br />
+      <div class="row col-md-12 justify-content-center">
+         <ul style="text-align:left">
+            {% for chair in site.data.special_sessions.chairs %}
+            <li><b>{{ chair.name }}</b> ({{ chair.affiliation }}) <a href="mailto:{{ chair.email }}">{{ chair.email }}</a></li>
+            {% endfor %}
+         </ul>
+         <br /><br />
+      </div>
+   </div>
+
+   <!-- SPECIAL SESSION PROPOSALS -->
+   <div id="prop" class="justify-content-center">
+      <h2 class="ops-tt txtcenter mts-10" style="color:red">{{ site.data.special_sessions.proposal_requirements.title }}</h2>
+      <br />
+
+      <div class="row col-md-12 txtleft">
+         <p class="ops c-black">{{ site.data.special_sessions.proposal_requirements.submission }} 
+            {% for chair in site.data.special_sessions.chairs %}
+               {% if forloop.first %}
+                  <a href="mailto:{{ chair.email }}">{{ chair.email }}</a>
+               {% else %}
+                  and <a href="mailto:{{ chair.email }}">{{ chair.email }}</a>
+               {% endif %}
+            {% endfor %}
+            {% assign pc_emails = site.data.special_sessions.program_chairs %}
+            putting in cc the Program Chairs 
+            {% for pc in pc_emails %}
+               {% if forloop.first %}
+                  <a href="mailto:{{ pc.email }}">{{ pc.email }}</a>
+               {% else %}
+                  and <a href="mailto:{{ pc.email }}">{{ pc.email }}</a>
+               {% endif %}
+            {% endfor %}.
+            <br/>The proposal should include the following information:</p>
+         <ul style="text-align:left">
+            {% for requirement in site.data.special_sessions.proposal_requirements.information_required %}
+            <li>{{ requirement }}</li>
+            {% endfor %}
+         </ul>
+         <br />
+         <p class="ops c-black">{{ site.data.special_sessions.proposal_requirements.evaluation_criteria }}</p>
+         <br />
+      </div>
+   </div>
+</div>
