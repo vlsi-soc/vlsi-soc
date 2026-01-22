@@ -20,18 +20,25 @@
       </div>
     </div>
 
+    {% assign carousel_images = site.static_files
+      | where_exp: 'file', "file.path contains '/img/carousel/'"
+      | where_exp: 'file', "file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.png'"
+      | sort: 'name' %}
+
+    {% if carousel_images.size > 0 %}
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"
       style="padding-top:25px;padding-bottom:25px;">
       <ol class="carousel-indicators">
-        {% for image in site.data.carousel.images %}
+        {% for image in carousel_images %}
         <li data-target="#carouselExampleIndicators" data-slide-to="{{ forloop.index0 }}" 
             {% if forloop.first %}class="active"{% endif %}></li>
         {% endfor %}
       </ol>
       <div class="carousel-inner" role="listbox">
-        {% for image in site.data.carousel.images %}
+        {% for image in carousel_images %}
+        {% assign alt_text = image.name | split: '.' | first | replace: '-', ' ' | replace: '_', ' ' | capitalize %}
         <div class="carousel-item {% if forloop.first %}active{% endif %}">
-          <img class="d-block img-fluid carousel-image" src="{{ image.src | relative_url }}" alt="{{ image.alt }}">
+          <img class="d-block img-fluid carousel-image" src="{{ image.path | relative_url }}" alt="{{ alt_text }}">
         </div>
         {% endfor %}
       </div>
@@ -44,6 +51,7 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
+    {% endif %}
   </div>
 </div>
 <!-- END SLIDER CONTAINER -->

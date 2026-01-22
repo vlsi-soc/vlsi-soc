@@ -822,7 +822,7 @@ table {
 .carousel-inner {
 	max-width: 1400px;
 	/* Maximum width of the carousel */
-	max-height: 450px;
+	max-height: 510px;
 	/* Maximum height of the carousel */
 	width: 100%;
 	height: auto;
