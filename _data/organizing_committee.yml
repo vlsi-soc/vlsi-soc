@@ -17,9 +17,17 @@ roles:
       - name: "Panagiota Nikolaou"
         affiliation: "University of Central Lancashire, Cyprus"
 
+  - title: "PUBLICATION CHAIRS"
+    key: "publication_chairs"
+    members:
+      - name: "Enrico Fraccaroli"
+        affiliation: "University of Verona, Italy"
+
   - title: "SPECIAL SESSION CHAIRS"
     key: "special_session_chairs"
     members:
+      - name: "Maria Michael"
+        affiliation: "University of Cyprus, Cyprus"
       - name: "Theocharis Theocharides"
         affiliation: "University of Cyprus, Cyprus"
 
@@ -28,10 +36,14 @@ roles:
     members:
       - name: "Alberto Bosio"
         affiliation: "École Centrale de Lyon, France"
+      - name: "Rafaella Elia"
+        affiliation: "University of Cyprus, Cyprus"
 
   - title: "PhD & Student Forum CHAIRS"
     key: "phd_student_forum_chairs"
     members:
+      - name: "Nahla El-Araby"
+        affiliation: "TU Wein, Austria"
       - name: "Fatih Ugurdag"
         affiliation: "Ozyegin University, Turkey"
 
@@ -40,32 +52,21 @@ roles:
     members:
       - name: "Katell Morin-Allory"
         affiliation: "TIMA Laboratory, France"
+        email: "katell.morin-allory@univ-grenoble-alpes.fr"
 
   - title: "INDUSTRIAL CHAIRS"
     key: "industrial_chairs"
     members:
-      - name: "Leticia B. Pöhls"
-        affiliation: "Leibniz IHP Microelectronics, Germany"
       - name: "Andreas Diavastos"
         affiliation: "Cyprus University of Technology, Cyprus"
+      - name: "Leticia B. Pöhls"
+        affiliation: "Leibniz IHP Microelectronics, Germany"
 
-  - title: "PANEL CHAIR"
-    key: "panel_chair"
+  - title: "PUBLICITY CHAIRS"
+    key: "publicity_chairs"
     members:
-      - name: "Sara Vinco"
+      - name: "Nicolo' Bellarmino"
         affiliation: "Politecnico di Torino, Italy"
-
-  - title: "PUBLICATION CHAIRS"
-    key: "publication_chairs"
-    members:
-      - name: "Enrico Fraccaroli"
-        affiliation: "UNC Chapel Hill, USA"
-
-  # - title: "PUBLICITY CHAIRS"
-  #   key: "publicity_chairs"
-  #   members:
-  #     - name: "Alessio Burello"
-  #       affiliation: "Politecnico di Torino, Italy"
 
   - title: "FINANCE CHAIR"
     key: "finance_chair"

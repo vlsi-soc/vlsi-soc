@@ -820,29 +820,27 @@ table {
 
 /* Carousel Inner */
 .carousel-inner {
-	max-width: 1400px;
 	/* Maximum width of the carousel */
-	max-height: 510px;
+	max-width: 1400px;
 	/* Maximum height of the carousel */
-	width: 100%;
-	height: auto;
+	max-height: 510px;
+	width: 100%;  
 	margin: auto;
-	/* Centers the carousel */
+	/* Ensures no image overflow */
 	position: relative;
 	overflow: hidden;
-	/* Ensures no image overflow */
 }
 
 /* Carousel Images */
 .carousel-item img {
-	width: 100%;
 	/* Ensures images scale to fit the width of the carousel */
-	max-height: 650px;
-	/* Ensures images don’t exceed the height of the carousel */
-	object-fit: cover;
+	width: 100%;
+	/* Ensures images fit the fixed carousel height */
+	height: 100%;
 	/* Fills the carousel area while maintaining aspect ratio */
-	object-position: center;
+	object-fit: cover;
 	/* Centers the image if cropped */
+	object-position: center;
 	display: block;
 }
 
