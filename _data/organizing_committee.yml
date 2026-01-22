@@ -62,6 +62,12 @@ roles:
       - name: "Leticia B. Pöhls"
         affiliation: "Leibniz IHP Microelectronics, Germany"
 
+  - title: "PANEL CHAIRS"
+    key: "panel_chairs"
+    members:
+      - name: "Sara Vinco"
+        affiliation: "Politecnico di Torino, Italy"
+
   - title: "PUBLICITY CHAIRS"
     key: "publicity_chairs"
     members:
