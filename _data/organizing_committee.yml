@@ -24,8 +24,6 @@ roles:
         affiliation: "University of Verona, Italy"
       - name: "Christiana  Ioannou"
         affiliation: "University of Central Lancashire, Cyprus"
-      - name: "Cathal Hoare"
-        affiliation: "University of Limerick, Ireland"
 
   - title: "SPECIAL SESSION CHAIRS"
     key: "special_session_chairs"

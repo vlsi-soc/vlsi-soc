@@ -100,7 +100,9 @@ tracks:
     #     affiliation: "University of Zhejiang University, China"
 
   - number: 6
-    chairs: []
+    chairs:
+      - name: "Cathal Hoare"
+        affiliation: "University of Limerick, Ireland"
     # members:
     #   - name: "Theocharis Theocharides"
     #     affiliation: "University of Cyprus, Cyprus"
