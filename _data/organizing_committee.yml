@@ -54,7 +54,8 @@ roles:
     members:
       - name: "Katell Morin-Allory"
         affiliation: "TIMA Laboratory, France"
-        email: "katell.morin-allory@univ-grenoble-alpes.fr"
+      - name: "George Papadimitriou"
+        affiliation: "University of Patras, Greece"
 
   - title: "INDUSTRIAL CHAIRS"
     key: "industrial_chairs"

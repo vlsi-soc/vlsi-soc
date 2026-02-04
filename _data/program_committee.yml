@@ -9,59 +9,21 @@ tracks:
       - name: "Chi Ying Tsui"
         affiliation: "Hong Kong University of Science and Technology (HKUST), Hong Kong"
         email: "eetsui@ust.hk"
-    # members:
-    #   - name: "Ippei Akita"
-    #     affiliation: "Toyohashi University of Technology, Japan"
-    #   - name: "Po-Hung Chen"
-    #     affiliation: "National Chiao Tung University, Taiwan"
-    #   - name: "Jinmyoung Kim"
-    #     affiliation: "Samsung Advaced Institute of Technology, South Korea"
-    #   - name: "Diego Barrettino"
-    #     affiliation: "Ecole Polytechnique Fédérale de Lausanne, Switzerland"
-    #   - name: "Salvatore Pennisi"
-    #     affiliation: "University of Catania, Cyprus"
-    #   - name: "Edoardo Bonizzoni"
-    #     affiliation: "University of Pavia, Cyprus"
-    #   - name: "Tetsuya Hirose"
-    #     affiliation: "Kobe University, Japan"
-    #   - name: "Alberto Gola"
-    #     affiliation: "AMS, Cyprus"
 
   - number: 2
     chairs:
       - name: "Dimitrios Soudris"
         affiliation: "National Technical University of Athens (NTUA), Athens, Greece"
         email: "dsoudris@microlab.ntua.gr"
-    # members:
-    #   - name: "Iraklis Anagnostopoulos"
-    #     affiliation: "ECE Department, Southern Illinois University, USA"
-    #   - name: "Carlos Silva Cardenas"
-    #     affiliation: "Pontifical Catholic University of Peru, Peru"
-    #   - name: "Fynn Schwiegelshohn"
-    #     affiliation: "Ruhr University Bochum, Germany"
 
   - number: 3
     chairs:
       - name: "Jürgen Becker"
         affiliation: "Karlsruhe Institute of Technology - KIT"
         email: "becker@kit.edu"
-    # members:
-    #   - name: "Rani S. Ghaida"
-    #     affiliation: "GLOBALFOUNDRIES, USA"
-    #   - name: "Victor Kravets"
-    #     affiliation: "IBM, USA"
-    #   - name: "Vladimir Zolotov"
-    #     affiliation: "IBM, USA"
-    #   - name: "Jose Monteiro"
-    #     affiliation: "INESC-ID, IST ULisboa, Portugal"
-    #   - name: "Houman Homayoun"
-    #     affiliation: "George Mason University, USA"
-    #   - name: "Masahiro Fujita"
-    #     affiliation: "University of Tokyo, Japan"
-    #   - name: "Patri Sreehari"
-    #     affiliation: "NITW, India"
-    #   - name: "Rouwaida Kanj"
-    #     affiliation: "American University of Beirut, Lebanon"
+      - name: "George Papadimitriou"
+        affiliation: "University of Patras, Greece"
+        email: "gpapad@upatras.gr"
 
   - number: 4
     chairs:
@@ -71,20 +33,6 @@ tracks:
       - name: "H. Fatih Ugurdag"
         affiliation: "Ozyegin University, Turkey"
         email: "fatih.ugurdag@ozyegin.edu.tr"
-    # members:
-    #   - name: "Raik Brinkmann"
-    #     affiliation: "OneSpin Solutions, Germany"
-    #   - name: "Maksim Jenihhin"
-    #     affiliation: "Tallinn University of Technology, Estonia"
-    #   - name: "Chattopadhyay Anupam"
-    #     affiliation: "Nanyang Technological University, Singapore"
-    #   - name: "Lionel Torres"
-    #     affiliation: "LIRMM, France"
-    #   - name: "Robert Wille"
-    #     affiliation: "Johannes Kepler University Linz, Austria"
-    #   - name: "Cecile Braunstein"
-    #     affiliation: "UPMC/LIP6, France"
-
   - number: 5
     chairs:
       - name: "Villar Eugenio"
@@ -93,54 +41,20 @@ tracks:
       - name: "Enrico Fraccaroli"
         affiliation: "University of Verona, Italy"
         email: "enrico.fraccaroli@univr.it"
-    # members:
-    #   - name: "Chun-Jen Tsai"
-    #     affiliation: "National Chiao Tung University, Taiwan"
-    #   - name: "Peng Liu"
-    #     affiliation: "University of Zhejiang University, China"
 
   - number: 6
     chairs:
       - name: "Cathal Hoare"
         affiliation: "University of Limerick, Ireland"
-    # members:
-    #   - name: "Theocharis Theocharides"
-    #     affiliation: "University of Cyprus, Cyprus"
-    #   - name: "Leandro Indrusiak"
-    #     affiliation: "University of York, USA"
-    #   - name: "Soheil Samii"
-    #     affiliation: "General Motors, USA"
-    #   - name: "Philippe Coussy"
-    #     affiliation: "Universite de Bretagne Sud / Lab-STICC, France"
-    #   - name: "Luciano Ost"
-    #     affiliation: "University of Leicester, UK"
-    #   - name: "Sri Parameswaran"
-    #     affiliation: "University of New South Wales, Australia"
-    #   - name: "Lars Bauer"
-    #     affiliation: "Karlsruhe Institute of Technology, Germany"
-    #   - name: "Wenjing Rao"
-    #     affiliation: "UIC, USA"
 
   - number: 7
     chairs:
       - name: "Yuanqing Cheng"
         affiliation: "Beihang University, China"
         email: "yuanqing@buaa.edu.cn"
-    # members:
-    #   - name: "Massimo Poncino"
-    #     affiliation: "Politecnico di Torino, Cyprus"
-    #   - name: "Mirko Loghi"
-    #     affiliation: "Università di Udine, Cyprus"
-    #   - name: "Andrea Acquaviva"
-    #     affiliation: "Politecnico di Torino, Cyprus"
-    #   - name: "Johanna Sepulveda"
-    #     affiliation: "Technical University of Munich, Germany"
-    #   - name: "Paolo Amato"
-    #     affiliation: "Micron, USA"
-    #   - name: "Kostas Siozios"
-    #     affiliation: "Aristotle University of Thessaloniki, Greece"
-    #   - name: "Nadine Azemard"
-    #     affiliation: "LIRMM / CNRS, France"
+      - name: "Georgia Antoniou"
+        affiliation: "University of Central Lancashire, Cyprus"
+        email: "GAntoniou5@uclan.ac.uk"
 
   - number: 8
     chairs:
@@ -150,21 +64,6 @@ tracks:
       - name: "Paris Kitsos"
         affiliation: "University of the Peloponnese, Greece"
         email: "kitsos@go.uop.gr"
-    # members:
-    #   - name: "Sicheng Li"
-    #     affiliation: "Hewlett Packard Labs, USA"
-    #   - name: "Valerio Tenace"
-    #     affiliation: "Politecnico di Torino, Cyprus"
-    #   - name: "Shahar Kvatinsky"
-    #     affiliation: "Technion - Israel Institute of Technology, Israel"
-    #   - name: "Elena Ioana Vatajelu"
-    #     affiliation: "University of Grenoble-Alpes, France"
-    #   - name: "Aida Todri-Sanial"
-    #     affiliation: "LIRMM, France"
-    #   - name: "Pierre-Emmanuel Gaillardon"
-    #     affiliation: "University of Utah, USA"
-    #   - name: "Said Hamdioui"
-    #     affiliation: "TU Delft, The Netherland"
 
   - number: 9
     chairs:
@@ -174,19 +73,6 @@ tracks:
       - name: "Cristian Turetta"
         affiliation: "Wenzhou Business College, China"
         email: "cristianturetta@wzbc.edu.cn"
-    # members:
-    #   - name: "Victor Champac"
-    #     affiliation: "INAOE, Mexico"
-    #   - name: "Matthias Sauer"
-    #     affiliation: "University of Freiburg, Germany"
-    #   - name: "Jaan Raik"
-    #     affiliation: "Tallin University, Estonia"
-    #   - name: "Maria Michael"
-    #     affiliation: "University of Cyprus, Cyprus"
-    #   - name: "Alberto Bosio"
-    #     affiliation: "LIRMM, France"
-    #   - name: "Virendra Singh"
-    #     affiliation: "IIT Bombay, India"
 
   - number: 10
     chairs:
@@ -196,19 +82,6 @@ tracks:
       - name: "Nicola Bombieri"
         affiliation: "University of Verona, Italy"
         email: "nicola.bombieri@univr.it"
-    # members:
-    #   - name: "Franck Courbon"
-    #     affiliation: "University of Cambridge, UK"
-    #   - name: "Nektarios Georgios Tsoutsos"
-    #     affiliation: "New York University, USA"
-    #   - name: "Brice Colombier"
-    #     affiliation: "CEA, France"
-    #   - name: "Nele Mentens"
-    #     affiliation: "KU Leuven, Belgium"
-    #   - name: "Georg Sigl"
-    #     affiliation: "Technical University of Munich, Germany"
-    #   - name: "Arun Kanuparthi"
-    #     affiliation: "Intel, USA"
 
   - number: 11
     chairs:
@@ -218,13 +91,6 @@ tracks:
       - name: "Tara Ghasempouri"
         affiliation: "Tallinn Univeristy of Technology, Estonia"
         email: "tara.ghasempouri@taltech.ee"
-    # members:
-    #   - name: "Bei Yu"
-    #     affiliation: "INAOE, Mexico"
-    #   - name: "Gildas Leger"
-    #     affiliation: "Instituto de Microelectronica de Sevilla (IMSE-CNM-CSIC), Spain"
-    #   - name: "Ke Huang"
-    #     affiliation: "San Diego State University, USA"
 
   - number: 12
     chairs:
@@ -234,20 +100,3 @@ tracks:
       - name: "Leticia Maria Bolzani Poehls"
         affiliation: "IHP - Leibniz Institute for High Performance Microelectronics, Frankfurt Oder, Germany"
         email: "poehls@ihp-microelectronics.com"
-    # members:
-    #   - name: "Giovanni De Micheli"
-    #     affiliation: "EPFL, Switzerland"
-    #   - name: "Daniele De Seta"
-    #     affiliation: "University of Pisa, Italy"
-    #   - name: "Alessandro Bogliolo"
-    #     affiliation: "University of Urbino, Italy"
-    #   - name: "Luca Benini"
-    #     affiliation: "University of Bologna, Italy"
-    #   - name: "Antonio Lioy"
-    #     affiliation: "University of Salento, Italy"
-    #   - name: "Daniele Ielmini"
-    #     affiliation: "Politecnico di Milano, Italy"
-    #   - name: "Marco Ottavi"
-    #     affiliation: "STMicroelectronics, Italy"
-    #   - name: "Giovanni Squillero"
-    #     affiliation: "Politecnico di Torino, Italy"
