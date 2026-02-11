@@ -15,6 +15,9 @@ tracks:
       - name: "Dimitrios Soudris"
         affiliation: "National Technical University of Athens (NTUA), Athens, Greece"
         email: "dsoudris@microlab.ntua.gr"
+      - name: "Jawad Haj-Yahya"
+        affiliation: "Meta, Switzerland"
+        email: "jawadhy@gmail.com"
 
   - number: 3
     chairs:
@@ -33,6 +36,7 @@ tracks:
       - name: "H. Fatih Ugurdag"
         affiliation: "Ozyegin University, Turkey"
         email: "fatih.ugurdag@ozyegin.edu.tr"
+
   - number: 5
     chairs:
       - name: "Villar Eugenio"
@@ -46,6 +50,9 @@ tracks:
     chairs:
       - name: "Cathal Hoare"
         affiliation: "University of Limerick, Ireland"
+      - name: "Freddy Gabbay"
+        affiliation: "Hebrew University of Jerusalem, Israel"
+        email: "freddy.gabbay@mail.huji.ac.il"
 
   - number: 7
     chairs:
