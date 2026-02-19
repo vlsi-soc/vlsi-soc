@@ -20,6 +20,10 @@ sponsors:
     url: "http://www.ieee-ceda.org"
     logo: "CEDA_r.png"
 
+  - name: "I-Form"
+    url: "https://www.i-form.ie/"
+    logo: "i-form-logo.png"
+
 # Partner institutions
 partners:
   - name: "University of Limerick"
@@ -37,3 +41,4 @@ partners:
   - name: "UCLan Cyprus"
     url: "https://www.uclancyprus.ac.cy/"
     logo: "uclan-logo.png"
+

@@ -19,12 +19,16 @@
         {% endfor %}
       </div>
       <div class="col-md-4 txtcenter margin-mobile">
-        <h5 class="ops-tt c-white">SPONSOR</h5>
+        <h5 class="ops-tt c-white">SPONSOR/SUPPORTER</h5>
         <p class="ops-tt c-gray"><i>We are grateful to all our academic, institutional, and industrial sponsors:</i>
         </p>
 
         {% for sponsor in site.data.sponsors.sponsors %}
         <h5 class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray" href="{{ sponsor.url }}">- {{ sponsor.name }}</a></h5>
+        <br />
+        {% endfor %}
+        {% for partner in site.data.sponsors.partners %}
+        <h5 class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray" href="{{ partner.url }}">- {{ partner.name }}</a></h5>
         <br />
         {% endfor %}
       </div>
