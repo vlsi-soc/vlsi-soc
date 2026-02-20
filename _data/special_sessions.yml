@@ -29,7 +29,8 @@ program_chairs:
 
 proposal_requirements:
   title: "Special Session Proposals"
-  submission: "Please submit proposals (2 pages) in PDF format by email to the Special Sessions Chairs"
+  submission: "Please submit proposals (2 pages) in PDF format to"
+  submission_link: "https://easychair.org/conferences/?conf=ifipieeevlsisoc2026"
   information_required:
     - "Session Title, Session Abstract, Theme(s) & Topic Area(s)"
     - "Organizer information"

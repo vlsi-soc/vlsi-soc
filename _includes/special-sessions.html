@@ -40,7 +40,11 @@
       <br />
 
       <div class="row col-md-12 txtleft">
-         <p class="ops c-black">{{ site.data.special_sessions.proposal_requirements.submission }} 
+         <p class="ops c-black">{{ site.data.special_sessions.proposal_requirements.submission }}
+            <a href="{{ site.data.special_sessions.proposal_requirements.submission_link }}" target="_blank">
+               easychair VLSI-SOC 2026 track Special Session proposal
+            </a>.
+            For information, email the Special Session Chairs 
             {% for chair in site.data.special_sessions.chairs %}
                {% if forloop.first %}
                   <a href="mailto:{{ chair.email }}">{{ chair.email }}</a>
