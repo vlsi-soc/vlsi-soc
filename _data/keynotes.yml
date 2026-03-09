@@ -1,5 +1,5 @@
 # Keynote Speakers Data
-keynotes:
+keynote:
   - name: "Prof. Giovanni De Micheli"
     title: "Prof."
     affiliation: "EPFL, Switzerland"
@@ -18,6 +18,7 @@ keynotes:
     bio: "Valeria Bertacco is the Mary Lou Dorf Collegiate Professor of Computer Science and Engineering, and Arthur F. Thurnau Professor of Engineering at the University of Michigan. Her research interests are in the area of computer system design. Throughout her career, she has contributed novel solutions in design validation and reliability, hardware-security assurance, and the design of specialized architectures for graph algorithms and machine learning. From 2018 to 2023, Prof. Bertacco was the Director of the Applications Driving Architectures (ADA) Research Center, funded by a consortium of semiconductor companies and the Defense Advanced Research Projects Agency (DARPA). The Center engaged the work of 10 US academic institutions and over 130 Ph.D. student researchers. Currently, she leads the MAVERIC collaborative, the University of Michigan's initiative to advance semiconductor research and education. At Michigan, she also serves as the Vice Provost for Engaged Learning, supporting all international partnerships and co-curricular engagements.  In the international space, her initiatives have included promoting collaborations with African institutions, through initiatives like Africa Week, UMAPS and AURA. Domestically, the primary partners reside within the State of Michigan, and especially within the City of Detroit. In her Vice Provost role, Prof. Bertacco facilitates the work of nine central units, whose goals range from promoting environmental sustainability to supporting journalists, to promoting the arts in research universities,  and to increasing the participation of gender minorities in STEM fields. She received her M.S. and Ph.D. degrees in Electrical Engineering from Stanford University. Prof. Bertacco joined the University of Michigan in 2003, after working as a research engineer for Systems Science Inc., and Synopsys from 1997 to 2001."
     keynote_title: "TO BE ANNOUNCED"
     abstract: "TO BE ANNOUNCED"
+industrial_keynote:
   - name: "Victor Grimblatt"
     title: "Dr."
     affiliation: "Synopsys, Vitacura, Chile"
