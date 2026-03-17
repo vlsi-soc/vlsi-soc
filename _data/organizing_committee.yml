@@ -82,8 +82,8 @@ roles:
   - title: "FINANCE CHAIR"
     key: "finance_chair"
     members:
-      - name: "Petros Stratis"
-        affiliation: "EasyConferences, Cyprus"
+      - name: "Anna Philippou"
+        affiliation: "University of Cyprus, Cyprus"
 
   - title: "LOCAL AND REGISTRATION CHAIRS"
     key: "local_registration_chairs"

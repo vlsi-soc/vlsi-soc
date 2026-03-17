@@ -169,8 +169,8 @@ description: "VLSI-SoC Sponsorship Opportunities"
       </p>
       <p>
         If you have any questions or wish to confirm your sponsorship, please contact
-        <a href="mailto:petros@easyconferences.eu?cc=tiziana.margaria@ul.ie%3Bian.oconnor@ec-lyon.fr%3Bflorenc.demrozi@uis.no%3Bpnikolaou1@uclan.ac.uk%3Bleticia@poehls.com%3Bandreas.diavastos@cut.ac.cy%3Bns@easyconferences.eu&subject=VLSI-SoC%202026%20Sponsorship%20Inquiry">
-          Petros Stratis (Finance Chair)</a>.
+        <a href="mailto:annap@ucy.ac.cy?cc=tiziana.margaria@ul.ie%3Bian.oconnor@ec-lyon.fr%3Bflorenc.demrozi@uis.no%3Bpnikolaou1@uclan.ac.uk%3Bleticia@poehls.com%3Bandreas.diavastos@cut.ac.cy%3Bns@easyconferences.eu&subject=VLSI-SoC%202026%20Sponsorship%20Inquiry">
+          Anna Philippou (Finance Chair)</a>.
         Alternatively visit the <a href="{{ '/committee' | relative_url }}">{{ site.data.conference.name }} Organizing Committee</a> page.
         We look forward to partnering with you to make this event a great success.
       </p>
