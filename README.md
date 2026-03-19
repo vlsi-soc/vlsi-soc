@@ -18,6 +18,8 @@ Open browser to `http://localhost:4000/vlsi-soc`
 
 For updating the contents without modifying the site style, just edit the YAML data files in `_data`.
 
+The hero carousel is configured in `_data/carousel.yml`.
+
 While for editing the styles or the pages' structure, edit the respective `.md` files - use YAML front matter for metadata.
 
 ## Building & Deployment

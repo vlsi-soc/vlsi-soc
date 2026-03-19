@@ -1,0 +1,29 @@
+{
+  "title": "Confirmed Keynote Speakers",
+  "width": 640,
+  "height": 313,
+  "background": "#d9d9d9",
+  "text_color": "#111111",
+  "link_color": "#1a0dab",
+  "title_font_size": 24,
+  "body_font_size": 16,
+  "top_margin": 8,
+  "side_padding": 16,
+  "speaker_gap": 16,
+  "speaker_image_height": 160,
+  "output": "img/carousel/speakers-1.png",
+  "speakers": [
+    {
+      "name": "Prof. Giovanni De Micheli",
+      "affiliation": "EPFL, Switzerland",
+      "email": "giovanni.demicheli@epfl.ch",
+      "image": "img/speaker-demicheli.png"
+    },
+    {
+      "name": "Prof. Valeria Bertacco",
+      "affiliation": "University of Michigan, USA",
+      "email": "valeria@umich.edu",
+      "image": "img/speaker-bertacco.png"
+    }
+  ]
+}
