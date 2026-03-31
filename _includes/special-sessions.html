@@ -34,6 +34,28 @@
       </div>
    </div>
 
+   <!-- SPECIAL SESSION STRUCTURE AND REQUIREMENTS -->
+   <div class="justify-content-center">
+      <h2 class="ops-tt txtcenter mts-10" style="color:red">{{ site.data.special_sessions.session_structure_and_requirements.title }}</h2>
+      <br />
+
+      <div class="row col-md-12 txtleft">
+         <p class="ops c-black"><strong>{{ site.data.special_sessions.session_structure_and_requirements.structure_intro }}</strong></p>
+         <ul style="text-align:left">
+            {% for option in site.data.special_sessions.session_structure_and_requirements.structure_options %}
+            <li>{{ option }}</li>
+            {% endfor %}
+         </ul>
+         <br />
+         <p class="ops c-black">{{ site.data.special_sessions.session_structure_and_requirements.registration_requirement }}</p>
+         <br />
+         <p class="ops c-black">{{ site.data.special_sessions.session_structure_and_requirements.proceedings_note }}</p>
+         <br />
+         <p class="ops c-black">{{ site.data.special_sessions.session_structure_and_requirements.springer_publication }}</p>
+         <br />
+      </div>
+   </div>
+
    <!-- SPECIAL SESSION PROPOSALS -->
    <div id="prop" class="justify-content-center">
       <h2 class="ops-tt txtcenter mts-10" style="color:red">{{ site.data.special_sessions.proposal_requirements.title }}</h2>
