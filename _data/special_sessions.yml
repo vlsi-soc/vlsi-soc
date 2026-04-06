@@ -27,6 +27,16 @@ program_chairs:
   - name: "Petros Nikolaou"
     email: "pnikolaou1@uclan.ac.uk"
 
+session_structure_and_requirements:
+  title: "Special Session Structure and Requirements"
+  structure_intro: "Special Session can be structured as:"
+  structure_options:
+    - "One invited speaker (without paper) + three special session papers, or"
+    - "Four special session papers"
+  registration_requirement: "All participants (including the invited speaker) presenting in the Special Session must have a full registration."
+  proceedings_note: "The papers accepted in the special session will be included in the conference proceedings."
+  springer_publication: "Papers from special sessions will be invited to submit an extended version to be included as chapters of a book to be published by Springer."
+
 proposal_requirements:
   title: "Special Session Proposals"
   submission: "Please submit proposals (2 pages) in PDF format to"
