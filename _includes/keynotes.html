@@ -26,7 +26,7 @@
       <h4>Keynote Title</h4>
       <p>{{ keynote.keynote_title }}</p>
       <h4>Abstract</h4>
-      <p>{{ keynote.abstract }}</p>
+      <p>{{ keynote.abstract | newline_to_br }}</p>
    </div>
 </div>
 {% unless forloop.last %}<hr>{% endunless %}
@@ -63,7 +63,7 @@
       <h4>Keynote Title</h4>
       <p>{{ keynote.keynote_title }}</p>
       <h4>Abstract</h4>
-      <p>{{ keynote.abstract }}</p>
+      <p>{{ keynote.abstract | newline_to_br }}</p>
    </div>
 </div>
 {% unless forloop.last %}<hr>{% endunless %}
