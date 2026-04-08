@@ -4,6 +4,8 @@ images:
     alt: "Speakers 1"
   - src: "img/carousel/speakers-2.png"
     alt: "Speakers 2"
+  - src: "img/carousel/speakers-3.png"
+    alt: "Speakers 3"
   - src: "img/carousel/img1.jpg"
     alt: "Image 1"
   - src: "img/carousel/img2.jpg"
