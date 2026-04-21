@@ -4,13 +4,13 @@ categories:
     icon: "fa-clock"
     deadlines:
       - label: "Abstract registration"
-        date: "April 20, 2026"
+        date: "May 04, 2026"
       
       - label: "Full paper submission"
-        date: "April 27, 2026"
+        date: "May 11, 2026"
       
       - label: "Special session proposal"
-        date: "April 27, 2026"
+        date: "May 11, 2026"
       
       - label: "Notification of acceptance"
         date: "June 22, 2026"
