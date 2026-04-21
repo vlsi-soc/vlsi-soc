@@ -72,7 +72,7 @@
 {% endfor %}
 
 {% if site.data.keynotes.panel_sessions and site.data.keynotes.panel_sessions.size > 0 %}
-<h2 class="ops-tt txtcenter mts-10">PANEL SESSIONS</h2>
+<h2 class="ops-tt txtcenter mts-10" id="pan">PANEL SESSIONS</h2>
 <br />
 {% for panel in site.data.keynotes.panel_sessions %}
 <div class="keynote-container">
@@ -105,7 +105,7 @@
 {% endif %}
 
 {% if site.data.keynotes.tutorials and site.data.keynotes.tutorials.size > 0 %}
-<h2 class="ops-tt txtcenter mts-10">TUTORIALS</h2>
+<h2 class="ops-tt txtcenter mts-10" id="tut">TUTORIALS</h2>
 <br />
 {% for tutorial in site.data.keynotes.tutorials %}
 <div class="keynote-container">
