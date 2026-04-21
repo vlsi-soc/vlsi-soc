@@ -27,7 +27,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
       <br />
 
       <!-- Tutorials Day -->
-      <div style="margin-bottom: 40px; text-align: center;">
+      <div id="tutorial" style="margin-bottom: 40px; text-align: center;">
          <h3 class="ops-tt txtcenter">Sunday, 11 October 2026 – Tutorials Day</h3>
          <br />
          <table style="width: 90%; margin: auto; border-collapse: collapse; font-size: 14px; text-align: center;">
@@ -63,7 +63,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
       </div>
 
       <!-- Conference Day 1 -->
-      <div style="margin-bottom: 40px; text-align: center;">
+      <div id="panel" style="margin-bottom: 40px; text-align: center;">
          <h3 class="ops-tt txtcenter">Monday, 12 October 2026 – Conference Day 1</h3>
          <br />
          <table style="width: 90%; margin: auto; border-collapse: collapse; font-size: 14px; text-align: center;">
