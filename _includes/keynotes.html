@@ -1,3 +1,5 @@
+<h2 class="ops-tt txtcenter mts-10">KEYNOTE SPEAKERS</h2>
+<br />
 {% for keynote in site.data.keynotes.keynote %}
 <div class="keynote-container">
    <!-- Speaker Info -->
@@ -32,10 +34,10 @@
 {% unless forloop.last %}<hr>{% endunless %}
 {% endfor %}
 
-<!-- Industrial Keynotes Section -->
-<h2 class="ops-tt txtcenter mts-10">INDUSTRIAL KEYNOTES</h2>
+   <!-- Industrial Keynotes Section -->
+   <h2 class="ops-tt txtcenter mts-10">INDUSTRIAL KEYNOTES</h2>
 <br />
-{% for keynote in site.data.keynotes.industrial_keynote %}
+   {% for keynote in site.data.keynotes.industrial_keynote %}
 <div class="keynote-container">
    <!-- Speaker Info -->
    <div class="keynote-left">
@@ -68,3 +70,58 @@
 </div>
 {% unless forloop.last %}<hr>{% endunless %}
 {% endfor %}
+
+{% if site.data.keynotes.panel_sessions and site.data.keynotes.panel_sessions.size > 0 %}
+<h2 class="ops-tt txtcenter mts-10">PANEL SESSIONS</h2>
+<br />
+{% for panel in site.data.keynotes.panel_sessions %}
+<div class="keynote-container">
+   <div class="keynote-details">
+      <h4>Title</h4>
+      <p>{{ panel.title }}</p>
+      <h4>Topic</h4>
+      <p>{{ panel.topic }}</p>
+      {% if panel.panelists and panel.panelists.size > 0 %}
+      <h4>Panelists</h4>
+      <div class="panelists-list">
+         {% for panelist in panel.panelists %}
+         <div class="panelist-item">
+            {% if panelist.photo %}
+            <img src="{{ '/img/' | append: panelist.photo | relative_url }}" alt="{{ panelist.name }}" class="panelist-image">
+            {% endif %}
+            {% if panelist.name %}
+            <span class="panelist-name">{{ panelist.name }}</span>
+            {% else %}
+            <span class="panelist-name">{{ panelist }}</span>
+            {% endif %}
+         </div>
+         {% endfor %}
+      </div>
+      {% endif %}
+   </div>
+</div>
+{% unless forloop.last %}<hr>{% endunless %}
+{% endfor %}
+{% endif %}
+
+{% if site.data.keynotes.tutorials and site.data.keynotes.tutorials.size > 0 %}
+<h2 class="ops-tt txtcenter mts-10">TUTORIALS</h2>
+<br />
+{% for tutorial in site.data.keynotes.tutorials %}
+<div class="keynote-container">
+   <div class="keynote-details">
+      <h4>Tutorial Title</h4>
+      <p>{{ tutorial.title }}</p>
+      {% if tutorial.speaker %}
+      <h4>Speaker</h4>
+      <p>{{ tutorial.speaker }}{% if tutorial.affiliation and tutorial.affiliation != '' %}, {{ tutorial.affiliation }}{% endif %}</p>
+      {% endif %}
+      {% if tutorial.topic %}
+      <h4>Topic</h4>
+      <p>{{ tutorial.topic }}</p>
+      {% endif %}
+   </div>
+</div>
+{% unless forloop.last %}<hr>{% endunless %}
+{% endfor %}
+{% endif %}

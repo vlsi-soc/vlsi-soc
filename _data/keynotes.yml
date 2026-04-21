@@ -64,3 +64,20 @@ industrial_keynote:
       -	Also, different power-down, security, and safety constraints require modifying IPs.\n
       -	Lastly, a verified IP must be verified and, more importantly, validated in its environment: Does the IP provide the intended functionality to the overall system?\n
       The talk addresses these challenges from semiconductor industry's point of view. It first introduces these and some other challenges. An elaboration of methods dealing with the challenges, such as platform-based design, IP generation as well as hardware generation languages, and automated interface adoption, follows. It closes with the discussion of whether we are reusing the right things and in the right way."
+
+tutorials:
+  - title: "TO BE ANNOUNCED"
+    speaker: "TBA"
+    affiliation: ""
+    topic: "TO BE ANNOUNCED"
+
+panel_sessions:
+  - title: "AI as the Chip Designer: Evolution or Illusion?"
+    topic: "This panel explores whether artificial intelligence is truly transforming chip design or simply augmenting existing methodologies. Experts from academia and industry debate the current impact, limitations, and future potential of AI-driven design in semiconductor development."
+    panelists:
+      - name: "Frank K. Gurkaynak, ETH"
+        photo: "speaker-gurkaynak.png"
+      - name: "Sandro Belfanti, Chipmind"
+        photo: "speaker-belfanti.png"
+      #- name: "TBA"
+      #- name: "TBA"
