@@ -13,19 +13,16 @@ categories:
         date: "May 11, 2026"
       
       - label: "Notification of acceptance"
-        date: "June 22, 2026"
+        date: "June 29, 2026"
       
       - label: "Camera ready"
-        date: "July 13, 2026"
+        date: "July 20, 2026"
   
   - name: "PhD Contributions"
     icon: "fa-clock"
     deadlines:
       - label: "PhD & Student Forum submission"
-        date: "July 02, 2026"
+        date: "July 10, 2026"
       
       - label: "Notification of acceptance"
-        date: "July 23, 2026"
-      
-      - label: "Camera ready"
         date: "July 23, 2026"

@@ -70,11 +70,7 @@ description: "Call for papers and submission guidelines for VLSI-SoC 2026"
                <p class="ops c-orange inline-mobile"><b>DEADLINES</b></p>
             </div>
             <div class="col-md-8" style="text-align:left;border-left: solid 1px #E85F28">
-               <p class="ops-2t"><b> Abstract registration: May 04, 2026<br />
-                     Full papers submission: May 11, 2026
-                     <br /> Special session proposal: May 11, 2026
-                     <br /> Notification of acceptance: June 22, 2026
-                     <br /> Camera ready: July 13, 2026</b></p>
+               <p class="ops-2t"><b>{% assign reg = site.data.deadlines.categories | first %}{% for deadline in reg.deadlines %}{{ deadline.label }}: {{ deadline.date }}{% unless forloop.last %}<br />{% endunless %}{% endfor %}</b></p>
             </div>
          </div><br /><br />
          <h3 id="committee" class="ops-tt txtcenter">AUTHORS' GUIDELINES</h3>
