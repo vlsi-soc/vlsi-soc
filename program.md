@@ -101,58 +101,58 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
       <span class="tp-t">RS1 – AI/ML Hardware Architectures I</span>
       <span class="tp-s">Track 1 · 4 papers + 2 poster presentations · 90 min</span>
       <ul class="tp-pp">
-        <li><b>141</b> Silicon-Validated RISC-V SoC with Vector Processor</li>
-        <li><b>18</b> Sparse Tensor Operations on Vector Processors</li>
-        <li><b>24</b> ML Workload Partitioning: CPUs and CIM Accelerators</li>
-        <li><b>71</b> Vision Transformer Deployment on AI SoC</li>
+        <li><b>141</b> CIM-Blocks: A Synthesizable Multi-Precision Compute-in-Memory CGRA with Bit-Serial Data Reuse</li>
+        <li><b>18</b> At-the-Roofline Sparse Tensor Contractions on Vector Processors for Transformer Inference</li>
+        <li><b>24</b> Optimizing ML Workload Partitioning between CPUs and CIM Accelerators for Heterogeneous Computing</li>
+        <li><b>71</b> Hardware-Aware Vision Transformer Deployment on a Convolution-Centric AI SoC</li>
         <hr class="tp-pdiv"><span class="tp-plbl">Poster presentations</span>
-        <li class="tp-po"><span class="tp-ttag">T1</span><b>53</b> S4oP: Pruning State Space Models for Hardware</li>
-        <li class="tp-po"><span class="tp-ttag">T2</span><b>34</b> Deadlock-Free AXI NoC with Virtual Channels</li>
+        <li class="tp-po"><span class="tp-ttag">T1</span><b>53</b> S4oP: Operator-level Pruning of Structured State Space Models for Resource-Constrained Devices</li>
+        <li class="tp-po"><span class="tp-ttag">T2</span><b>34</b> Physically-Aware Preemptive Virtual Channels for Deadlock-Free AXI Networks-on-Chip</li>
       </ul>
     </td>
     <td class="tp-ch">
-      <span class="tp-t">RS6 – Verification, Test &amp; Near-Memory Computing</span>
+      <span class="tp-t">RS6 – System Verification, Test &amp; Dependability</span>
       <span class="tp-s">Tracks 11+12 · 4 papers + 1 poster presentation · 85 min</span>
       <ul class="tp-pp">
-        <li><b>86</b> Hardware Support for Statistical Verification Methods</li>
-        <li><b>94</b> Energy-Aware DSE for Near-Memory Computing</li>
-        <li><b>105</b> Scalable SRAM Fault Analysis Framework</li>
-        <li><b>76</b> Near-Memory Computing Architecture for AI DSE</li>
+        <li><b>86</b> Hardware Support for Statistical Methods Applied to Hardware-Software Verification and Debugging</li>
+        <li><b>94</b> Counterfactual Exploit Validation on CHERI-enabled RISC-V Using Virtual Prototypes</li>
+        <li><b>65</b> RISCar: RISC-V In a Simulated Car for DNN Training and Deployment in AD Systems</li>
+        <li><b>76</b> Energy-Aware Fast and Accurate Design Space Exploration of Near-Memory Computing</li>
         <hr class="tp-pdiv"><span class="tp-plbl">Poster presentation</span>
-        <li class="tp-po"><span class="tp-ttag">T11</span><b>31</b> AI-Based HDL Assertion Generation</li>
+        <li class="tp-po"><span class="tp-ttag">T11</span><b>31</b> AI-based Automated HDL Validation Using Abstract Syntax Tree and Signal Trace Analysis</li>
       </ul>
     </td>
   </tr>
-  <tr class="rb"><td class="tp-ca"></td><td class="tp-ct">11:50–12:50</td><td><span class="tp-t">Lunch Break</span><span class="tp-s">60 min</span></td></tr>
-  <tr class="rik"><td class="tp-ca"></td><td class="tp-ct">12:50–13:30</td><td>
+  <tr class="rik"><td class="tp-ca"></td><td class="tp-ct">11:50–12:30</td><td>
     <span class="tp-t">Industrial Keynote 1 – What is the IP Reuse Trap for Digital Hardware, and How Can It Be Escaped?</span>
     <span class="tp-s">Prof. Wolfgang Ecker · Infineon / TU Munich, Germany · Plenary · 40 min</span>
   </td></tr>
+  <tr class="rb"><td class="tp-ca"></td><td class="tp-ct">12:30–13:30</td><td><span class="tp-t">Lunch Break</span><span class="tp-s">60 min</span></td></tr>
   <tr class="rr"><td class="tp-ca"></td><td class="tp-ct">13:30–15:00</td>
     <td class="tp-ch">
       <span class="tp-t">RS3 – Digital Design &amp; EDA I</span>
-      <span class="tp-s">Track 4 · Synthesis &amp; ML-Aided Optimization · 4 papers + 2 poster presentations · 90 min</span>
+      <span class="tp-s">Track 4 · Synthesis &amp; Optimization · 4 papers + 2 poster presentations · 90 min</span>
       <ul class="tp-pp">
-        <li><b>149</b> LLM-Based Automated VLSI Physical Design</li>
+        <li><b>149</b> Automated RTL Complexity Estimation with Synthesis-Validated Optimization and Programmatic Code Transformation</li>
         <li><b>90</b> SPFD-Based Resynthesis for Dual-Output LUT Networks</li>
-        <li><b>110</b> ML-Guided Logic Optimization</li>
-        <li><b>133</b> RTL Power Estimation via Graph Neural Networks</li>
+        <li><b>110</b> No Tree Required: Predicting Post-CTS Clock Timing from Placement Features Alone</li>
+        <li><b>133</b> Allocating a Unified Domain Platform Following Market Analysis Using ProdDSE</li>
         <hr class="tp-pdiv"><span class="tp-plbl">Poster presentations</span>
-        <li class="tp-po"><span class="tp-ttag">T4</span><b>116</b> Nonvolatile Magnetic Latch Design</li>
-        <li class="tp-po"><span class="tp-ttag">T4</span><b>72</b> Multi-Objective Design Space Exploration</li>
+        <li class="tp-po"><span class="tp-ttag">T4</span><b>116</b> A Self-Recoverable Nonvolatile Magnetic Latch with High-Speed SEU-Tolerant Backup Module</li>
+        <li class="tp-po"><span class="tp-ttag">T4</span><b>72</b> A Scalable End-to-End Framework for Multi-Objective Design Space Exploration: Application to AI Accelerators</li>
       </ul>
     </td>
     <td class="tp-ch">
       <span class="tp-t">RS7 – Embedded Systems &amp; Low-Power Design</span>
       <span class="tp-s">Tracks 5+7 · 4 papers + 2 poster presentations · 90 min</span>
       <ul class="tp-pp">
-        <li><b>1</b> RISC-V SoC for Extreme Temperature Environments</li>
-        <li><b>147</b> XSC Stochastic RISC-V Processor</li>
-        <li><b>21</b> ASK Demodulator with Event-Driven Architecture</li>
-        <li><b>146</b> Low-Power Reconfigurable Signal Processing Architecture</li>
+        <li><b>1</b> A Silicon-Validated High-Frequency RISC-V SoC for Extreme-Temperature Applications</li>
+        <li><b>147</b> Interpretable Fuzzy Control for Lightweight Cache Replacement and Prefetch Throttling in RISC-V SoCs</li>
+        <li><b>21</b> An event-Driven ASK Demodulator Based on Slope Measurements for low-Power Applications</li>
+        <li><b>146</b> Separate Read-Write Differential 11T SRAM-based In-Memory Computing Architecture</li>
         <hr class="tp-pdiv"><span class="tp-plbl">Poster presentations</span>
-        <li class="tp-po"><span class="tp-ttag">T5</span><b>38</b> R5-Link: RISC-V Multi-Core Interconnect</li>
-        <li class="tp-po"><span class="tp-ttag">T6</span><b>118</b> a-IGZO IC for Flexible Metasurface</li>
+        <li class="tp-po"><span class="tp-ttag">T5</span><b>38</b> R5-Link: Enhancing RISC-V Multi-Core Efficiency with Hardware Message Passing Channels in a 2D Mesh Network</li>
+        <li class="tp-po"><span class="tp-ttag">T6</span><b>118</b> Surrogate-assisted DTCO for 1T1C FeMFET Bitcells: A Comparative Study on Model Choice and Data Sampling</li>
       </ul>
     </td>
   </tr>
@@ -177,33 +177,33 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
       <span class="tp-t">RS2 – AI/ML Architectures &amp; Computing Paradigms</span>
       <span class="tp-s">Tracks 1+3 · 4 papers + 2 poster presentations · 90 min</span>
       <ul class="tp-pp">
-        <li><b>30</b> BNNs in SOT-MRAM Crossbar Arrays</li>
-        <li><b>37</b> Noise-Based Obfuscation for In-Memory AI Accelerators</li>
-        <li><b>23</b> Obfuscation Techniques for Approximate Adders</li>
-        <li><b>79</b> Approximate Multipliers via Formal Verification</li>
+        <li><b>30</b> Chip-Agnostic Hardware-Aware Training for ADC-Efficient BNNs in SOT-MRAM Crossbars</li>
+        <li><b>104</b> PreDSE: Predictive Design Space Exploration for FPGA CNN Dataflow Accelerators</li>
+        <li><b>37</b> A Noise-based Obfuscation Technique for Safe and Secure In-Memory AI inference</li>
+        <li><b>23</b> New Obfuscation Strategies for Approximate Adders</li>
         <hr class="tp-pdiv"><span class="tp-plbl">Poster presentations</span>
-        <li class="tp-po"><span class="tp-ttag">T3</span><b>66</b> Approximate Ternary NNs via Input Permutations</li>
-        <li class="tp-po"><span class="tp-ttag">T5</span><b>131</b> Embedded SoC Multi-Core Platform</li>
+        <li class="tp-po"><span class="tp-ttag">T3</span><b>66</b> Reducing the Footprint of Approximate Ternary Neural Networks via Per-Neuron Input Permutations</li>
+        <li class="tp-po"><span class="tp-ttag">T5</span><b>131</b> Deployment of a Safety-Critical, Distilled YOLOV8m Vision System on a Dual-Core, 1MB, BLE-Connected Programmable Logic Controller</li>
       </ul>
     </td>
     <td class="tp-ch">
-      <span class="tp-t">RS5 – Hardware Security</span>
-      <span class="tp-s">Track 8 · 4 papers + 1 poster presentation · 85 min</span>
+      <span class="tp-t">RS5 – Hardware Security &amp; Testing</span>
+      <span class="tp-s">Tracks 8+12 · 4 papers + 1 poster presentation · 85 min</span>
       <ul class="tp-pp">
-        <li><b>56</b> DPA-Resistant Dual-Rail Logic Synthesis</li>
-        <li><b>98</b> Side-Channel Attacks on Neural Network Accelerators</li>
-        <li><b>109</b> Hardware Trojan Detection via Machine Learning</li>
-        <li><b>111b</b> PUF-Based Authentication Using Ferroelectric Devices</li>
+        <li><b>56</b> A Differential Power Analysis Attack Exploiting Early Propagation Effect in Dual-Rail Pre-Charge Logic Circuits</li>
+        <li><b>98</b> Self-Interpretable Hardware Trojan Detection on Gate-Level Netlists with Sufficient and Necessary GNN Explanations</li>
+        <li><b>109</b> SW-PUF: An ML-Resistant Strong PUF Architecture Using Weak-PUF Entropy and Ascon-Hash Obfuscation</li>
+        <li><b>105</b> JTAG You're It: A Scalable JTAG Network in Chiplet Arrays via Fabric-Reuse</li>
         <hr class="tp-pdiv"><span class="tp-plbl">Poster presentation</span>
-        <li class="tp-po"><span class="tp-ttag">T8</span><b>111</b> PUF-Based Authentication via Ferroelectric Devices</li>
+        <li class="tp-po"><span class="tp-ttag">T8</span><b>111</b> Side-channel aware design of FeFET based memory for cryptographic SBox implementation</li>
       </ul>
     </td>
   </tr>
-  <tr class="rb"><td class="tp-ca"></td><td class="tp-ct">11:50–12:50</td><td><span class="tp-t">Lunch Break</span><span class="tp-s">60 min</span></td></tr>
-  <tr class="rik"><td class="tp-ca"></td><td class="tp-ct">12:50–13:30</td><td>
+  <tr class="rik"><td class="tp-ca"></td><td class="tp-ct">11:50–12:30</td><td>
     <span class="tp-t">Industrial Keynote 2 – Low Power IC Design for a Sustainable World</span>
     <span class="tp-s">Victor Grimblatt · Synopsys, Chile · Plenary · 40 min</span>
   </td></tr>
+  <tr class="rb"><td class="tp-ca"></td><td class="tp-ct">12:30–13:30</td><td><span class="tp-t">Lunch Break</span><span class="tp-s">60 min</span></td></tr>
   <tr class="rp"><td class="tp-ca"></td><td class="tp-ct">13:30–14:15</td><td>
     <span class="tp-t">Panel – AI as the Chip Designer: Evolution or Illusion?</span>
     <span class="tp-s">Plenary · 45 min · Frank K. Gurkaynak (ETH Zürich) · Sandro Belfanti (Chipmind)</span>
@@ -232,30 +232,30 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
   <tr class="rr"><td class="tp-ca"></td><td class="tp-ct">10:20–11:40</td>
     <td class="tp-ch">
       <span class="tp-t">RS4 – Digital Design &amp; EDA II</span>
-      <span class="tp-s">Tracks 3+4 · Timing, Async &amp; Design Space Exploration · 4 papers · 80 min</span>
+      <span class="tp-s">Tracks 3+4 · Timing, Async &amp; FPGA · 4 papers · 80 min</span>
       <ul class="tp-pp">
-        <li><b>81</b> Robust Asymmetric Delay Cell for Async Bundled-Data Circuits</li>
-        <li><b>44</b> AutoSDC: Correct-by-Construction Timing Constraints</li>
-        <li><b>129</b> Multi-Objective Design Space Exploration for SoCs</li>
-        <li><b>116b</b> Near-Memory Computing Architecture for AI DSE</li>
+        <li><b>81</b> A Robust Asymmetric Delay Cell for High-Performance 4-Phase Bundled-Data Circuits</li>
+        <li><b>44</b> AutoSDC: Correct-by-Construction Timing Constraint Generation via Hybrid Neuro-Structural Training, Multivariate Quality Prediction, and Recursive Signoff-Driven Refinement</li>
+        <li><b>129</b> Exploring the Impact of 2D Convolutional Layer Hyperparameters in FPGA Implementation</li>
+        <li><b>79</b> Efficient Scalable Approximate Multipliers via Significance-Driven Partial Product Removal</li>
       </ul>
     </td>
     <td class="tp-ch">
       <span class="tp-t">RS8 – Communications, Sensing &amp; Emerging Technologies</span>
       <span class="tp-s">Tracks 2+6+9 · 4 papers · 80 min</span>
       <ul class="tp-pp">
-        <li><b>40</b> Preemptive Virtual Channels for AXI NoC</li>
-        <li><b>15</b> White Rabbit–Enabled Triggering for Bi-Static ISAC in 6G</li>
-        <li><b>91</b> Pipelined Token Ring Readout IC for Vision Sensors</li>
-        <li><b>54</b> ReRAM Programming Pattern Optimization</li>
+        <li><b>40</b> Community-Based ILP for Application Mapping and Deadlock-Free Routing on Large NoCs</li>
+        <li><b>15</b> White Rabbit–Enabled Deterministic Triggering for Bi-Static ISAC in 6G</li>
+        <li><b>91</b> Selective frame processing for accelerating visual SLAM</li>
+        <li><b>54</b> Impact of Programming Pattern Strategy on ReRAM Relaxation and Retention Stability</li>
       </ul>
     </td>
   </tr>
-  <tr class="rb"><td class="tp-ca"></td><td class="tp-ct">11:40–12:40</td><td><span class="tp-t">Lunch Break</span><span class="tp-s">60 min</span></td></tr>
-  <tr class="rik"><td class="tp-ca"></td><td class="tp-ct">12:40–13:20</td><td>
+  <tr class="rik"><td class="tp-ca"></td><td class="tp-ct">11:40–12:20</td><td>
     <span class="tp-t">Industrial Keynote 3 – Bridging the Gap Between Research and Industry Through Embedded Systems</span>
     <span class="tp-s">Odysseas Economides · HardwareX Engineering, Cyprus · Plenary · 40 min</span>
   </td></tr>
+  <tr class="rb"><td class="tp-ca"></td><td class="tp-ct">12:20–13:20</td><td><span class="tp-t">Lunch Break</span><span class="tp-s">60 min</span></td></tr>
   <tr class="rs"><td class="tp-ca"></td><td class="tp-ct">13:20–14:40</td>
     <td class="tp-ch"><span class="tp-t">Special Session 5</span><span class="tp-s">80 min · TBA</span></td>
     <td class="tp-ch"><span class="tp-t">Special Session 6</span><span class="tp-s">80 min · TBA</span></td>
