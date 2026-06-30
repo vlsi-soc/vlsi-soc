@@ -7,9 +7,6 @@ description: |
 
 sections:
   - title: "DEADLINES"
-    content: |
-      PhD & Student Forum submission: July 02, 2026<br />
-      Notification of acceptance: July 23, 2026<br />
     
   - title: "ELEGIBILITY"
     content: "The author must have completed at least one year of a Ph.D. program."
@@ -27,4 +24,4 @@ sections:
     content: "VLSI-SoC 2026 finances a limited number of travel grants for Ph.D. students, throught the Technical Commitee TC-10 (Computer Systems Technology) and WG 10.5 of the International Federation for Information Processing - IFIP. In principle, grants are restricted to support students who cannot be fully supported by their institutions. This rule gives preferences to students being enrolled in Africa, Latin America, South America, Eastern Europe, and Asia (except Israel, Japan, Singapore, South Korea, Taiwan, and China)."
     
   - title: "HOW TO APPLY"
-    content: 'Submit a two-page abstract of the dissertation in PDF via <a href="https://easychair.org/conferences/?conf=ifipieeevlsisoc2026" target="_blank" rel="noopener noreferrer">EasyChair</a> by July 2, 2026'
+    content: 'Submit a two-page abstract of the dissertation in PDF via <a href="https://easychair.org/conferences/?conf=ifipieeevlsisoc2026" target="_blank" rel="noopener noreferrer">EasyChair</a>'

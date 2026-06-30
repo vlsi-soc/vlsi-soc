@@ -1,4 +1,6 @@
 <!-- MAIN CONTENT -->
+{% assign phd_category = site.data.deadlines.categories | where: "name", "PhD Contributions" | first %}
+{% assign phd_submission = phd_category.deadlines | where: "label", "PhD & Student Forum submission" | first %}
 <div class="container" id="ref">
    <div class="justify-content-center txtcenter">
       <h2 class="ops-tt txtcenter mts-10">{{ site.data.phd_forum.title }}</h2>
@@ -6,7 +8,7 @@
                class="fa fa-download same-line" aria-hidden="true"></i></a> </p><br />
       <br />
       <p class="ops-t txtcenter same-line" style="text-align:justify">{{ site.data.phd_forum.description }}<br /><br /></p>
-      
+
       {% for section in site.data.phd_forum.sections %}
       <div class="row col-md-12">
          <div class="col-md-4 align-left-mobile" style="text-align:right;">
@@ -14,12 +16,12 @@
             <p class="ops c-orange inline-mobile"><b>{{ section.title }}</b></p>
          </div>
          <div class="col-md-8" style="text-align:left;border-left: solid 1px #E85F28">
-            <p class="ops-2t">{% if section.title == "DEADLINES" %}<b>{{ section.content }}</b>{% else %}{{ section.content }}{% endif %}</p>
+            <p class="ops-2t">{% if section.title == "DEADLINES" %}<b>{% for deadline in phd_category.deadlines %}{{ deadline.label }}: {{ deadline.date }}<br />{% endfor %}</b>{% elsif section.title == "HOW TO APPLY" %}{{ section.content }} by {{ phd_submission.date }}{% else %}{{ section.content }}{% endif %}</p>
          </div>
       </div>
       <br />
       {% endfor %}
-      
+
       <br />
    </div>
 </div>
