@@ -22,7 +22,7 @@ description: "Registration information and fees for VLSI-SoC 2026"
 
          <h3>VLSI-SOC 2026 Registration</h3>
          <ul>
-            <li><strong>Full Registration</strong>: Includes access to all sessions, symposium proceedings, Program Booklet, coffee breaks, lunches (Sunday Tutorials, Monday, Tuesday, and Wednesday), Welcome Reception (Sunday), and Social Event (Tuesday).</li>
+            <li><strong>Full Registration</strong>: Includes access to all sessions, symposium proceedings, Program Booklet, coffee breaks, lunches (Sunday Tutorials, Monday, Tuesday, and Wednesday), Welcome Reception (Monday), and Social Event (Tuesday).</li>
             <li><strong>Student Registration</strong>: Includes access to all sessions, symposium proceedings, Program Booklet, coffee breaks, lunches, and Welcome Reception. Social Event is <strong>not</strong> included. A valid student card is required.</li>
             <li><strong>Sunday Tutorial</strong>: Access to tutorial presentations on Sunday, including coffee breaks and lunch.</li>
             <li><strong>One Day Registration</strong>: Includes access to all sessions, symposium proceedings, coffee breaks, and lunch for the chosen day. Social Event is <strong>not</strong> included.</li>

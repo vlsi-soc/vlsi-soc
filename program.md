@@ -83,7 +83,6 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
   <tr class="rk"><td class="tp-ca"></td><td class="tp-ct">09:00–12:00</td><td><span class="tp-t">Morning Tutorial</span><span class="tp-s">Plenary · 3 hrs · TBA</span></td></tr>
   <tr class="rb"><td class="tp-ca"></td><td class="tp-ct">12:00–13:00</td><td><span class="tp-t">Lunch Break</span></td></tr>
   <tr class="rk"><td class="tp-ca"></td><td class="tp-ct">13:00–16:00</td><td><span class="tp-t">Afternoon Tutorial</span><span class="tp-s">Plenary · 3 hrs · TBA</span></td></tr>
-  <tr class="rrec"><td class="tp-ca"></td><td class="tp-ct">16:30–17:30</td><td><span class="tp-t">Welcome Reception</span></td></tr>
 </table>
 
 <!-- MONDAY -->
@@ -161,7 +160,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
     <td class="tp-ch"><span class="tp-t">Special Session 1</span><span class="tp-s">80 min · TBA</span></td>
     <td class="tp-ch"><span class="tp-t">Special Session 2</span><span class="tp-s">80 min · TBA</span></td>
   </tr>
-  <tr class="rrec"><td class="tp-ca"></td><td class="tp-ct">16:40–17:30</td><td><span class="tp-t">Welcome Reception</span></td></tr>
+  <tr class="rrec"><td class="tp-ca"></td><td class="tp-ct">17:30–18:20</td><td><span class="tp-t">Welcome Reception</span></td></tr>
 </table>
 
 <!-- TUESDAY -->
