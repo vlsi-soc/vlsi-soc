@@ -72,9 +72,13 @@ tutorials:
 
 panel_sessions:
   - title: "AI as the Chip Designer: Evolution or Illusion?"
-    topic: "This panel explores whether artificial intelligence is truly transforming chip design or simply augmenting existing methodologies. Experts from academia and industry debate the current impact, limitations, and future potential of AI-driven design in semiconductor development."
+    abstract: "Artificial intelligence is entering System-on-Chip design at every level, from automating repetitive engineering tasks to supporting architectural exploration, optimization, and verification. This panel will discuss whether AI can deliver meaningful productivity gains and open new design possibilities, or whether it also risks weakening engineering expertise, trust, and accountability. Bringing together perspectives from academia, startups, and industry, the discussion will ask whether AI marks a true paradigm shift in SoC engineering or remains a powerful tool whose impact depends on human oversight, responsibility, and judgment."
     panelists:
-      - name: "Frank K. Gurkaynak, ETH"
-        photo: "speaker-gurkaynak.png"
-      - name: "Sandro Belfanti, Chipmind"
+      - name: "Prof. Christos Sotiriou, University of Thessaly"
+        photo: "speaker-sotiriou.jpg"
+      - name: "Dr. Sandro Belfanti, Chipmind"
         photo: "speaker-belfanti.png"
+      - name: "Dr. Valerio Tenace, PrimisAI"
+        photo: "speaker-tenace.jpeg"
+      - name: "Dr. Frank K. Gurkaynak, ETH"
+        photo: "speaker-gurkaynak.png"
