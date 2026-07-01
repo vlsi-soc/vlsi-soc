@@ -28,6 +28,20 @@ description: "Registration information and fees for VLSI-SoC 2026"
             <li><strong>One Day Registration</strong>: Includes access to all sessions, symposium proceedings, coffee breaks, and lunch for the chosen day. Social Event is <strong>not</strong> included.</li>
          </ul>
 
+         <p>A one-stop-shop software is used for the registration and local arrangements, <a href="https://www.easyconferences.org">www.easyconferences.org</a>.
+         Participants may pay instantly using their credit card (VISA/MASTERCARD), or by bank transfer. The whole process is very easy to use, is totally secure and can be completed in a few minutes. Please note that participants can also book their accommodation, airport transfers, car hire, etc. All additional services are offered at specially negotiated conference rates.</p>
+         
+         <p>Please note that the software provides participants with the possibility to complete the booking process in steps/periodically. The system will accept unlimited changes/updates up to the closing of the online registration process before the start of the conference etc. (subject to availability).</p>
+
+         <p>Please see the registration steps below:
+         <ol>
+            <li>Create Account: Create an “EasyConferences” account through <a href="https://www.easyconferences.org">www.easyconferences.org</a></li>
+            <li>Verify E-mail: Activate your account, by clicking on the activation link sent to you.</li>
+            <li>Log-in: After Verifying your email, you may log in through the direct link: <a href="https://www.easyconferences.org/vlsisoc2026/register">www.easyconferences.org/vlsisoc2026/register</a> in order to register (please note that if you log-in through <a href="https://www.easyconferences.org">www.easyconferences.org</a> and not the direct link, you will need to locate the conference within the list of conferences).</li>
+            <li>Create Order: Finalise the registration securely through the online payment methods.</li>
+            <li>Done!</li>
+         </ol></p>
+
          <!-- <h3>Advance/Late Registration Fees</h3>
          <table class="table table-hover">
             <thead>
