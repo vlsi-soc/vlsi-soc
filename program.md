@@ -160,7 +160,12 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
     <td class="tp-ch"><span class="tp-t">Special Session 1</span><span class="tp-s">80 min · TBA</span></td>
     <td class="tp-ch"><span class="tp-t">Special Session 2</span><span class="tp-s">80 min · TBA</span></td>
   </tr>
-  <tr class="rrec"><td class="tp-ca"></td><td class="tp-ct">17:30–18:20</td><td><span class="tp-t">Welcome Reception</span></td></tr>
+  <tr class="rrec"><td class="tp-ca"></td><td class="tp-ct">17:30–19:00</td>
+    <td>
+      <span class="tp-t">Welcome Reception</span>
+      <span class="tp-s">Welcome Cocktail is the first social gathering between all conference delegates and it will take place at the Venue Hotel. It will be a relaxing evening during which delegates will have the opportunity to talk to colleagues and peers, while enjoying local drinks and ample canapés, with a view of the calming waters of the Mediterranean Sea.</span>
+    </td>
+  </tr>
 </table>
 
 <!-- TUESDAY -->
@@ -215,6 +220,12 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
     <span class="tp-t">Coffee Break + Poster Display</span>
     <span class="tp-s">20 min · All 10 posters displayed simultaneously · Conference day ends 15:55</span>
   </td></tr>
+  <tr class="rrec"><td class="tp-ca"></td><td class="tp-ct">16:15–19:00</td>
+    <td>
+      <span class="tp-t">Tour and Conference Dinner</span>
+      <span class="tp-s">We will depart from the venue hotel in air-conditioned busses with licensed tour guides for a walking tour (weather permitting) across all the historical sites and landmarks within the center of Limassol. We will then head to the conference dinner venue at a local tavern, where participants will enjoy an array of authentic Cypriot dishes complimented with local drinks, desserts and traditional entertainment.</span>
+    </td>
+  </tr>
 </table>
 
 <!-- WEDNESDAY -->
