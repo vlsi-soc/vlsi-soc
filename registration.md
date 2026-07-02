@@ -97,7 +97,7 @@ description: "Registration information and fees for VLSI-SoC 2026"
 
          <h3>Registration Process</h3>
          <p>The payment process is fully automated. Payments can be made using iDeal (Dutch participants), wire transfer, or credit card. The online registration system closes on Sept 27. On-site registration will be available after that date. A cancellation fee of € 70 applies after Sept 15, and no refunds are offered after Oct 1.</p>
-         <p>For any questions or assistance, please contact the <a href="mailto:ns@easyconferences.eu">Registration Chairs</a>.</p>
+         <p>For any questions or assistance, please contact the <a href="mailto:info@easyconferences.eu">Registration Chairs</a>.</p>
          <p><a href="https://www.aanmelder.nl/157520/subscribe" target="_blank" class="btn btn-primary">Register Online</a></p> -->
       </div>
    </div>

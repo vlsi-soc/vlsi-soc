@@ -268,7 +268,7 @@ Hotel facilities include a restaurant serving local and international cuisine, a
       </div>
 
       <div class="col-md-12" style="text-align:justify; background-color:#f5f5f5; padding:20px; border-radius:5px; margin-bottom:30px">
-         <p class="ops-t" style="margin:0"><b>Note:</b> For assistance with accommodation booking or to arrange transfers, please contact <a href="mailto:ns@easyconferences.eu">ns@easyconferences.eu</a>. For Half Double rooms, participants are responsible for finding a colleague to share the room with.</p>
+         <p class="ops-t" style="margin:0"><b>Note:</b> For assistance with accommodation booking or to arrange transfers, please contact <a href="mailto:info@easyconferences.eu">info@easyconferences.eu</a>. For Half Double rooms, participants are responsible for finding a colleague to share the room with.</p>
       </div>
 
       <br /><br />
