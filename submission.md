@@ -61,6 +61,14 @@ description: "Call for papers and submission guidelines for VLSI-SoC 2026"
    </div>
 </div>
 
+{% assign camera_ready_deadline = "" %}
+{% for cat in site.data.deadlines.categories %}
+  {% for deadline in cat.deadlines %}
+    {% if deadline.label == "Camera ready" %}
+      {% assign camera_ready_deadline = deadline.date %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
 <div class="bxshadow-top bg-gray-ns">
    <div class="container" style="padding-top:80px">
       <div class="justify-content-center txtcenter" id="authorguide">
@@ -124,7 +132,24 @@ description: "Call for papers and submission guidelines for VLSI-SoC 2026"
                <p class="ops c-azure inline-mobile"><b>INSTRUCTIONS FOR ACCEPTED PAPERS</b></p>
             </div>
             <div class="col-md-8" style="text-align:left;border-left: solid 1px #477ED2">
-               <p class="ops-2t"><b>TBA</b><br />
+               <p class="ops-2t">
+                  These instructions apply to accepted <b>regular</b> and <b>poster</b> papers (special session
+                  proposals are not treated as camera-ready papers at this stage). You can <b>view</b> or
+                  <b>download</b> the full camera-ready instructions
+                  <a class="a-no ops" target="_blank" href="{{ '/docs/VLSI-SoC_2026_Camera-Ready_Instructions.pdf' | relative_url }}">here <i
+                        class="fa fa-download same-line" aria-hidden="true"></i></a>.
+               </p>
+               <p class="ops-2t">
+                  <b>Camera-ready deadline:</b> {{ camera_ready_deadline }}<br />
+                  <b>Page limit:</b> 4 pages plus 1 additional page containing only references<br />
+                  <b>Format:</b> IEEE conference format, single-spaced, two columns, 10 pt font<br />
+                  <b>PDF validation:</b> final PDFs must be validated through IEEE PDF eXpress<br />
+                  <b>Submission:</b> final papers must be submitted through the EasyChair proceedings author role for
+                  IFIP/IEEE VLSI-SoC 2026<br />
+                  <b>Copyright:</b> the IEEE electronic copyright form must be completed through the
+                  EasyChair/IEEE workflow<br />
+                  <b>Registration:</b> at least one author of each accepted paper must register by the camera-ready
+                  deadline and is expected to attend and present the paper
                </p>
             </div>
          </div>
@@ -136,7 +161,17 @@ description: "Call for papers and submission guidelines for VLSI-SoC 2026"
          <div class="justify-content-center" id="cameraready">
             <h3 id="committee" class="ops-tt txtcenter">CAMERA-READY SUBMISSIONS</h3>
             <br />
-            <p class="ops-tt txtcenter c-azure"><b>TBA</b></p>
+            <p class="ops-tt txtcenter c-azure">
+               Camera-ready deadline: <b>{{ camera_ready_deadline }}</b>
+            </p>
+            <p class="ops-2t txtcenter">
+               Final papers must be submitted through the
+               <a class="a-no ops" href="https://easychair.org/conferences/?conf=ifipieeevlsisoc2026">EasyChair
+                  proceedings author role</a> for IFIP/IEEE VLSI-SoC 2026, after validation through IEEE PDF
+               eXpress and completion of the IEEE electronic copyright form via the EasyChair/IEEE workflow. See
+               the <a class="a-no ops" target="_blank" href="{{ '/docs/VLSI-SoC_2026_Camera-Ready_Instructions.pdf' | relative_url }}">full
+                  instructions <i class="fa fa-download same-line" aria-hidden="true"></i></a> for details.
+            </p>
          </div>
       </div>
    </div>
