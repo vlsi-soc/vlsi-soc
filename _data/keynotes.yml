@@ -65,10 +65,11 @@ industrial_keynote:
       The talk addresses these challenges from semiconductor industry's point of view. It first introduces these and some other challenges. An elaboration of methods dealing with the challenges, such as platform-based design, IP generation as well as hardware generation languages, and automated interface adoption, follows. It closes with the discussion of whether we are reusing the right things and in the right way."
 
 tutorials:
-  - title: "TO BE ANNOUNCED"
-    speaker: "TBA"
-    affiliation: ""
-    topic: "TO BE ANNOUNCED"
+  - title: "Hybrid LLM–SLM Agentic AI for End-to-End EDA: From Natural Language Specifications to GDSII"
+    speaker: "Christos Sotiriou"
+    affiliation: "University of Thessaly"
+    photo: "speaker-sotiriou.jpg"
+    topic: "Recent advances in large language models (LLMs) and agentic AI are reshaping Electronic Design Automation (EDA), enabling a shift from manual, script-driven flows to autonomous, goal-driven design processes. One emerging vision is the translation of natural language specifications into synthesizable RTL and ultimately GDSII through end-to-end AI-driven pipelines. This tutorial presents such an end-to-end agentic EDA flow as a motivating application, while focusing on the underlying hybrid AI methodology that makes it practical. We introduce hybrid LLM–SLM agentic architectures, where LLMs perform high-level reasoning, intent interpretation, and task decomposition, and specialized small language models (SLMs) and fine-tuned domain models handle efficiency-critical tasks such as RTL generation, constraint formulation, and verification scripting. We provide a comparative analysis of LLMs and SLMs in terms of accuracy, cost, latency, and reliability, and show how a hybrid approach combines the strengths of both. The tutorial covers prompt engineering, hierarchical planning, and closed-loop refinement using feedback from EDA tools. Through practical examples, we demonstrate how hybrid agentic workflows can interact with synthesis, place-and-route, and verification engines to realize the full design flow from specification to layout, while addressing challenges such as hallucination mitigation, design rule compliance, timing closure, and scalability. The session concludes with perspectives on scalable and reliable AI-driven EDA and the path toward autonomous chip design."
 
 panel_sessions:
   - title: "AI as the Chip Designer: Evolution or Illusion?"

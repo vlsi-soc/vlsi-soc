@@ -109,13 +109,25 @@
 <br />
 {% for tutorial in site.data.keynotes.tutorials %}
 <div class="keynote-container">
+   <!-- Speaker Info -->
+   <div class="keynote-left">
+      {% if tutorial.photo %}
+      <img src="{{ '/img/' | append: tutorial.photo | relative_url }}" alt="{{ tutorial.speaker }}" class="keynote-image">
+      {% endif %}
+      {% if tutorial.speaker %}
+      <div class="speaker-info">
+         <h3>{{ tutorial.speaker }}</h3>
+         {% if tutorial.affiliation and tutorial.affiliation != '' %}
+         <p>Affiliation: {{ tutorial.affiliation }}</p>
+         {% endif %}
+      </div>
+      {% endif %}
+   </div>
+
+   <!-- Tutorial Details -->
    <div class="keynote-details">
       <h4>Tutorial Title</h4>
       <p>{{ tutorial.title }}</p>
-      {% if tutorial.speaker %}
-      <h4>Speaker</h4>
-      <p>{{ tutorial.speaker }}{% if tutorial.affiliation and tutorial.affiliation != '' %}, {{ tutorial.affiliation }}{% endif %}</p>
-      {% endif %}
       {% if tutorial.topic %}
       <h4>Topic</h4>
       <p>{{ tutorial.topic }}</p>
