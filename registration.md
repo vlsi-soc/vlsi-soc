@@ -23,7 +23,7 @@ description: "Registration information and fees for VLSI-SoC 2026"
          <h3>VLSI-SOC 2026 Registration</h3>
          <ul>
             <li><strong>Full Registration</strong>: Includes access to all sessions, symposium proceedings, Program Booklet, coffee breaks, lunches (Sunday Tutorials, Monday, Tuesday, and Wednesday), Welcome Reception (Monday), and Social Event (Tuesday).</li>
-            <li><strong>Student Registration</strong>: Includes access to all sessions, symposium proceedings, Program Booklet, coffee breaks, lunches, and Welcome Reception. Social Event is <strong>not</strong> included. A valid student card is required.</li>
+            <li><strong>Student Registration</strong>: Includes access to all sessions, symposium proceedings, Program Booklet, coffee breaks, lunches, and Welcome Reception. Social Event is included. A valid student card is required.</li>
             <li><strong>Sunday Tutorial</strong>: Access to tutorial presentations on Sunday, including coffee breaks and lunch.</li>
             <li><strong>One Day Registration</strong>: Includes access to all sessions, symposium proceedings, coffee breaks, and lunch for the chosen day. Social Event is <strong>not</strong> included.</li>
          </ul>
@@ -40,6 +40,7 @@ description: "Registration information and fees for VLSI-SoC 2026"
             <li>Log-in: After Verifying your email, you may log in through the direct link: <a href="https://www.easyconferences.org/vlsisoc2026/register">www.easyconferences.org/vlsisoc2026/register</a> in order to register (please note that if you log-in through <a href="https://www.easyconferences.org">www.easyconferences.org</a> and not the direct link, you will need to locate the conference within the list of conferences).</li>
             <li>Create Order: Finalise the registration securely through the online payment methods.</li>
             <li>Done!</li>
+            <li>For visa requests, write to <a href="mailto:nicolina@easyconferences.eu">nicolina@easyconferences.eu</a></li>
          </ol></p>
 
          <!-- <h3>Advance/Late Registration Fees</h3>
