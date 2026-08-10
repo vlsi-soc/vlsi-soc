@@ -1,5 +1,87 @@
 # Special Sessions Data
 
+accepted_sessions:
+  - id: "SS16"
+    title: "Design, Testing, and Reliability of Memristive-based Compute-in-Memory Architectures"
+    organizers: "Surendra Hemaram and Anteneh Gebregiorgis"
+    abstract: "This special session explores emerging compute paradigms with a focus on memristive compute-in-memory architectures. It addresses key challenges in fault tolerance, device variability, hardware-software co-design, and post-manufacturing testing for reliable brain-inspired and AI computing systems."
+    talks:
+      - speaker: "Norbert Wehn"
+        title: "Emerging Compute Paradigms – Opportunities and Challenges"
+    papers:
+      - authors: "Surendra Hemaram, Said Hamdioui and Anteneh Gebregiorgis"
+        title: "ECC-Assisted Fault Tolerance in Memristive Crossbar-based CIM Architectures: An Overview"
+      - authors: "Aleena Kabeer, Darshitha Dinesh and Alex James"
+        title: "Variability Aware Neuro-Memristive Networks: Hardware Software Co-design Approaches"
+      - authors: "Leticia Maria Bolzani Poehls and Andre Lucas Chinazzo"
+        title: "Testing RRAM-Based Brain-Inspired Architectures after Manufacturing: Challenges and Solutions"
+
+  - id: "SS85"
+    title: "Emerging & Reliable Computing for Scalable Intelligence"
+    organizers: "Juergen Becker"
+    abstract: "This session highlights emerging computing technologies and architectures for scalable and efficient intelligence. Topics span chiplet-based systems, service-oriented computing, efficient arithmetic for AI acceleration, and neural network inference on resource-constrained edge platforms."
+    talks:
+      - speaker: "Guohao Dai"
+        title: "Emerging Technologies & The Chiplet Revolution"
+      - speaker: "Markus Abel"
+        title: "SoC – Service on a Chip"
+    papers:
+      - authors: "Stefanos Christopoulos, Paul Genssler, Hussam Amrouch and Christian Sauer"
+        title: "Evaluating Block Arithmetic Formats for Efficient AI Inference Hardware"
+      - authors: "Grace-Li Zhang"
+        title: "Efficient Neural Network Inference on CPU-Centered Edge Device"
+
+  - id: "SS150"
+    title: "Sustainable Intelligence at the Edge: IoT, Embedded, and Cyber-Physical Systems for a Greener World"
+    organizers: "Cathal Hoare and Tiziana Margaria"
+    abstract: "This special session examines how embedded intelligence, IoT, and cyber-physical systems can enable more sustainable and resource-efficient computing. Contributions cover edge AI, industrial automation, federated systems, neuromorphic computing, efficient LLM inference, and intelligent decision-support applications."
+    talks: []
+    papers:
+      - authors: "Luigi Capogrosso, Enrico Fraccaroli, Michele Magno and Franco Fummi"
+        title: "TinySimpleNet: A SimpleNet for Unsupervised Industrial Anomaly Detection on Edge Devices"
+      - authors: "Ferdinando Pompanin, Enrico Martini, Franco Fummi and Nicola Bombieri"
+        title: "On the Deployment of Egocentric Pose Estimation Algorithms at the Edge"
+      - authors: "Gioacchino Ivan Noto and Nicola Dall'Ora"
+        title: "Sustainable SoftPLCs at the Edge: An Open-Source Path to Right-Sizing and Retrofitting Industrial Automation"
+      - authors: "Amir Aminifar"
+        title: "LLM-Driven Optimization of Large Language Model Inference"
+      - authors: "Matteo Iervasi, Tawite Noe Marthe, Mascuud Mohamed Ali, Abdulaziz Abdulkadir Hassan and Florenc Demrozi"
+        title: "A Federated Cyber-Physical Edge Architecture for Smart Hospital Room Automation"
+      - authors: "Heba Abunahla"
+        title: "Toward a Unified Memristive Edge Platform for Sensing, Security, and Neuromorphic Computing"
+      - authors: "Cathal Hoare and Tiziana Margaria"
+        title: "Embedded Intelligence at the Edge: Recommender Systems, Efficient Simulation, and Operator-Centred Decision Support"
+
+  - id: "SS154"
+    title: "Edge AI for Smart Agriculture"
+    organizers: "Theocharis Theocharides"
+    abstract: "This session explores how Edge AI, embedded computing, and advanced sensing technologies can transform smart and precision agriculture. Topics include robotic and neuromorphic vision, low-power AI systems, precision monitoring, and on-device perception for efficient and sustainable agricultural applications."
+    talks: []
+    papers:
+      - authors: "Lorenzo Peppi, Alessandro Torrisi, Michele Gullino, Luigi Manfrini, Luisa Petti and Luca De Marchi"
+        title: "Embedded Systems for Precision Agriculture Monitoring: An Electronics Designer's Perspective"
+      - authors: "Luca Peres and Davide Bertozzi"
+        title: "Neuromorphic Vision Technologies in Smart Agriculture: Challenges and Opportunities"
+      - authors: "Theocharis Theocharides, Antonis Savva and Yiota Victoria Phakoukaki"
+        title: "Edge AI for Smart and Precision Agriculture: An Overview of Robotic Vision for Field Perception and Decision Support"
+      - authors: "Denisa-Andreea Constantinescu, Philip Wiese, Mattia Consani, Victor Kartsch, Luca Benini and David Atienza"
+        title: "Pollin8: Species-Level Pollinator and Pest Counting on a Milliwatt System-on-Chip"
+
+  - id: "SS155"
+    title: "DfT, Reliability and Functional Safety for Edge AI SoCs"
+    organizers: "Maksim Jenihhin and Matteo Sonza Reorda"
+    abstract: "This special session addresses the growing need for dependable and functionally safe Edge AI systems. It brings together advances in design-for-test, runtime fault detection and correction, reliability assessment, and safety-oriented processor testing and hardening across the computing stack."
+    talks:
+      - speaker: "Matteo Sonza Reorda"
+        title: "Towards Dependable Edge AI: Reliability Assessment and Hardening Across the Compute Stack"
+    papers:
+      - authors: "Dimitrios Stylianos Lampridis, Yiorgos Tsiatouhas, Maria K. Michael and Theocharis Theocharides"
+        title: "DfT-Assisted Testing of Resistive Short Defects in SRAM-Based In-Memory Computing Architectures"
+      - authors: "Ashwin Santhosh, Artur Jutman, Endri Kaja, Wolfgang Ecker and Maksim Jenihhin"
+        title: "NURSE: Syndrome-Guided Runtime Correction of Pipeline Interconnect Faults in RISC-V Processors"
+      - authors: "Gustavo Vilar de Farias, Dwijesh Kurada, Sergiu-Mohamed Abed, Juan-David Guerrero-Balaguera, Josie Esteban Rodriguez Condia, Ahmet Cagri Bagbaba, Felipe Augusto da Silva and Matteo Sonza Reorda"
+        title: "Towards ISO 26262-compliant Vector Processors: Combining STLs and LBIST"
+
 call:
   title: "Call for Special Sessions"
   description: "The VLSI-SOC 2026 Organizing Committee invites proposals for Special Sessions to be held during the IFIP/IEEE International Conference on Very Large Scale Integration SoC (VLSI-SoC 2026) in Limassol, Cyprus from 11th October to 14th October 2026. Special sessions complement the regular technical program by highlighting new and emerging research topics or innovative applications of established approaches."

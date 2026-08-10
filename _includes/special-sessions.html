@@ -1,5 +1,42 @@
 <!-- Special Sessions Section -->
 <div class="container" id="spec">
+   <!-- ACCEPTED SPECIAL SESSIONS -->
+   <div class="justify-content-center" id="accepted-spec">
+      <h2 class="ops-tt txtcenter mts-10" style="color:red">Special Sessions</h2>
+      <br />
+      <div class="row col-md-12 txtleft">
+         {% for session in site.data.special_sessions.accepted_sessions %}
+         <div class="spec-session-block" style="margin-bottom:32px">
+            <h3 class="ops c-black">{{ session.title }}</h3>
+            <p class="ops c-black"><strong>{% if session.organizers contains "and" %}Organizers{% else %}Organizer{% endif %}: {{ session.organizers }}</strong></p>
+            <p class="ops c-black"><strong>Abstract:</strong> {{ session.abstract }}</p>
+            <p class="ops c-black"><strong>Talks:</strong>
+               {% if session.talks.size > 0 %}
+               <ul style="text-align:left">
+                  {% for talk in session.talks %}
+                  <li>{{ talk.title }} — {{ talk.speaker }}</li>
+                  {% endfor %}
+               </ul>
+               {% else %}
+               —
+               {% endif %}
+            </p>
+            <p class="ops c-black"><strong>Papers:</strong>
+               {% if session.papers.size > 0 %}
+               <ul style="text-align:left">
+                  {% for paper in session.papers %}
+                  <li>{{ paper.title }} — {{ paper.authors }}</li>
+                  {% endfor %}
+               </ul>
+               {% else %}
+               —
+               {% endif %}
+            </p>
+         </div>
+         {% endfor %}
+      </div>
+   </div>
+
    <!-- CALL FOR SPECIAL SESSIONS -->
    <div>
       <h2 class="ops-tt txtcenter mts-10" style="color:red">{{ site.data.special_sessions.call.title }}</h2>
