@@ -118,7 +118,7 @@ description: "Registration information and fees for VLSI-SoC 2026"
                </tr>
                <tr>
                   <td>Late One-Day Registration &ndash; any single day (22 Aug 2026 &ndash; 11 Oct 2026)</td>
-                  <td>Please check the registration platform</td>
+                  <td>€ 300</td>
                </tr>
             </tbody>
          </table>
