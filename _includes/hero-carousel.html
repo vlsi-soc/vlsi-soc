@@ -17,11 +17,40 @@
           International Conference<br /> on <b> Very Large Scale Integration SoC</b>
           <br />{{ site.data.conference.location }}, {{ site.data.conference.dates }}, {{ site.data.conference.venue }}.
         </p>
-        <p class="ops-tt txtcenter mts-10 card-margin c-white">
-          <a class="c-white" href="{{ '/program.html' | relative_url }}#tec" style="text-decoration:underline">View the Conference Program</a>
+        <p class="txtcenter card-margin" style="margin-top:14px">
+          <a class="hero-cta" href="{{ '/program.html' | relative_url }}#tec">
+            <i class="fas fa-calendar-alt"></i>&nbsp;View the Conference Program
+          </a>
         </p>
       </div>
     </div>
+
+    <style>
+      .hero-cta {
+        display: inline-block;
+        color: #fff !important;
+        background-color: transparent;
+        border: 2px solid #fff;
+        border-radius: 30px;
+        padding: 10px 28px;
+        font-weight: 600;
+        letter-spacing: .3px;
+        text-decoration: none !important;
+        transition: background-color .25s ease, color .25s ease, transform .25s ease, box-shadow .25s ease;
+        animation: hero-cta-pulse 2.6s ease-in-out infinite;
+      }
+      .hero-cta:hover, .hero-cta:focus {
+        background-color: #fff;
+        color: #b61924 !important;
+        transform: translateY(-2px);
+        box-shadow: 0 6px 16px rgba(0,0,0,.25);
+        animation-play-state: paused;
+      }
+      @keyframes hero-cta-pulse {
+        0%, 100% { box-shadow: 0 0 0 0 rgba(255,255,255,.45); }
+        50% { box-shadow: 0 0 0 8px rgba(255,255,255,0); }
+      }
+    </style>
 
     {% assign carousel_images = site.data.carousel.images %}
 
