@@ -13,9 +13,6 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
 <!-- MAIN CONTENT -->
 <div class="container" id="key">
    <div class="justify-content-center txtcenter">
-      <h2 class="ops-tt txtcenter mts-10">KEYNOTES</h2>
-      <br />
-
       {% include keynotes.html %}
    </div>
 
