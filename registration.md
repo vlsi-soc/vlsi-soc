@@ -43,63 +43,90 @@ description: "Registration information and fees for VLSI-SoC 2026"
             <li>For visa requests, write to <a href="mailto:nicolina@easyconferences.eu">nicolina@easyconferences.eu</a></li>
          </ol></p>
 
-         <!-- <h3>Advance/Late Registration Fees</h3>
+         <h3>Registration Fees</h3>
+
+         <h4>Author Registration (up to 21 Aug 2026)</h4>
          <table class="table table-hover">
             <thead>
                <tr>
                   <th scope="col">Category</th>
-                  <th scope="col">Advance Registration <br><i>(until Sept 1, 2026)</i></th>
-                  <th scope="col">Late Registration</th>
+                  <th scope="col">Price</th>
                </tr>
             </thead>
             <tbody>
                <tr>
-                  <td>Full Registration (IFIP/IEEE/ACM members)</td>
+                  <td>Regular IFIP/IEEE Member</td>
                   <td>€ 600</td>
-                  <td>€ 720</td>
                </tr>
                <tr>
-                  <td>Full Registration (Non-members)</td>
-                  <td>€ 720</td>
-                  <td>€ 860</td>
-               </tr>
-               <tr>
-                  <td>Student Registration (IFIP/IEEE/ACM members)</td>
-                  <td>€ 150</td>
-                  <td>€ 180</td>
-               </tr>
-               <tr>
-                  <td>Student Registration (Non-members)</td>
-                  <td>€ 180</td>
-                  <td>€ 220</td>
-               </tr>
-               <tr>
-                  <td>Sunday Tutorials only</td>
-                  <td>€ 50</td>
-                  <td>€ 70</td>
-               </tr>
-               <tr>
-                  <td>One Day Registration (IFIP/IEEE/ACM members)</td>
-                  <td>€ 220</td>
-                  <td>€ 260</td>
-               </tr>
-               <tr>
-                  <td>One Day Registration (Non-members)</td>
-                  <td>€ 260</td>
-                  <td>€ 310</td>
-               </tr>
-               <tr>
-                  <td>Additional Social Event ticket</td>
-                  <td>€ 105</td>
-                  <td>€ 125</td>
+                  <td>Regular Non-Member</td>
+                  <td>€ 750</td>
                </tr>
             </tbody>
          </table>
+         <p><em>Note:</em> Each accepted paper must have an author registered with a Regular Registration Fee by <strong>21 August 2026</strong>. One registration covers one paper; authors registering two or more papers need to select the corresponding number of registration fees. Author Regular Fees include access to all sessions, Symposium Proceedings, Conference Material, coffee breaks and lunches for the days of the conference, the Welcome Reception, and the Social Event.</p>
+
+         <h4>Early Registration &ndash; Non-Author (up to 21 Aug 2026)</h4>
+         <table class="table table-hover">
+            <thead>
+               <tr>
+                  <th scope="col">Category</th>
+                  <th scope="col">Price</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td>Regular IFIP/IEEE Member</td>
+                  <td>€ 600</td>
+               </tr>
+               <tr>
+                  <td>Regular Non-Member</td>
+                  <td>€ 750</td>
+               </tr>
+               <tr>
+                  <td>Student* IFIP/IEEE Member</td>
+                  <td>€ 250</td>
+               </tr>
+               <tr>
+                  <td>Student* Non-Member</td>
+                  <td>€ 300</td>
+               </tr>
+               <tr>
+                  <td>IEEE Life Member</td>
+                  <td>€ 250</td>
+               </tr>
+            </tbody>
+         </table>
+         <p>All Registration Fees include access to all sessions, Symposium Proceedings, Conference Material, coffee breaks and lunches for the days of the conference, the Welcome Reception, and the Social Event.</p>
+         <p>*Student Registration requires valid documentation proving registered student status (student's ID Card or a letter from the Head of Department/Director of Doctoral School prepared on the notepaper of the institution), to be sent to <a href="mailto:info@easyconferences.eu">info@easyconferences.eu</a>.</p>
+
+         <h4>Late Registration &ndash; Non-Author (22 Aug 2026 &ndash; 11 Oct 2026)</h4>
+         <p>Late registration opens on 22 August 2026. Please check the registration platform for the applicable fees.</p>
+
+         <h4>One-Day Registration (Non-Author)</h4>
+         <table class="table table-hover">
+            <thead>
+               <tr>
+                  <th scope="col">Category</th>
+                  <th scope="col">Price</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td>Early One-Day Registration &ndash; any single day (up to 21 Aug 2026)</td>
+                  <td>€ 220</td>
+               </tr>
+               <tr>
+                  <td>Late One-Day Registration &ndash; any single day (22 Aug 2026 &ndash; 11 Oct 2026)</td>
+                  <td>Please check the registration platform</td>
+               </tr>
+            </tbody>
+         </table>
+         <p>One-Day Registration is only available to non-authors and includes access to the sessions of the chosen day plus coffee breaks and lunch for that day. Attendees wishing to attend more than one day must select a Regular registration instead. Authors must select an Author Registration in order to register a paper.</p>
 
          <h3>Registration Process</h3>
-         <p>The payment process is fully automated. Payments can be made using iDeal (Dutch participants), wire transfer, or credit card. The online registration system closes on Sept 27. On-site registration will be available after that date. A cancellation fee of € 70 applies after Sept 15, and no refunds are offered after Oct 1.</p>
          <p>For any questions or assistance, please contact the <a href="mailto:info@easyconferences.eu">Registration Chairs</a>.</p>
-         <p><a href="https://www.aanmelder.nl/157520/subscribe" target="_blank" class="btn btn-primary">Register Online</a></p> -->
+         <p><a href="https://www.easyconferences.org/vlsisoc2026/register" target="_blank" class="btn btn-primary">Register Online</a></p>
       </div>
    </div>
 </div>
