@@ -50,6 +50,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
 #tec-schedule .rr  td{background:#ffe8e2;}           #tec-schedule .rr  .tp-ca{background:#b91c1c;} #tec-schedule .rr  .tp-ct{background:#fdd0c8;}
 #tec-schedule .rc  td{background:#e8f0fb;}           #tec-schedule .rc  .tp-ca{background:#1a2a4a;} #tec-schedule .rc  .tp-ct{background:#d0dcee;}
 #tec-schedule .rrec td{background:#d4f0e2;}          #tec-schedule .rrec .tp-ca{background:#166534;}#tec-schedule .rrec .tp-ct{background:#bbdfcc;}
+#tec-schedule .rsoc td{background:#e8f7ef;}          #tec-schedule .rsoc .tp-ca{background:#0d6e3f;}#tec-schedule .rsoc .tp-ct{background:#b5ddc8;}
 #tec-schedule .tp-t { font-weight:700; font-size:12.5px; color:#111; display:block; }
 #tec-schedule .tp-s { font-size:11px; color:#333; margin-top:2px; display:block; }
 #tec-schedule ul.tp-pp { margin-top:6px; padding-top:5px; border-top:1px solid rgba(0,0,0,.12); list-style:none; padding-left:0; }
@@ -58,10 +59,15 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
 #tec-schedule ul.tp-pp li b { color:#111; font-weight:700; }
 #tec-schedule ul.tp-pp li.tp-po { color:#3b0764; font-style:italic; }
 #tec-schedule ul.tp-pp li.tp-po::before { content:"⸎"; color:#7c3aed; top:2px; font-style:normal; }
+#tec-schedule ul.tp-pp li.tp-inv { color:#7c2d12; font-style:italic; }
+#tec-schedule ul.tp-pp li.tp-inv::before { content:"◆"; color:#b45309; top:2px; font-style:normal; }
 #tec-schedule .tp-pdiv { border:none; border-top:1px dashed #c084fc; margin:5px 0 3px; }
 #tec-schedule .tp-plbl { font-size:10px; color:#6b21a8; font-weight:700; display:block; margin-bottom:2px; }
 #tec-schedule .tp-ttag { display:inline-block; font-size:9.5px; font-weight:700; background:#1a2a4a;
   color:#fff; border-radius:2px; padding:0 4px; margin-right:3px; vertical-align:middle; font-style:normal; }
+#tec-schedule .tp-bpc { display:inline-block; font-size:9px; font-weight:700; background:#b8860b;
+  color:#fff; border-radius:2px; padding:0 5px; margin-left:5px; vertical-align:middle; letter-spacing:.3px; }
+#tec-schedule .tp-auth { font-size:10px; color:#555; display:block; margin-top:1px; font-style:italic; }
 </style>
 
 <div id="tec-schedule">
@@ -73,16 +79,38 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
   <span class="tp-leg"><span class="tp-leg-bar" style="background:#7c3aed"></span>Poster display</span>
   <span class="tp-leg"><span class="tp-leg-bar" style="background:#b45309"></span>Special session</span>
   <span class="tp-leg"><span class="tp-leg-bar" style="background:#b91c1c"></span>Regular session</span>
+  <span class="tp-leg"><span class="tp-leg-bar" style="background:#0d6e3f"></span>Social event</span>
   <span class="tp-leg"><span class="tp-leg-bar" style="background:#aaa"></span>Break / admin</span>
+  <span class="tp-leg"><span class="tp-bpc" style="font-size:10px;padding:1px 6px;">BPC</span>&nbsp;Best Paper Candidate</span>
 </div>
 
 <!-- SUNDAY -->
 <span class="tp-day">Sunday, 11 October 2026 – Tutorials Day</span>
 <table class="tp-sched">
   <tr class="ra"><td class="tp-ca"></td><td class="tp-ct">08:00–09:00</td><td><span class="tp-t">Registration</span></td></tr>
-  <tr class="rk"><td class="tp-ca"></td><td class="tp-ct">09:00–12:00</td><td><span class="tp-t">Morning Tutorial</span><span class="tp-s">Plenary · 3 hrs · TBA</span></td></tr>
-  <tr class="rb"><td class="tp-ca"></td><td class="tp-ct">12:00–13:00</td><td><span class="tp-t">Lunch Break</span></td></tr>
-  <tr class="rk"><td class="tp-ca"></td><td class="tp-ct">13:00–16:00</td><td><span class="tp-t">Afternoon Tutorial</span><span class="tp-s">Plenary · 3 hrs · TBA</span></td></tr>
+  <tr class="rk"><td class="tp-ca"></td><td class="tp-ct">09:00–10:20</td>
+    <td class="tp-ch"><span class="tp-t">Tutorial 1</span><span class="tp-s">80 min · TBA</span></td>
+    <td class="tp-ch"><span class="tp-t">Tutorial 2</span><span class="tp-s">80 min · TBA</span></td>
+  </tr>
+  <tr class="rb"><td class="tp-ca"></td><td class="tp-ct">10:20–10:40</td><td><span class="tp-t">Coffee Break</span><span class="tp-s">20 min</span></td></tr>
+  <tr class="rk"><td class="tp-ca"></td><td class="tp-ct">10:40–12:00</td>
+    <td class="tp-ch"><span class="tp-t">Tutorial 1 (cont.)</span><span class="tp-s">80 min · TBA</span></td>
+    <td class="tp-ch"><span class="tp-t">Tutorial 2 (cont.)</span><span class="tp-s">80 min · TBA</span></td>
+  </tr>
+  <tr class="rb"><td class="tp-ca"></td><td class="tp-ct">12:00–13:00</td><td><span class="tp-t">Lunch Break</span><span class="tp-s">60 min</span></td></tr>
+  <tr class="rk"><td class="tp-ca"></td><td class="tp-ct">13:00–14:20</td>
+    <td class="tp-ch"><span class="tp-t">Tutorial 3</span><span class="tp-s">80 min · TBA</span></td>
+    <td class="tp-ch"><span class="tp-t">Tutorial 4</span><span class="tp-s">80 min · TBA</span></td>
+  </tr>
+  <tr class="rb"><td class="tp-ca"></td><td class="tp-ct">14:20–14:40</td><td><span class="tp-t">Coffee Break</span><span class="tp-s">20 min</span></td></tr>
+  <tr class="rk"><td class="tp-ca"></td><td class="tp-ct">14:40–16:00</td>
+    <td class="tp-ch"><span class="tp-t">Tutorial 3 (cont.)</span><span class="tp-s">80 min · TBA</span></td>
+    <td class="tp-ch"><span class="tp-t">Tutorial 4 (cont.)</span><span class="tp-s">80 min · TBA</span></td>
+  </tr>
+  <tr class="rp"><td class="tp-ca"></td><td class="tp-ct">16:30–</td><td>
+    <span class="tp-t">IFIP WG10.5 Working Group Meeting</span>
+    <span class="tp-s">Closed session · Duration TBA</span>
+  </td></tr>
 </table>
 
 <!-- MONDAY -->
@@ -114,7 +142,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
       <span class="tp-s">Tracks 11+12 · 4 papers + 1 poster presentation · 85 min</span>
       <ul class="tp-pp">
         <li><b>86</b> Hardware Support for Statistical Methods Applied to Hardware-Software Verification and Debugging</li>
-        <li><b>94</b> Counterfactual Exploit Validation on CHERI-enabled RISC-V Using Virtual Prototypes</li>
+        <li><b>94</b> Counterfactual Exploit Validation on CHERI-enabled RISC-V Using Virtual Prototypes <span class="tp-bpc">BPC</span></li>
         <li><b>65</b> RISCar: RISC-V In a Simulated Car for DNN Training and Deployment in AD Systems</li>
         <li><b>76</b> Energy-Aware Fast and Accurate Design Space Exploration of Near-Memory Computing</li>
         <hr class="tp-pdiv"><span class="tp-plbl">Poster presentation</span>
@@ -132,8 +160,8 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
       <span class="tp-t">RS3 – Digital Design &amp; EDA I</span>
       <span class="tp-s">Track 4 · Synthesis &amp; Optimization · 4 papers + 2 poster presentations · 90 min</span>
       <ul class="tp-pp">
-        <li><b>149</b> Automated RTL Complexity Estimation with Synthesis-Validated Optimization and Programmatic Code Transformation</li>
-        <li><b>90</b> SPFD-Based Resynthesis for Dual-Output LUT Networks</li>
+        <li><b>149</b> Automated RTL Complexity Estimation with Synthesis-Validated Optimization and Programmatic Code Transformation <span class="tp-bpc">BPC</span></li>
+        <li><b>90</b> SPFD-Based Resynthesis for Dual-Output LUT Networks <span class="tp-bpc">BPC</span></li>
         <li><b>110</b> No Tree Required: Predicting Post-CTS Clock Timing from Placement Features Alone</li>
         <li><b>133</b> Allocating a Unified Domain Platform Following Market Analysis Using ProdDSE</li>
         <hr class="tp-pdiv"><span class="tp-plbl">Poster presentations</span>
@@ -156,20 +184,46 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
     </td>
   </tr>
   <tr class="rb"><td class="tp-ca"></td><td class="tp-ct">15:00–15:20</td><td><span class="tp-t">Coffee Break + PhD &amp; Student Forum</span><span class="tp-s">20 min</span></td></tr>
-  <tr class="rs"><td class="tp-ca"></td><td class="tp-ct">15:20–16:40</td>
-    <td class="tp-ch"><span class="tp-t">Special Session 1</span><span class="tp-s">80 min · TBA</span></td>
-    <td class="tp-ch"><span class="tp-t">Special Session 2</span><span class="tp-s">80 min · TBA</span></td>
+  <tr class="rs"><td class="tp-ca"></td><td class="tp-ct">15:20–16:50</td>
+    <td class="tp-ch">
+      <span class="tp-t">SS 154 – Edge AI for Smart Agriculture</span>
+      <span class="tp-s">Organizer: Theocharis Theocharides · 4 papers · 90 min</span>
+      <ul class="tp-pp">
+        <li><b>161</b> Embedded Systems for Precision Agriculture Monitoring: An Electronics Designer's Perspective
+          <span class="tp-auth">Peppi · Torrisi · Gullino · Manfrini · Petti · De Marchi</span></li>
+        <li><b>172</b> Neuromorphic Vision Technologies in Smart Agriculture: Challenges and Opportunities
+          <span class="tp-auth">Peres · Bertozzi</span></li>
+        <li><b>173</b> Edge AI for Smart and Precision Agriculture: An Overview of Robotic Vision for Field Perception and Decision Support
+          <span class="tp-auth">Theocharides · Savva · Phakoukaki</span></li>
+        <li><b>174</b> Pollin8: Species-Level Pollinator and Pest Counting on a Milliwatt System-on-Chip
+          <span class="tp-auth">Constantinescu · Wiese · Consani · Kartsch · Benini · Atienza</span></li>
+      </ul>
+    </td>
+    <td class="tp-ch">
+      <span class="tp-t">SS 85 – Emerging &amp; Reliable Computing for Scalable Intelligence</span>
+      <span class="tp-s">Organizer: Juergen Becker · 2 invited talks + 2 papers · 90 min</span>
+      <ul class="tp-pp">
+        <li class="tp-inv"><b>–</b> Emerging Technologies &amp; The Chiplet Revolution <em>(invited)</em>
+          <span class="tp-auth">Guohao Dai</span></li>
+        <li><b>177</b> Evaluating Block Arithmetic Formats for Efficient AI Inference Hardware
+          <span class="tp-auth">Christopoulos · Genssler · Amrouch · Sauer</span></li>
+        <li><b>178</b> Efficient Neural Network Inference on CPU-Centered Edge Device
+          <span class="tp-auth">Grace Li Zhang</span></li>
+        <li class="tp-inv"><b>–</b> SoC – Service on a Chip <em>(invited talk)</em>
+          <span class="tp-auth">Markus Abel</span></li>
+      </ul>
+    </td>
   </tr>
   <tr class="rrec"><td class="tp-ca"></td><td class="tp-ct">17:30–19:00</td>
     <td>
       <span class="tp-t">Welcome Reception</span>
-      <span class="tp-s">Welcome Cocktail is the first social gathering between all conference delegates and it will take place at the Venue Hotel. It will be a relaxing evening during which delegates will have the opportunity to talk to colleagues and peers, while enjoying local drinks and ample canapés, with a view of the calming waters of the Mediterranean Sea.</span>
+      <span class="tp-s">Welcome Cocktail is the first social gathering between all conference delegates and it will take place at the St. Raphael Resort. It will be a relaxing evening during which delegates will have the opportunity to talk to colleagues and peers, while enjoying local drinks and ample canapés, with a view of the calming waters of the Mediterranean Sea.</span>
     </td>
   </tr>
 </table>
 
 <!-- TUESDAY -->
-<span class="tp-day">Tuesday, 13 October 2026 – Conference Day 2 · Social Event from 17:00</span>
+<span class="tp-day">Tuesday, 13 October 2026 – Conference Day 2</span>
 <table class="tp-sched">
   <tr class="rk"><td class="tp-ca"></td><td class="tp-ct">09:00–10:00</td><td>
     <span class="tp-t">Academic Keynote 2 – Envisioning SoC Design with an Army of Agentic Minions</span>
@@ -212,20 +266,46 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
     <span class="tp-t">Panel – AI as the Chip Designer: Evolution or Illusion?</span>
     <span class="tp-s">Plenary · 45 min · Frank K. Gurkaynak (ETH Zürich) · Sandro Belfanti (Chipmind)</span>
   </td></tr>
-  <tr class="rs"><td class="tp-ca"></td><td class="tp-ct">14:15–15:35</td>
-    <td class="tp-ch"><span class="tp-t">Special Session 3</span><span class="tp-s">80 min · TBA</span></td>
-    <td class="tp-ch"><span class="tp-t">Special Session 4</span><span class="tp-s">80 min · TBA</span></td>
-  </tr>
-  <tr class="rpd"><td class="tp-ca"></td><td class="tp-ct">15:35–15:55</td><td>
-    <span class="tp-t">Coffee Break + Poster Display</span>
-    <span class="tp-s">20 min · All 10 posters displayed simultaneously · Conference day ends 15:55</span>
-  </td></tr>
-  <tr class="rrec"><td class="tp-ca"></td><td class="tp-ct">16:15–19:00</td>
-    <td>
-      <span class="tp-t">Tour and Conference Dinner</span>
-      <span class="tp-s">We will depart from the venue hotel in air-conditioned busses with licensed tour guides for a walking tour (weather permitting) across all the historical sites and landmarks within the center of Limassol. We will then head to the conference dinner venue at a local tavern, where participants will enjoy an array of authentic Cypriot dishes complimented with local drinks, desserts and traditional entertainment.</span>
+  <tr class="rs"><td class="tp-ca"></td><td class="tp-ct">14:15–15:45</td>
+    <td class="tp-ch">
+      <span class="tp-t">SS 150a – Sustainable Intelligence at the Edge (Part 1)</span>
+      <span class="tp-s">Organizers: Cathal Hoare · Tiziana Margaria · 3 papers · 90 min</span>
+      <ul class="tp-pp">
+        <li><b>158</b> TinySimpleNet: A SimpleNet for Unsupervised Industrial Anomaly Detection on Edge Devices
+          <span class="tp-auth">Capogrosso · Fraccaroli · Magno · Fummi</span></li>
+        <li><b>159</b> On the Deployment of Egocentric Pose Estimation Algorithms at the Edge
+          <span class="tp-auth">Pompanin · Martini · Fummi · Bombieri</span></li>
+        <li><b>160</b> Sustainable SoftPLCs at the Edge: An Open-Source Path to Right-Sizing and Retrofitting Industrial Automation
+          <span class="tp-auth">Noto · Dall'Ora</span></li>
+      </ul>
+    </td>
+    <td class="tp-ch">
+      <span class="tp-t">SS 155 – DfT, Reliability &amp; Functional Safety for Edge AI SoCs</span>
+      <span class="tp-s">Organizers: Maksim Jenihhin · Matteo Sonza Reorda · 1 invited talk + 3 papers · 90 min</span>
+      <ul class="tp-pp">
+        <li class="tp-inv"><b>–</b> Towards Dependable Edge AI: Reliability Assessment and Hardening Across the Compute Stack <em>(invited)</em>
+          <span class="tp-auth">Matteo Sonza Reorda</span></li>
+        <li><b>162</b> DfT-Assisted Testing of Resistive Short Defects in SRAM-Based In-Memory Computing Architectures
+          <span class="tp-auth">Lampridis · Tsiatouhas · Michael · Theocharides</span></li>
+        <li><b>166</b> NURSE: Syndrome-Guided Runtime Correction of Pipeline Interconnect Faults in RISC-V Processors
+          <span class="tp-auth">Santhosh · Jutman · Kaja · Ecker · Jenihhin</span></li>
+        <li><b>168</b> Towards ISO 26262-compliant Vector Processors: Combining STLs and LBIST
+          <span class="tp-auth">Vilar de Farias · Kurada · Abed · Guerrero-Balaguera · Rodriguez Condia · Bagbaba · da Silva · Sonza Reorda</span></li>
+      </ul>
     </td>
   </tr>
+  <tr class="rpd"><td class="tp-ca"></td><td class="tp-ct">15:45–16:05</td><td>
+    <span class="tp-t">Coffee Break + Poster Display</span>
+    <span class="tp-s">20 min · All 10 posters displayed simultaneously</span>
+  </td></tr>
+  <tr class="rsoc"><td class="tp-ca"></td><td class="tp-ct">17:00–19:00</td><td>
+    <span class="tp-t">Conference Tour – Historical Limassol</span>
+    <span class="tp-s">Departure from St. Raphael Resort by air-conditioned buses with licensed tour guides · Walking tour (weather permitting) of the historical sites and landmarks in the centre of Limassol</span>
+  </td></tr>
+  <tr class="rsoc"><td class="tp-ca"></td><td class="tp-ct">19:30–23:00</td><td>
+    <span class="tp-t">Conference Dinner – Traditional Cypriot Evening</span>
+    <span class="tp-s">Local tavern · Authentic Cypriot dishes complemented with local drinks, desserts, and traditional entertainment</span>
+  </td></tr>
 </table>
 
 <!-- WEDNESDAY -->
@@ -244,10 +324,10 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
       <span class="tp-t">RS4 – Digital Design &amp; EDA II</span>
       <span class="tp-s">Tracks 3+4 · Timing, Async &amp; FPGA · 4 papers · 80 min</span>
       <ul class="tp-pp">
-        <li><b>81</b> A Robust Asymmetric Delay Cell for High-Performance 4-Phase Bundled-Data Circuits</li>
+        <li><b>79</b> Efficient Scalable Approximate Multipliers via Significance-Driven Partial Product Removal <span class="tp-bpc">BPC</span></li>
         <li><b>44</b> AutoSDC: Correct-by-Construction Timing Constraint Generation via Hybrid Neuro-Structural Training, Multivariate Quality Prediction, and Recursive Signoff-Driven Refinement</li>
         <li><b>129</b> Exploring the Impact of 2D Convolutional Layer Hyperparameters in FPGA Implementation</li>
-        <li><b>79</b> Efficient Scalable Approximate Multipliers via Significance-Driven Partial Product Removal</li>
+        <li><b>81</b> A Robust Asymmetric Delay Cell for High-Performance 4-Phase Bundled-Data Circuits</li>
       </ul>
     </td>
     <td class="tp-ch">
@@ -257,7 +337,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
         <li><b>40</b> Community-Based ILP for Application Mapping and Deadlock-Free Routing on Large NoCs</li>
         <li><b>15</b> White Rabbit–Enabled Deterministic Triggering for Bi-Static ISAC in 6G</li>
         <li><b>91</b> Selective frame processing for accelerating visual SLAM</li>
-        <li><b>54</b> Impact of Programming Pattern Strategy on ReRAM Relaxation and Retention Stability</li>
+        <li><b>54</b> Impact of Programming Pattern Strategy on ReRAM Relaxation and Retention Stability <span class="tp-bpc">BPC</span></li>
       </ul>
     </td>
   </tr>
@@ -266,14 +346,40 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
     <span class="tp-s">Odysseas Economides · HardwareX Engineering, Cyprus · Plenary · 40 min</span>
   </td></tr>
   <tr class="rb"><td class="tp-ca"></td><td class="tp-ct">12:20–13:20</td><td><span class="tp-t">Lunch Break</span><span class="tp-s">60 min</span></td></tr>
-  <tr class="rs"><td class="tp-ca"></td><td class="tp-ct">13:20–14:40</td>
-    <td class="tp-ch"><span class="tp-t">Special Session 5</span><span class="tp-s">80 min · TBA</span></td>
-    <td class="tp-ch"><span class="tp-t">Special Session 6</span><span class="tp-s">80 min · TBA</span></td>
+  <tr class="rs"><td class="tp-ca"></td><td class="tp-ct">13:20–14:50</td>
+    <td class="tp-ch">
+      <span class="tp-t">SS 150b – Sustainable Intelligence at the Edge (Part 2)</span>
+      <span class="tp-s">Organizers: Cathal Hoare · Tiziana Margaria · 4 papers · 90 min</span>
+      <ul class="tp-pp">
+        <li><b>163</b> LLM-Driven Optimization of Large Language Model Inference
+          <span class="tp-auth">Amir Aminifar</span></li>
+        <li><b>164</b> A Federated Cyber-Physical Edge Architecture for Smart Hospital Room Automation
+          <span class="tp-auth">Iervasi · Noe Marthe · Mohamed Ali · Abdulkadir Hassan · Demrozi</span></li>
+        <li><b>170</b> Toward a Unified Memristive Edge Platform for Sensing, Security, and Neuromorphic Computing
+          <span class="tp-auth">Heba Abunahla</span></li>
+        <li><b>171</b> Embedded Intelligence at the Edge: Recommender Systems, Efficient Simulation, and Operator-Centred Decision Support
+          <span class="tp-auth">Cathal Hoare · Tiziana Margaria</span></li>
+      </ul>
+    </td>
+    <td class="tp-ch">
+      <span class="tp-t">SS 16 – Design, Testing &amp; Reliability of Memristive-based Compute-in-Memory Architectures</span>
+      <span class="tp-s">Organizers: Surendra Hemaram · Anteneh Gebregiorgis · 1 invited talk + 3 papers · 90 min</span>
+      <ul class="tp-pp">
+        <li class="tp-inv"><b>–</b> Emerging Compute Paradigms – Opportunities and Challenges <em>(invited)</em>
+          <span class="tp-auth">Norbert Wehn</span></li>
+        <li><b>167</b> ECC-Assisted Fault Tolerance in Memristive Crossbar-based CIM Architectures: An Overview
+          <span class="tp-auth">Hemaram · Hamdioui · Gebregiorgis</span></li>
+        <li><b>169</b> Variability Aware Neuro-Memristive Networks: Hardware Software Co-design Approaches
+          <span class="tp-auth">Kabeer · Dinesh · James</span></li>
+        <li><b>175</b> Testing RRAM-Based Brain-Inspired Architectures after Manufacturing: Challenges and Solutions
+          <span class="tp-auth">Bolzani Poehls · Chinazzo</span></li>
+      </ul>
+    </td>
   </tr>
-  <tr class="rb"><td class="tp-ca"></td><td class="tp-ct">14:40–15:00</td><td><span class="tp-t">Coffee Break</span><span class="tp-s">20 min</span></td></tr>
-  <tr class="rc"><td class="tp-ca"></td><td class="tp-ct">15:00–16:00</td><td>
+  <tr class="rb"><td class="tp-ca"></td><td class="tp-ct">14:50–15:10</td><td><span class="tp-t">Coffee Break</span><span class="tp-s">20 min</span></td></tr>
+  <tr class="rc"><td class="tp-ca"></td><td class="tp-ct">15:10–16:10</td><td>
     <span class="tp-t">Closing Ceremony &amp; Awards</span>
-    <span class="tp-s">Conference ends 16:00</span>
+    <span class="tp-s">Conference ends 16:10</span>
   </td></tr>
 </table>
 
