@@ -380,27 +380,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
   </td></tr>
 </table>
 
-</div>
-   </div>
-
-   <div class="justify-content-center txtcenter" id="program-pdfs">
-      <h2 class="ops-tt txtcenter mts-10">Program Information</h2>
-      <p class="ops-t txtcenter">Below you can view or download the Program Flyer and Detailed Program files.</p>
-      <br />
-
-      <div class="row">
-         <div class="col-md-6">
-            <h5>Program Flyer</h5>
-            <embed src="{{ '/docs/place-holder.pdf' | relative_url }}" type="application/pdf" width="100%" height="800px">
-         </div>
-         <div class="col-md-6">
-            <h5>Detailed Program</h5>
-            <embed src="{{ '/docs/place-holder.pdf' | relative_url }}" type="application/pdf" width="100%" height="800px">
-         </div>
-      </div>
-   </div>
-
-   <div class="justify-content-center txtcenter" id="soc">
+<div class="justify-content-center txtcenter" id="soc">
       <h2 class="ops-tt txtcenter mts-10">SOCIAL PROGRAM</h2>
       <br />
       <p class="ops-t txtcenter same-line"> Info will be posted. (TBA)</p>
