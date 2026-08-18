@@ -383,7 +383,40 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
 <div class="justify-content-center txtcenter" id="soc">
       <h2 class="ops-tt txtcenter mts-10">SOCIAL PROGRAM</h2>
       <br />
-      <p class="ops-t txtcenter same-line"> Info will be posted. (TBA)</p>
-      <br /><br />
+      <p class="ops-t txtcenter same-line">Join us for two social gatherings during the conference — a great opportunity to connect with colleagues and peers outside of the technical sessions.</p>
+      <br />
+
+      <div class="row col-md-12" style="margin-bottom:40px; text-align:left">
+         <div class="col-md-12">
+            <h3 style="color:#1a2a4a; margin-bottom:20px"><b>Welcome Reception</b></h3>
+            <p class="ops-t" style="margin-bottom:10px"><b>Date:</b> Monday, 12 October &nbsp;·&nbsp; <b>Time:</b> 17:30–19:00 &nbsp;·&nbsp; <b>Location:</b> Venue hotel grounds <span style="font-size:0.9em; color:#666">(exact location may vary depending on weather)</span></p>
+            <div style="text-align:justify; margin-bottom:20px">
+               <p class="ops-t">The Welcome Reception is the first social gathering between all conference delegates and it will take place at the St. Raphael Resort. It will be a relaxing evening during which delegates will have the opportunity to talk to colleagues and peers, while enjoying local drinks and ample canapés, with a view of the calming waters of the Mediterranean Sea.</p>
+               <br />
+               <div style="display:grid; grid-template-columns:1fr 1fr; gap:15px; margin:25px 0">
+                  <img src="{{ '/img/event/cocktail-1.jpg' | relative_url }}" alt="Welcome Reception canapés" style="width:100%; height:300px; object-fit:cover; border-radius:5px;">
+                  <img src="{{ '/img/event/cocktail-2.jpeg' | relative_url }}" alt="Welcome Reception spread" style="width:100%; height:300px; object-fit:cover; border-radius:5px;">
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="row col-md-12" style="margin-bottom:40px; text-align:left">
+         <div class="col-md-12">
+            <h3 style="color:#1a2a4a; margin-bottom:20px"><b>Tour and Conference Dinner</b></h3>
+            <p class="ops-t" style="margin-bottom:10px"><b>Date:</b> Tuesday, 13 October &nbsp;·&nbsp; <b>Departure:</b> 17:15 from the Hotel Lobby <span style="font-size:0.9em; color:#666">(please meet at the Lobby at 17:00)</span></p>
+            <div style="text-align:justify; margin-bottom:20px">
+               <p class="ops-t">We will depart from St. Raphael Resort by air-conditioned buses with licensed tour guides for a walking tour (weather permitting) of the historical sites and landmarks in the centre of Limassol. We will then head to a local tavern for an authentic Cypriot meze dinner accompanied by local drinks and desserts and live traditional entertainment. Upon return, the buses will be stopping at all conference hotels.</p>
+               <br />
+               <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:15px; margin:25px 0">
+                  <img src="{{ '/img/event/cyprus-meze.jpg' | relative_url }}" alt="Cypriot meze dinner" style="width:100%; height:300px; object-fit:cover; border-radius:5px;">
+                  <img src="{{ '/img/event/cyprus-entertainment.jpg' | relative_url }}" alt="Traditional Cypriot entertainment" style="width:100%; height:300px; object-fit:cover; border-radius:5px;">
+                  <img src="{{ '/img/event/cyprus-night.jpeg' | relative_url }}" alt="Conference dinner evening" style="width:100%; height:300px; object-fit:cover; border-radius:5px;">
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <br />
    </div>
 </div>
