@@ -323,7 +323,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
       <ul class="tp-pp">
         <li><b>79</b> Efficient Scalable Approximate Multipliers via Significance-Driven Partial Product Removal <span class="tp-bpc">BPC</span></li>
         <li><b>44</b> AutoSDC: Correct-by-Construction Timing Constraint Generation via Hybrid Neuro-Structural Training, Multivariate Quality Prediction, and Recursive Signoff-Driven Refinement</li>
-        <li><b>129</b> Exploring the Impact of 2D Convolutional Layer Hyperparameters in FPGA Implementation</li>
+        <!-- <li><b>129</b> Exploring the Impact of 2D Convolutional Layer Hyperparameters in FPGA Implementation</li> -->
         <li><b>81</b> A Robust Asymmetric Delay Cell for High-Performance 4-Phase Bundled-Data Circuits</li>
       </ul>
     </td>
