@@ -86,23 +86,23 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
 <table class="tp-sched">
   <tr class="ra"><td class="tp-ca"></td><td class="tp-ct">08:00–09:00</td><td><span class="tp-t">Registration</span></td></tr>
   <tr class="rk"><td class="tp-ca"></td><td class="tp-ct">09:00–10:20</td>
-    <td class="tp-ch"><span class="tp-t">Tutorial 1</span><span class="tp-s">80 min · TBA</span></td>
-    <td class="tp-ch"><span class="tp-t">Tutorial 2</span><span class="tp-s">80 min · TBA</span></td>
+    <td class="tp-ch"><span class="tp-t">Tutorial 1</span><span class="tp-s">80 min · Christos Sotiriou</span></td>
+    <td class="tp-ch"><span class="tp-t">Tutorial 2</span><span class="tp-s">80 min · Cédric Marchand</span></td>
   </tr>
   <tr class="rb"><td class="tp-ca"></td><td class="tp-ct">10:20–10:40</td><td><span class="tp-t">Coffee Break</span><span class="tp-s">20 min</span></td></tr>
   <tr class="rk"><td class="tp-ca"></td><td class="tp-ct">10:40–12:00</td>
-    <td class="tp-ch"><span class="tp-t">Tutorial 1 (cont.)</span><span class="tp-s">80 min · TBA</span></td>
-    <td class="tp-ch"><span class="tp-t">Tutorial 2 (cont.)</span><span class="tp-s">80 min · TBA</span></td>
+    <td class="tp-ch"><span class="tp-t">Tutorial 1 (cont.)</span><span class="tp-s">80 min · Christos Sotiriou</span></td>
+    <td class="tp-ch"><span class="tp-t">Tutorial 2 (cont.)</span><span class="tp-s">80 min · Cédric Marchand</span></td>
   </tr>
   <tr class="rb"><td class="tp-ca"></td><td class="tp-ct">12:00–13:00</td><td><span class="tp-t">Lunch Break</span><span class="tp-s">60 min</span></td></tr>
   <tr class="rk"><td class="tp-ca"></td><td class="tp-ct">13:00–14:20</td>
-    <td class="tp-ch"><span class="tp-t">Tutorial 3</span><span class="tp-s">80 min · TBA</span></td>
-    <td class="tp-ch"><span class="tp-t">Tutorial 4</span><span class="tp-s">80 min · TBA</span></td>
+    <td class="tp-ch"><span class="tp-t">Tutorial 3</span><span class="tp-s">80 min · Ricardo Reis</span></td>
+    <td class="tp-ch"><span class="tp-t">Tutorial 4</span><span class="tp-s">80 min · Maksim Jenihhin</span></td>
   </tr>
   <tr class="rb"><td class="tp-ca"></td><td class="tp-ct">14:20–14:40</td><td><span class="tp-t">Coffee Break</span><span class="tp-s">20 min</span></td></tr>
   <tr class="rk"><td class="tp-ca"></td><td class="tp-ct">14:40–16:00</td>
-    <td class="tp-ch"><span class="tp-t">Tutorial 3 (cont.)</span><span class="tp-s">80 min · TBA</span></td>
-    <td class="tp-ch"><span class="tp-t">Tutorial 4 (cont.)</span><span class="tp-s">80 min · TBA</span></td>
+    <td class="tp-ch"><span class="tp-t">Tutorial 3 (cont.)</span><span class="tp-s">80 min · Ricardo Reis</span></td>
+    <td class="tp-ch"><span class="tp-t">Tutorial 4 (cont.)</span><span class="tp-s">80 min · Maksim Jenihhin</span></td>
   </tr>
   <tr class="rp"><td class="tp-ca"></td><td class="tp-ct">16:30–</td><td>
     <span class="tp-t">IFIP WG10.5 Working Group Meeting</span>
