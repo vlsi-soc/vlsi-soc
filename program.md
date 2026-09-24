@@ -161,9 +161,9 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
           <span class="tp-auth">Shaown Mojumder, Calvin-Leon Bauer, Simon Friedrich, Martin Friedrich, Emil Matúš and Gerhard Fettweis</span><span class="tp-spk">Speaker: Shaown Mojumder · TU Dresden</span><span class="tp-fmt">16 min talk + 4 min Q&amp;A</span></li>
         <hr class="tp-pdiv"><span class="tp-plbl">Poster presentations</span>
         <li class="tp-po" data-id="53" data-poster="1"><span class="tp-ttag">T1</span><b>53</b> S4oP: Operator-level Pruning of Structured State Space Models for Resource-Constrained Devices
-          <span class="tp-auth">Marco Deano, Filippo Ziche and Nicola Bombieri</span><span class="tp-spk">Speaker: Marco Deano · University of Verona</span><span class="tp-fmt">5 min poster presentation</span></li>
+          <span class="tp-auth">Marco Deano, Filippo Ziche and Nicola Bombieri</span><span class="tp-spk">Speaker: Marco Deano · University of Verona</span><span class="tp-fmt">5 min presentation</span></li>
         <li class="tp-po" data-id="34" data-poster="1"><span class="tp-ttag">T2</span><b>34</b> Physically-Aware Preemptive Virtual Channels for Deadlock-Free AXI Networks-on-Chip
-          <span class="tp-auth">Lorenzo Leone, Luca Colagrande and Luca Benini</span><span class="tp-spk">Speaker: Lorenzo Leone · ETH Zurich</span><span class="tp-fmt">5 min poster presentation</span></li>
+          <span class="tp-auth">Lorenzo Leone, Luca Colagrande and Luca Benini</span><span class="tp-spk">Speaker: Lorenzo Leone · ETH Zurich</span><span class="tp-fmt">5 min presentation</span></li>
       </ul>
     </td>
     <td class="tp-ch">
@@ -182,7 +182,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
           <span class="tp-auth">Hichem Benamara, Maha Kooli, Lorenzo Ciampolini, Thaddée Bricout, Pascal Vivet and Ian O'Connor</span><span class="tp-spk">Speaker: Hichem Benamara · CEA</span><span class="tp-fmt">16 min talk + 4 min Q&amp;A</span></li>
         <hr class="tp-pdiv"><span class="tp-plbl">Poster presentation</span>
         <li class="tp-po" data-id="31" data-poster="1"><span class="tp-ttag">T11</span><b>31</b> AI-based Automated HDL Validation Using Abstract Syntax Tree and Signal Trace Analysis
-          <span class="tp-auth">Shubrojyoti Karmakar, Shayon Mitra, Rijoy Mukherjee and Rajat Subhra Chakraborty</span><span class="tp-spk">Speaker: Shubrojyoti Karmakar · IIT Kharagpur</span><span class="tp-fmt">5 min poster presentation</span></li>
+          <span class="tp-auth">Shubrojyoti Karmakar, Shayon Mitra, Rijoy Mukherjee and Rajat Subhra Chakraborty</span><span class="tp-spk">Speaker: Shubrojyoti Karmakar · IIT Kharagpur</span><span class="tp-fmt">5 min presentation</span></li>
       </ul>
     </td>
   </tr>
@@ -208,9 +208,9 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
           <span class="tp-auth">Bruno Morais and Gunar Schirner</span><span class="tp-spk">Speaker: Gunar Schirner · Northeastern University</span><span class="tp-fmt">16 min talk + 4 min Q&amp;A</span></li>
         <hr class="tp-pdiv"><span class="tp-plbl">Poster presentations</span>
         <li class="tp-po" data-id="116" data-poster="1"><span class="tp-ttag">T4</span><b>116</b> A Self-Recoverable Nonvolatile Magnetic Latch with High-Speed SEU-Tolerant Backup Module
-          <span class="tp-auth">Shengyuan Yan, Kaili Zhang, Wentao Huang, Lang Zeng, Bi Wang, Yue Zhang, Yuanqi Hu, Weisheng Zhao and Deming Zhang</span><span class="tp-spk">Speaker: Shengyuan Yan · Beihang University</span><span class="tp-fmt">5 min poster presentation</span></li>
+          <span class="tp-auth">Shengyuan Yan, Kaili Zhang, Wentao Huang, Lang Zeng, Bi Wang, Yue Zhang, Yuanqi Hu, Weisheng Zhao and Deming Zhang</span><span class="tp-spk">Speaker: Shengyuan Yan · Beihang University</span><span class="tp-fmt">5 min presentation</span></li>
         <li class="tp-po" data-id="72" data-poster="1"><span class="tp-ttag">T4</span><b>72</b> A Scalable End-to-End Framework for Multi-Objective Design Space Exploration: Application to AI Accelerators
-          <span class="tp-auth">Lilia Zaourar, Benoit Tain, Dahibou Fall Sow, Raphael Millet and Mohamed Benazouz</span><span class="tp-spk">Speaker: Benoit Tain · CEA</span><span class="tp-fmt">5 min poster presentation</span></li>
+          <span class="tp-auth">Lilia Zaourar, Benoit Tain, Dahibou Fall Sow, Raphael Millet and Mohamed Benazouz</span><span class="tp-spk">Speaker: Benoit Tain · CEA</span><span class="tp-fmt">5 min presentation</span></li>
       </ul>
     </td>
     <td class="tp-ch">
@@ -227,9 +227,9 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
           <span class="tp-auth">Gaël Ousset, Sylvain Engels, Estelle Lauga-Laroze, Xavier Lesage and Laurent Fesquet</span><span class="tp-spk">Speaker: Gaël Ousset · STMicroelectronics / TIMA</span><span class="tp-fmt">16 min talk + 4 min Q&amp;A</span></li>
         <hr class="tp-pdiv"><span class="tp-plbl">Poster presentations</span>
         <li class="tp-po" data-id="38" data-poster="1"><span class="tp-ttag">T5</span><b>38</b> R5-Link: Enhancing RISC-V Multi-Core Efficiency with Hardware Message Passing Channels in a 2D Mesh Network
-          <span class="tp-auth">Yosef Ida, Nachman Abargil, Alex Grinshpun, Sarit Shvimer and Freddy Gabbay</span><span class="tp-spk">Speaker: TBC</span><span class="tp-fmt">5 min poster presentation</span></li>
+          <span class="tp-auth">Yosef Ida, Nachman Abargil, Alex Grinshpun, Sarit Shvimer and Freddy Gabbay</span><span class="tp-spk">Speaker: TBC</span><span class="tp-fmt">5 min presentation</span></li>
         <li class="tp-po" data-id="118" data-poster="1"><span class="tp-ttag">T6</span><b>118</b> Surrogate-assisted DTCO for 1T1C FeMFET Bitcells: A Comparative Study on Model Choice and Data Sampling
-          <span class="tp-auth">Rosario Pronsato, Antoine Cauquil, Miqueas Filsinger, Damien Deleruyelle and Ian O'Connor</span><span class="tp-spk">Speaker: Rosario Pronsato · INL – École Centrale de Lyon</span><span class="tp-fmt">5 min poster presentation</span></li>
+          <span class="tp-auth">Rosario Pronsato, Antoine Cauquil, Miqueas Filsinger, Damien Deleruyelle and Ian O'Connor</span><span class="tp-spk">Speaker: Rosario Pronsato · INL – École Centrale de Lyon</span><span class="tp-fmt">5 min presentation</span></li>
       </ul>
     </td>
   </tr>
@@ -303,9 +303,9 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
           <span class="tp-auth">Rostislav Husa, Vojtech Mrazek and Lukas Sekanina</span><span class="tp-spk">Speaker: Rostislav Husa · Brno University of Technology</span><span class="tp-fmt">16 min talk + 4 min Q&amp;A</span></li>
         <hr class="tp-pdiv"><span class="tp-plbl">Poster presentations</span>
         <li class="tp-po" data-id="66" data-poster="1"><span class="tp-ttag">T3</span><b>66</b> Reducing the Footprint of Approximate Ternary Neural Networks via Per-Neuron Input Permutations
-          <span class="tp-auth">Zdenek Vasicek, Vojtech Mrazek and Georgios Zervakis</span><span class="tp-spk">Speaker: Zdenek Vasicek · Brno University of Technology</span><span class="tp-fmt">5 min poster presentation</span></li>
+          <span class="tp-auth">Zdenek Vasicek, Vojtech Mrazek and Georgios Zervakis</span><span class="tp-spk">Speaker: Zdenek Vasicek · Brno University of Technology</span><span class="tp-fmt">5 min presentation</span></li>
         <li class="tp-po" data-id="131" data-poster="1"><span class="tp-ttag">T5</span><b>131</b> Deployment of a Safety-Critical, Distilled YOLOV8m Vision System on a Dual-Core, 1MB, BLE-Connected Programmable Logic Controller
-          <span class="tp-auth">Rayan Malik, Mohammed Alnaqbi, Mohamed Zakkaria, Nasser Alhemeiri, Esrat Khan and Ibrahim Elfadel</span><span class="tp-spk">Speaker: Rayan Malik · Khalifa University</span><span class="tp-fmt">5 min poster presentation</span></li>
+          <span class="tp-auth">Rayan Malik, Mohammed Alnaqbi, Mohamed Zakkaria, Nasser Alhemeiri, Esrat Khan and Ibrahim Elfadel</span><span class="tp-spk">Speaker: Rayan Malik · Khalifa University</span><span class="tp-fmt">5 min presentation</span></li>
       </ul>
     </td>
     <td class="tp-ch">
@@ -324,7 +324,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
           <span class="tp-auth">Kristoffer Westring, William Marnfeldt, Alex Allfjord, Per Andersson, Joachim Rodrigues and Victor Åberg</span><span class="tp-spk">Speaker: Kristoffer Westring · Lund University</span><span class="tp-fmt">16 min talk + 4 min Q&amp;A</span></li>
         <hr class="tp-pdiv"><span class="tp-plbl">Poster presentation</span>
         <li class="tp-po" data-id="111" data-poster="1"><span class="tp-ttag">T8</span><b>111</b> Side-channel aware design of FeFET based memory for cryptographic SBox implementation
-          <span class="tp-auth">Cédric Marchand, Miqueas Filsinger, Ian O'Connor, Stefan Slesazeck and Thomas Mikolajick</span><span class="tp-spk">Speaker: Cédric Marchand · École Centrale de Lyon</span><span class="tp-fmt">5 min poster presentation</span></li>
+          <span class="tp-auth">Cédric Marchand, Miqueas Filsinger, Ian O'Connor, Stefan Slesazeck and Thomas Mikolajick</span><span class="tp-spk">Speaker: Cédric Marchand · École Centrale de Lyon</span><span class="tp-fmt">5 min presentation</span></li>
       </ul>
     </td>
   </tr>
