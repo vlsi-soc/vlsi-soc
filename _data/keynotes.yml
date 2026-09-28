@@ -92,6 +92,9 @@ tutorials:
 panel_sessions:
   - title: "AI as the Chip Designer: Evolution or Illusion?"
     abstract: "Artificial intelligence is entering System-on-Chip design at every level, from automating repetitive engineering tasks to supporting architectural exploration, optimization, and verification. This panel will discuss whether AI can deliver meaningful productivity gains and open new design possibilities, or whether it also risks weakening engineering expertise, trust, and accountability. Bringing together perspectives from academia, startups, and industry, the discussion will ask whether AI marks a true paradigm shift in SoC engineering or remains a powerful tool whose impact depends on human oversight, responsibility, and judgment."
+    moderator:
+      name: "Prof. Valeria Bertacco, University of Michigan"
+      photo: "speaker-bertacco.png"
     panelists:
       - name: "Prof. Christos Sotiriou, University of Thessaly"
         photo: "speaker-sotiriou.jpg"

@@ -81,6 +81,17 @@
       <p>{{ panel.title }}</p>
       <h4>Abstract</h4>
       <p>{{ panel.abstract }}</p>
+      {% if panel.moderator %}
+      <h4>Moderator</h4>
+      <div class="panelists-list">
+         <div class="panelist-item">
+            {% if panel.moderator.photo %}
+            <img src="{{ '/img/' | append: panel.moderator.photo | relative_url }}" alt="{{ panel.moderator.name }}" class="panelist-image">
+            {% endif %}
+            <span class="panelist-name">{{ panel.moderator.name }}</span>
+         </div>
+      </div>
+      {% endif %}
       {% if panel.panelists and panel.panelists.size > 0 %}
       <h4>Panelists</h4>
       <div class="panelists-list">
