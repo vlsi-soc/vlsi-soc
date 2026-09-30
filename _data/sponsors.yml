@@ -24,6 +24,11 @@ sponsors:
     url: "https://www.i-form.ie/"
     logo: "i-form-logo.png"
 
+  - name: "Qualcomm"
+    full_name: "Qualcomm"
+    url: "https://www.qualcomm.com/"
+    logo: "qualcomm-logo.png"
+
 # Partner institutions
 partners:
   - name: "University of Limerick"
