@@ -303,7 +303,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
           <span class="tp-auth">Rostislav Husa, Vojtech Mrazek and Lukas Sekanina</span><span class="tp-spk">Speaker: Rostislav Husa · Brno University of Technology</span><span class="tp-fmt">16 min talk + 4 min Q&amp;A</span></li>
         <hr class="tp-pdiv"><span class="tp-plbl">Poster presentations</span>
         <li class="tp-po" data-id="66" data-poster="1"><span class="tp-ttag">T3</span><b>66</b> Reducing the Footprint of Approximate Ternary Neural Networks via Per-Neuron Input Permutations
-          <span class="tp-auth">Zdenek Vasicek, Vojtech Mrazek and Georgios Zervakis</span><span class="tp-spk">Speaker: Zdenek Vasicek · Brno University of Technology</span><span class="tp-fmt">5 min presentation</span></li>
+          <span class="tp-auth">Zdenek Vasicek, Vojtech Mrazek and Georgios Zervakis</span><span class="tp-spk">Speaker: Ilias Sertaridis · Brno University of Technology</span><span class="tp-fmt">5 min presentation</span></li>
         <li class="tp-po" data-id="131" data-poster="1"><span class="tp-ttag">T5</span><b>131</b> Deployment of a Safety-Critical, Distilled YOLOV8m Vision System on a Dual-Core, 1MB, BLE-Connected Programmable Logic Controller
           <span class="tp-auth">Rayan Malik, Mohammed Alnaqbi, Mohamed Zakkaria, Nasser Alhemeiri, Esrat Khan and Ibrahim Elfadel</span><span class="tp-spk">Speaker: Rayan Malik · Khalifa University</span><span class="tp-fmt">5 min presentation</span></li>
       </ul>
