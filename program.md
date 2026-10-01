@@ -111,22 +111,22 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
   <tr class="ra"><td class="tp-ca"></td><td class="tp-ct">08:00–09:00</td><td><span class="tp-t">Registration</span></td></tr>
   <tr class="rk"><td class="tp-ca"></td><td class="tp-ct">09:00–10:20</td>
     <td class="tp-ch"><span class="tp-t">Tutorial 1</span><span class="tp-s"><span class="tp-room">Atrium A</span>80 min · Christos Sotiriou</span></td>
-    <td class="tp-ch"><span class="tp-t">Tutorial 2</span><span class="tp-s"><span class="tp-room">Atrium B</span>80 min · Cédric Marchand</span></td>
+    <td class="tp-ch"><span class="tp-t">Tutorial 2</span><span class="tp-s"><span class="tp-room">Atrium C</span>80 min · Cédric Marchand</span></td>
   </tr>
   <tr class="rb"><td class="tp-ca"></td><td class="tp-ct">10:20–10:40</td><td><span class="tp-t">Coffee Break</span><span class="tp-s">20 min</span></td></tr>
   <tr class="rk"><td class="tp-ca"></td><td class="tp-ct">10:40–12:00</td>
     <td class="tp-ch"><span class="tp-t">Tutorial 1 (cont.)</span><span class="tp-s"><span class="tp-room">Atrium A</span>80 min · Christos Sotiriou</span></td>
-    <td class="tp-ch"><span class="tp-t">Tutorial 2 (cont.)</span><span class="tp-s"><span class="tp-room">Atrium B</span>80 min · Cédric Marchand</span></td>
+    <td class="tp-ch"><span class="tp-t">Tutorial 2 (cont.)</span><span class="tp-s"><span class="tp-room">Atrium C</span>80 min · Cédric Marchand</span></td>
   </tr>
   <tr class="rb"><td class="tp-ca"></td><td class="tp-ct">12:00–13:00</td><td><span class="tp-t">Lunch Break</span><span class="tp-s">60 min</span></td></tr>
   <tr class="rk"><td class="tp-ca"></td><td class="tp-ct">13:00–14:20</td>
     <td class="tp-ch"><span class="tp-t">Tutorial 3</span><span class="tp-s"><span class="tp-room">Atrium A</span>80 min · Ricardo Reis</span></td>
-    <td class="tp-ch"><span class="tp-t">Tutorial 4</span><span class="tp-s"><span class="tp-room">Atrium B</span>80 min · Maksim Jenihhin</span></td>
+    <td class="tp-ch"><span class="tp-t">Tutorial 4</span><span class="tp-s"><span class="tp-room">Atrium C</span>80 min · Maksim Jenihhin</span></td>
   </tr>
   <tr class="rb"><td class="tp-ca"></td><td class="tp-ct">14:20–14:40</td><td><span class="tp-t">Coffee Break</span><span class="tp-s">20 min</span></td></tr>
   <tr class="rk"><td class="tp-ca"></td><td class="tp-ct">14:40–16:00</td>
     <td class="tp-ch"><span class="tp-t">Tutorial 3 (cont.)</span><span class="tp-s"><span class="tp-room">Atrium A</span>80 min · Ricardo Reis</span></td>
-    <td class="tp-ch"><span class="tp-t">Tutorial 4 (cont.)</span><span class="tp-s"><span class="tp-room">Atrium B</span>80 min · Maksim Jenihhin</span></td>
+    <td class="tp-ch"><span class="tp-t">Tutorial 4 (cont.)</span><span class="tp-s"><span class="tp-room">Atrium C</span>80 min · Maksim Jenihhin</span></td>
   </tr>
   <tr class="rp"><td class="tp-ca"></td><td class="tp-ct">16:30–</td><td>
     <span class="tp-t">IFIP WG10.5 Working Group Meeting</span>
@@ -138,16 +138,16 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
 <span class="tp-day">Monday, 12 October 2026 – Conference Day 1</span>
 <table class="tp-sched">
   <tr class="ra"><td class="tp-ca"></td><td class="tp-ct">08:00–08:30</td><td><span class="tp-t">Registration</span></td></tr>
-  <tr class="ra"><td class="tp-ca"></td><td class="tp-ct">08:30–09:00</td><td><span class="tp-t">Welcome Ceremony</span><span class="tp-s">Plenary · Megaron AB</span></td></tr>
+  <tr class="ra"><td class="tp-ca"></td><td class="tp-ct">08:30–09:00</td><td><span class="tp-t">Welcome Ceremony</span><span class="tp-s">Plenary · Panorama</span></td></tr>
   <tr class="rk"><td class="tp-ca"></td><td class="tp-ct">09:00–10:00</td><td>
     <span class="tp-t">Academic Keynote 1 – Sustainable and Secure Computing: the Last Frontier</span>
-    <span class="tp-s">Prof. Giovanni De Micheli · EPFL, Switzerland · Plenary · Megaron AB · 60 min</span>
+    <span class="tp-s">Prof. Giovanni De Micheli · EPFL, Switzerland · Plenary · Panorama · 60 min</span>
   </td></tr>
   <tr class="rb"><td class="tp-ca"></td><td class="tp-ct">10:00–10:20</td><td><span class="tp-t">Coffee Break + PhD &amp; Student Forum</span><span class="tp-s">20 min</span></td></tr>
   <tr class="rr"><td class="tp-ca"></td><td class="tp-ct">10:20–11:50</td>
     <td class="tp-ch">
       <span class="tp-t">RS1 – AI/ML Hardware Architectures I</span>
-      <span class="tp-s"><span class="tp-room">Megaron AB</span>
+      <span class="tp-s"><span class="tp-room">Panorama</span>
       <span class="tp-mode">Papers: 16 min talk + 4 min Q&amp;A · Posters: 5 min presentation</span>
       <span class="tp-chair" data-chair="Fernanda Kastensmidt">Session Chair: Fernanda Kastensmidt · UFRGS, Brazil <em>(to be confirmed)</em></span>Track 1 · 4 papers + 2 poster presentations · 90 min</span>
       <ul class="tp-pp">
@@ -188,13 +188,13 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
   </tr>
   <tr class="rik"><td class="tp-ca"></td><td class="tp-ct">11:50–12:30</td><td>
     <span class="tp-t">Industrial Keynote 1 – What is the IP Reuse Trap for Digital Hardware, and How Can It Be Escaped?</span>
-    <span class="tp-s">Prof. Wolfgang Ecker · Infineon / TU Munich, Germany · Plenary · Megaron AB · 40 min</span>
+    <span class="tp-s">Prof. Wolfgang Ecker · Infineon / TU Munich, Germany · Plenary · Panorama · 40 min</span>
   </td></tr>
   <tr class="rb"><td class="tp-ca"></td><td class="tp-ct">12:30–13:30</td><td><span class="tp-t">Lunch Break</span><span class="tp-s">60 min</span></td></tr>
   <tr class="rr"><td class="tp-ca"></td><td class="tp-ct">13:30–15:00</td>
     <td class="tp-ch">
       <span class="tp-t">RS3 – Digital Design &amp; EDA I</span>
-      <span class="tp-s"><span class="tp-room">Megaron AB</span>
+      <span class="tp-s"><span class="tp-room">Panorama</span>
       <span class="tp-mode">Papers: 16 min talk + 4 min Q&amp;A · Posters: 5 min presentation</span>
       <span class="tp-chair" data-chair="Henk Corporaal">Session Chair: Henk Corporaal · Eindhoven University of Technology, Netherlands <em>(to be confirmed)</em></span>Track 4 · Synthesis &amp; Optimization · 4 papers + 2 poster presentations · 90 min</span>
       <ul class="tp-pp">
@@ -237,7 +237,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
   <tr class="rs"><td class="tp-ca"></td><td class="tp-ct">15:20–16:50</td>
     <td class="tp-ch">
       <span class="tp-t">SS 154 – Edge AI for Smart Agriculture</span>
-      <span class="tp-s"><span class="tp-room">Megaron AB</span>
+      <span class="tp-s"><span class="tp-room">Panorama</span>
       <span class="tp-mode">Papers: 16 min talk + 4 min Q&amp;A</span>
       <span class="tp-chair" data-chair="Theocharis Theocharides">Session Chair(s): Theocharis Theocharides (organizers)</span>Organizer: Theocharis Theocharides · 4 papers · 90 min</span>
       <ul class="tp-pp">
@@ -281,7 +281,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
 <table class="tp-sched">
   <tr class="rk"><td class="tp-ca"></td><td class="tp-ct">09:00–10:00</td><td>
     <span class="tp-t">Academic Keynote 2 – Envisioning SoC Design with an Army of Agentic Minions</span>
-    <span class="tp-s">Prof. Valeria Bertacco · University of Michigan, USA · Plenary · Megaron AB · 60 min</span>
+    <span class="tp-s">Prof. Valeria Bertacco · University of Michigan, USA · Plenary · Panorama · 60 min</span>
   </td></tr>
   <tr class="rb"><td class="tp-ca"></td><td class="tp-ct">10:00–10:20</td><td>
     <span class="tp-t">Coffee Break + Poster Display</span>
@@ -289,7 +289,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
   <tr class="rr"><td class="tp-ca"></td><td class="tp-ct">10:20–11:50</td>
     <td class="tp-ch">
       <span class="tp-t">RS2 – AI/ML Architectures &amp; Computing Paradigms</span>
-      <span class="tp-s"><span class="tp-room">Megaron AB</span>
+      <span class="tp-s"><span class="tp-room">Panorama</span>
       <span class="tp-mode">Papers: 16 min talk + 4 min Q&amp;A · Posters: 5 min presentation</span>
       <span class="tp-chair" data-chair="Yuanqing Cheng">Session Chair: Yuanqing Cheng · Beihang University, China <em>(to be confirmed)</em></span>Tracks 1+3 · 4 papers + 2 poster presentations · 90 min</span>
       <ul class="tp-pp">
@@ -330,17 +330,17 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
   </tr>
   <tr class="rik"><td class="tp-ca"></td><td class="tp-ct">11:50–12:30</td><td>
     <span class="tp-t">Industrial Keynote 2 – Low Power IC Design for a Sustainable World</span>
-    <span class="tp-s">Victor Grimblatt · Synopsys, Chile · Plenary · Megaron AB · 40 min</span>
+    <span class="tp-s">Victor Grimblatt · Synopsys, Chile · Plenary · Panorama · 40 min</span>
   </td></tr>
   <tr class="rb"><td class="tp-ca"></td><td class="tp-ct">12:30–13:30</td><td><span class="tp-t">Lunch Break</span><span class="tp-s">60 min</span></td></tr>
   <tr class="rp"><td class="tp-ca"></td><td class="tp-ct">13:30–14:15</td><td>
     <span class="tp-t">Panel – AI as the Chip Designer: Evolution or Illusion?</span>
-    <span class="tp-s">Plenary · Megaron AB · 45 min · Frank K. Gurkaynak (ETH Zürich) · Sandro Belfanti (Chipmind)</span>
+    <span class="tp-s">Plenary · Panorama · 45 min · Frank K. Gurkaynak (ETH Zürich) · Sandro Belfanti (Chipmind)</span>
   </td></tr>
   <tr class="rs"><td class="tp-ca"></td><td class="tp-ct">14:15–15:45</td>
     <td class="tp-ch">
       <span class="tp-t">SS 150a – Sustainable Intelligence at the Edge (Part 1)</span>
-      <span class="tp-s"><span class="tp-room">Megaron AB</span>
+      <span class="tp-s"><span class="tp-room">Panorama</span>
       <span class="tp-mode">Papers: 16 min talk + 4 min Q&amp;A</span>
       <span class="tp-chair" data-chair="Cathal Hoare · Tiziana Margaria">Session Chair(s): Cathal Hoare · Tiziana Margaria (organizers)</span>Organizers: Cathal Hoare · Tiziana Margaria · 3 papers · 90 min</span>
       <ul class="tp-pp">
@@ -388,7 +388,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
 <table class="tp-sched">
   <tr class="rk"><td class="tp-ca"></td><td class="tp-ct">09:00–10:00</td><td>
     <span class="tp-t">Academic Keynote 3 – Do We Really Need All the Bits? Value-Driven Approximate Computing for AI Accelerators</span>
-    <span class="tp-s">Prof. Freddy Gabbay · Hebrew University of Jerusalem, Israel · Plenary · Megaron AB · 60 min</span>
+    <span class="tp-s">Prof. Freddy Gabbay · Hebrew University of Jerusalem, Israel · Plenary · Panorama · 60 min</span>
   </td></tr>
   <tr class="rpd"><td class="tp-ca"></td><td class="tp-ct">10:00–10:20</td><td>
     <span class="tp-t">Coffee Break + Poster Display</span>
@@ -397,7 +397,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
   <tr class="rr"><td class="tp-ca"></td><td class="tp-ct">10:20–11:40</td>
     <td class="tp-ch">
       <span class="tp-t">RS4 – Digital Design &amp; EDA II</span>
-      <span class="tp-s"><span class="tp-room">Megaron AB</span>
+      <span class="tp-s"><span class="tp-room">Panorama</span>
       <span class="tp-mode">Papers: 16 min talk + 4 min Q&amp;A</span>
       <span class="tp-chair" data-chair="Cédric Marchand">Session Chair: Cédric Marchand · École Centrale de Lyon, France <em>(to be confirmed)</em></span>Tracks 3+4 · Timing, Async &amp; FPGA · 3 papers · 80 min</span>
       <ul class="tp-pp">
@@ -428,13 +428,13 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
   </tr>
   <tr class="rik"><td class="tp-ca"></td><td class="tp-ct">11:40–12:20</td><td>
     <span class="tp-t">Industrial Keynote 3 – Bridging the Gap Between Research and Industry Through Embedded Systems</span>
-    <span class="tp-s">Odysseas Economides · HardwareX Engineering, Cyprus · Plenary · Megaron AB · 40 min</span>
+    <span class="tp-s">Odysseas Economides · HardwareX Engineering, Cyprus · Plenary · Panorama · 40 min</span>
   </td></tr>
   <tr class="rb"><td class="tp-ca"></td><td class="tp-ct">12:20–13:20</td><td><span class="tp-t">Lunch Break</span><span class="tp-s">60 min</span></td></tr>
   <tr class="rs"><td class="tp-ca"></td><td class="tp-ct">13:20–14:50</td>
     <td class="tp-ch">
       <span class="tp-t">SS 150b – Sustainable Intelligence at the Edge (Part 2)</span>
-      <span class="tp-s"><span class="tp-room">Megaron AB</span>
+      <span class="tp-s"><span class="tp-room">Panorama</span>
       <span class="tp-mode">Papers: 16 min talk + 4 min Q&amp;A</span>
       <span class="tp-chair" data-chair="Cathal Hoare · Tiziana Margaria">Session Chair(s): Cathal Hoare · Tiziana Margaria (organizers)</span>Organizers: Cathal Hoare · Tiziana Margaria · 4 papers · 90 min</span>
       <ul class="tp-pp">
@@ -468,7 +468,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
   <tr class="rb"><td class="tp-ca"></td><td class="tp-ct">14:50–15:10</td><td><span class="tp-t">Coffee Break</span><span class="tp-s">20 min</span></td></tr>
   <tr class="rc"><td class="tp-ca"></td><td class="tp-ct">15:10–16:10</td><td>
     <span class="tp-t">Closing Ceremony &amp; Awards</span>
-    <span class="tp-s">Plenary · Megaron AB · Conference ends 16:10</span>
+    <span class="tp-s">Plenary · Panorama · Conference ends 16:10</span>
   </td></tr>
 </table>
 
