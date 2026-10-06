@@ -280,7 +280,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
 <span class="tp-day">Tuesday, 13 October 2026 – Conference Day 2</span>
 <table class="tp-sched">
   <tr class="rk"><td class="tp-ca"></td><td class="tp-ct">09:00–10:00</td><td>
-    <span class="tp-t">Academic Keynote 2 – Envisioning SoC Design with an Army of Agentic Minions</span>
+    <span class="tp-t">Academic Keynote 2 – Envisioning SoC Design with an Army of Agents</span>
     <span class="tp-s">Prof. Valeria Bertacco · University of Michigan, USA · Plenary · Panorama · 60 min</span>
   </td></tr>
   <tr class="rb"><td class="tp-ca"></td><td class="tp-ct">10:00–10:20</td><td>
