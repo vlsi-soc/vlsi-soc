@@ -142,6 +142,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
   <tr class="rk"><td class="tp-ca"></td><td class="tp-ct">09:00–10:00</td><td>
     <span class="tp-t">Academic Keynote 1 – Sustainable and Secure Computing: the Last Frontier</span>
     <span class="tp-s">Prof. Giovanni De Micheli · EPFL, Switzerland · Plenary · Panorama · 60 min</span>
+    <span class="tp-chair" data-chair="Ian O'Connor">Session Chair: Ian O'Connor</span>
   </td></tr>
   <tr class="rb"><td class="tp-ca"></td><td class="tp-ct">10:00–10:20</td><td><span class="tp-t">Coffee Break + PhD &amp; Student Forum</span><span class="tp-s">20 min</span></td></tr>
   <tr class="rr"><td class="tp-ca"></td><td class="tp-ct">10:20–11:50</td>
@@ -149,7 +150,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
       <span class="tp-t">RS1 – AI/ML Hardware Architectures I</span>
       <span class="tp-s"><span class="tp-room">Panorama</span>
       <span class="tp-mode">Papers: 16 min talk + 4 min Q&amp;A · Posters: 5 min presentation</span>
-      <span class="tp-chair" data-chair="Fernanda Kastensmidt">Session Chair: Fernanda Kastensmidt · UFRGS, Brazil <em>(to be confirmed)</em></span>Track 1 · 4 papers + 2 poster presentations · 90 min</span>
+      <span class="tp-chair" data-chair="Fernanda Kastensmidt">Session Chair: Fernanda Kastensmidt · UFRGS, Brazil</span>Track 1 · 4 papers + 2 poster presentations · 90 min</span>
       <ul class="tp-pp">
         <li data-id="141" data-poster="0"><b>141</b> CIM-Blocks: A Synthesizable Multi-Precision Compute-in-Memory CGRA with Bit-Serial Data Reuse
           <span class="tp-auth">Manil Dev Gomony, Tobias Hommelen and Henk Corporaal</span><span class="tp-spk">Speaker: Henk Corporaal · Eindhoven University of Technology</span><span class="tp-fmt">16 min talk + 4 min Q&amp;A</span></li>
@@ -170,7 +171,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
       <span class="tp-t">RS6 – System Verification, Test &amp; Dependability</span>
       <span class="tp-s"><span class="tp-room">Megaron C</span>
       <span class="tp-mode">Papers: 16 min talk + 4 min Q&amp;A · Posters: 5 min presentation</span>
-      <span class="tp-chair" data-chair="Gunar Schirner">Session Chair: Gunar Schirner · Northeastern University, USA <em>(to be confirmed)</em></span>Tracks 11+12 · 4 papers + 1 poster presentation · 85 min</span>
+      <span class="tp-chair" data-chair="Gunar Schirner">Session Chair: Gunar Schirner · Northeastern University, USA</span>Tracks 11+12 · 4 papers + 1 poster presentation · 85 min</span>
       <ul class="tp-pp">
         <li data-id="86" data-poster="0"><b>86</b> Hardware Support for Statistical Methods Applied to Hardware-Software Verification and Debugging
           <span class="tp-auth">Debanjan Das, Ryan Robucci and Dhananjay Phatak</span><span class="tp-spk">Speaker: Debanjan Das · University of Maryland Baltimore County</span><span class="tp-fmt">16 min talk + 4 min Q&amp;A</span></li>
@@ -189,6 +190,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
   <tr class="rik"><td class="tp-ca"></td><td class="tp-ct">11:50–12:30</td><td>
     <span class="tp-t">Industrial Keynote 1 – What is the IP Reuse Trap for Digital Hardware, and How Can It Be Escaped?</span>
     <span class="tp-s">Prof. Wolfgang Ecker · Infineon / TU Munich, Germany · Plenary · Panorama · 40 min</span>
+    <span class="tp-chair" data-chair="Jürgen Becker">Session Chair: Jürgen Becker</span>
   </td></tr>
   <tr class="rb"><td class="tp-ca"></td><td class="tp-ct">12:30–13:30</td><td><span class="tp-t">Lunch Break</span><span class="tp-s">60 min</span></td></tr>
   <tr class="rr"><td class="tp-ca"></td><td class="tp-ct">13:30–15:00</td>
@@ -196,7 +198,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
       <span class="tp-t">RS3 – Digital Design &amp; EDA I</span>
       <span class="tp-s"><span class="tp-room">Panorama</span>
       <span class="tp-mode">Papers: 16 min talk + 4 min Q&amp;A · Posters: 5 min presentation</span>
-      <span class="tp-chair" data-chair="Henk Corporaal">Session Chair: Henk Corporaal · Eindhoven University of Technology, Netherlands <em>(to be confirmed)</em></span>Track 4 · Synthesis &amp; Optimization · 4 papers + 2 poster presentations · 90 min</span>
+      <span class="tp-chair" data-chair="Henk Corporaal">Session Chair: Henk Corporaal · Eindhoven University of Technology, Netherlands</span>Track 4 · Synthesis &amp; Optimization · 4 papers + 2 poster presentations · 90 min</span>
       <ul class="tp-pp">
         <li data-id="149" data-poster="0"><b>149</b> Automated RTL Complexity Estimation with Synthesis-Validated Optimization and Programmatic Code Transformation <span class="tp-bpc">BPC</span>
           <span class="tp-auth">Sanika Malve, Yogita Kapse, Prathibha Shringare and Neelima Kolhare</span><span class="tp-spk">Speaker: TBC</span><span class="tp-fmt">16 min talk + 4 min Q&amp;A</span></li>
@@ -217,7 +219,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
       <span class="tp-t">RS7 – Embedded Systems &amp; Low-Power Design</span>
       <span class="tp-s"><span class="tp-room">Megaron C</span>
       <span class="tp-mode">Papers: 16 min talk + 4 min Q&amp;A · Posters: 5 min presentation</span>
-      <span class="tp-chair" data-chair="Denisa-Andreea Constantinescu">Session Chair: Denisa-Andreea Constantinescu · EPFL / University of Basel, Switzerland <em>(to be confirmed)</em></span>Tracks 5+7 · 3 papers + 2 poster presentations · 90 min</span>
+      <span class="tp-chair" data-chair="Denisa-Andreea Constantinescu">Session Chair: Denisa-Andreea Constantinescu · EPFL / University of Basel, Switzerland</span>Tracks 5+7 · 3 papers + 2 poster presentations · 90 min</span>
       <ul class="tp-pp">
         <li data-id="1" data-poster="0"><b>1</b> A Silicon-Validated High-Frequency RISC-V SoC for Extreme-Temperature Applications
           <span class="tp-auth">Malte Hawich, Tobias Stuckenberg, Jan Szücs, Malte Rücker, Rochus Nowosielski and Holger Blume</span><span class="tp-spk">Speaker: Malte Hawich · Leibniz University Hannover</span><span class="tp-fmt">16 min talk + 4 min Q&amp;A</span></li>
@@ -242,7 +244,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
       <span class="tp-chair" data-chair="Theocharis Theocharides">Session Chair(s): Theocharis Theocharides (organizers)</span>Organizer: Theocharis Theocharides · 4 papers · 90 min</span>
       <ul class="tp-pp">
         <li data-id="161" data-poster="0"><b>161</b> Embedded Systems for Precision Agriculture Monitoring: An Electronics Designer's Perspective
-          <span class="tp-auth">Lorenzo Peppi, Alessandro Torrisi, Michele Gullino, Luigi Manfrini, Luisa Petti and Luca De Marchi</span><span class="tp-spk">Speaker: Lorenzo Peppi  · University of Bologna</span><span class="tp-fmt">16 min talk + 4 min Q&amp;A</span></li>
+          <span class="tp-auth">Lorenzo Peppi, Alessandro Torrisi, Michele Gullino, Luigi Manfrini, Luisa Petti and Luca De Marchi</span><span class="tp-spk">Speaker: Alessandro Torrisi · Free University of Bolzano, Italy</span><span class="tp-fmt">16 min talk + 4 min Q&amp;A</span></li>
         <li data-id="172" data-poster="0"><b>172</b> Neuromorphic Vision Technologies in Smart Agriculture: Challenges and Opportunities
           <span class="tp-auth">Luca Peres and Davide Bertozzi</span><span class="tp-spk">Speaker: Luca Peres · The University of Manchester</span><span class="tp-fmt">16 min talk + 4 min Q&amp;A</span></li>
         <li data-id="173" data-poster="0"><b>173</b> Edge AI for Smart and Precision Agriculture: An Overview of Robotic Vision for Field Perception and Decision Support
@@ -282,6 +284,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
   <tr class="rk"><td class="tp-ca"></td><td class="tp-ct">09:00–10:00</td><td>
     <span class="tp-t">Academic Keynote 2 – Envisioning SoC Design with an Army of Agents</span>
     <span class="tp-s">Prof. Valeria Bertacco · University of Michigan, USA · Plenary · Panorama · 60 min</span>
+    <span class="tp-chair" data-chair="Letícia Maria Bolzani Pöhls">Session Chair: Letícia Maria Bolzani Pöhls</span>
   </td></tr>
   <tr class="rb"><td class="tp-ca"></td><td class="tp-ct">10:00–10:20</td><td>
     <span class="tp-t">Coffee Break + Poster Display</span>
@@ -291,7 +294,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
       <span class="tp-t">RS2 – AI/ML Architectures &amp; Computing Paradigms</span>
       <span class="tp-s"><span class="tp-room">Panorama</span>
       <span class="tp-mode">Papers: 16 min talk + 4 min Q&amp;A · Posters: 5 min presentation</span>
-      <span class="tp-chair" data-chair="Yuanqing Cheng">Session Chair: Yuanqing Cheng · Beihang University, China <em>(to be confirmed)</em></span>Tracks 1+3 · 4 papers + 2 poster presentations · 90 min</span>
+      <span class="tp-chair" data-chair="Yuanqing Cheng">Session Chair: Yuanqing Cheng · Beihang University, China</span>Tracks 1+3 · 4 papers + 2 poster presentations · 90 min</span>
       <ul class="tp-pp">
         <li data-id="30" data-poster="0"><b>30</b> Chip-Agnostic Hardware-Aware Training for ADC-Efficient BNNs in SOT-MRAM Crossbars
           <span class="tp-auth">Bruno Lovison Franco, Aymen Romdhane, Jonathan Miquel, David Novo and Pascal Benoit</span><span class="tp-spk">Speaker: Bruno Lovison Franco · LIRMM, University of Montpellier</span><span class="tp-fmt">16 min talk + 4 min Q&amp;A</span></li>
@@ -312,7 +315,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
       <span class="tp-t">RS5 – Hardware Security &amp; Testing</span>
       <span class="tp-s"><span class="tp-room">Megaron C</span>
       <span class="tp-mode">Papers: 16 min talk + 4 min Q&amp;A · Posters: 5 min presentation</span>
-      <span class="tp-chair" data-chair="Malte Hawich">Session Chair: Malte Hawich · Leibniz University Hannover, Germany <em>(to be confirmed)</em></span>Tracks 8+12 · 4 papers + 1 poster presentation · 85 min</span>
+      <span class="tp-chair" data-chair="Malte Hawich">Session Chair: Malte Hawich · Leibniz University Hannover, Germany</span>Tracks 8+12 · 4 papers + 1 poster presentation · 85 min</span>
       <ul class="tp-pp">
         <li data-id="56" data-poster="0"><b>56</b> A Differential Power Analysis Attack Exploiting Early Propagation Effect in Dual-Rail Pre-Charge Logic Circuits
           <span class="tp-auth">Aniruddh Holemadlu, Rupa Yashaswi Panduga, Nima Kavand, Shubham Rai and Akash Kumar</span><span class="tp-spk">Speaker: Aniruddh Holemadlu · Ruhr University Bochum</span><span class="tp-fmt">16 min talk + 4 min Q&amp;A</span></li>
@@ -331,6 +334,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
   <tr class="rik"><td class="tp-ca"></td><td class="tp-ct">11:50–12:30</td><td>
     <span class="tp-t">Industrial Keynote 2 – Low Power IC Design for a Sustainable World</span>
     <span class="tp-s">Victor Grimblatt · Synopsys, Chile · Plenary · Panorama · 40 min</span>
+    <span class="tp-chair" data-chair="Graziano Pravadelli">Session Chair: Graziano Pravadelli</span>
   </td></tr>
   <tr class="rb"><td class="tp-ca"></td><td class="tp-ct">12:30–13:30</td><td><span class="tp-t">Lunch Break</span><span class="tp-s">60 min</span></td></tr>
   <tr class="rp"><td class="tp-ca"></td><td class="tp-ct">13:30–14:15</td><td>
@@ -389,6 +393,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
   <tr class="rk"><td class="tp-ca"></td><td class="tp-ct">09:00–10:00</td><td>
     <span class="tp-t">Academic Keynote 3 – Do We Really Need All the Bits? Value-Driven Approximate Computing for AI Accelerators</span>
     <span class="tp-s">Prof. Freddy Gabbay · Hebrew University of Jerusalem, Israel · Plenary · Panorama · 60 min</span>
+    <span class="tp-chair" data-chair="Panagiota Nikolaou">Session Chair: Panagiota Nikolaou</span>
   </td></tr>
   <tr class="rpd"><td class="tp-ca"></td><td class="tp-ct">10:00–10:20</td><td>
     <span class="tp-t">Coffee Break + Poster Display</span>
@@ -399,7 +404,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
       <span class="tp-t">RS4 – Digital Design &amp; EDA II</span>
       <span class="tp-s"><span class="tp-room">Panorama</span>
       <span class="tp-mode">Papers: 16 min talk + 4 min Q&amp;A</span>
-      <span class="tp-chair" data-chair="Cédric Marchand">Session Chair: Cédric Marchand · École Centrale de Lyon, France <em>(to be confirmed)</em></span>Tracks 3+4 · Timing, Async &amp; FPGA · 3 papers · 80 min</span>
+      <span class="tp-chair" data-chair="Cédric Marchand">Session Chair: Cédric Marchand · École Centrale de Lyon, France</span>Tracks 3+4 · Timing, Async &amp; FPGA · 3 papers · 80 min</span>
       <ul class="tp-pp">
         <li data-id="79" data-poster="0"><b>79</b> Efficient Scalable Approximate Multipliers via Significance-Driven Partial Product Removal <span class="tp-bpc">BPC</span>
           <span class="tp-auth">Sergio Castillo Mohedano, Victor Åberg, Joachim Rodrigues and Masoud Nouripayam</span><span class="tp-spk">Speaker: Victor Åberg · Lund University</span><span class="tp-fmt">16 min talk + 4 min Q&amp;A</span></li>
@@ -413,7 +418,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
       <span class="tp-t">RS8 – Communications, Sensing &amp; Emerging Technologies</span>
       <span class="tp-s"><span class="tp-room">Megaron C</span>
       <span class="tp-mode">Papers: 16 min talk + 4 min Q&amp;A</span>
-      <span class="tp-chair" data-chair="Luigi Capogrosso">Session Chair: Luigi Capogrosso · IT:U, Austria <em>(to be confirmed)</em></span>Tracks 2+6+9 · 4 papers · 80 min</span>
+      <span class="tp-chair" data-chair="Luigi Capogrosso">Session Chair: Luigi Capogrosso · IT:U, Austria</span>Tracks 2+6+9 · 4 papers · 80 min</span>
       <ul class="tp-pp">
         <li data-id="40" data-poster="0"><b>40</b> Community-Based ILP for Application Mapping and Deadlock-Free Routing on Large NoCs
           <span class="tp-auth">Shuang Liu, Anisha Acharya and Martin Radetzki</span><span class="tp-spk">Speaker: Shuang Liu · University of Stuttgart</span><span class="tp-fmt">16 min talk + 4 min Q&amp;A</span></li>
@@ -429,6 +434,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
   <tr class="rik"><td class="tp-ca"></td><td class="tp-ct">11:40–12:20</td><td>
     <span class="tp-t">Industrial Keynote 3 – Bridging the Gap Between Research and Industry Through Embedded Systems</span>
     <span class="tp-s">Odysseas Economides · HardwareX Engineering, Cyprus · Plenary · Panorama · 40 min</span>
+    <span class="tp-chair" data-chair="Panagiota Nikolaou">Session Chair: Panagiota Nikolaou</span>
   </td></tr>
   <tr class="rb"><td class="tp-ca"></td><td class="tp-ct">12:20–13:20</td><td><span class="tp-t">Lunch Break</span><span class="tp-s">60 min</span></td></tr>
   <tr class="rs"><td class="tp-ca"></td><td class="tp-ct">13:20–14:50</td>
