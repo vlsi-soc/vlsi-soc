@@ -197,11 +197,9 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
     <td class="tp-ch">
       <span class="tp-t">RS3 – Digital Design &amp; EDA I</span>
       <span class="tp-s"><span class="tp-room">Panorama</span>
-      <span class="tp-mode">Papers: 16 min talk + 4 min Q&amp;A · Posters: 5 min presentation</span>
-      <span class="tp-chair" data-chair="Henk Corporaal">Session Chair: Henk Corporaal · Eindhoven University of Technology, Netherlands</span>Track 4 · Synthesis &amp; Optimization · 4 papers + 2 poster presentations · 90 min</span>
+      <span class="tp-mode">Papers: 16 min talk + 4 min Q&amp;A · Posters: 5 min presentation · PhD &amp; Student Forum: 2 min presentation</span>
+      <span class="tp-chair" data-chair="Henk Corporaal">Session Chair: Henk Corporaal · Eindhoven University of Technology, Netherlands</span>Track 4 · Synthesis &amp; Optimization · 3 papers + 2 poster presentations + 4 PhD &amp; Student Forum presentations · 90 min</span>
       <ul class="tp-pp">
-        <li data-id="149" data-poster="0"><b>149</b> Automated RTL Complexity Estimation with Synthesis-Validated Optimization and Programmatic Code Transformation <span class="tp-bpc">BPC</span>
-          <span class="tp-auth">Sanika Malve, Yogita Kapse, Prathibha Shringare and Neelima Kolhare</span><span class="tp-spk">Speaker: TBC</span><span class="tp-fmt">16 min talk + 4 min Q&amp;A</span></li>
         <li data-id="90" data-poster="0"><b>90</b> SPFD-Based Resynthesis for Dual-Output LUT Networks <span class="tp-bpc">BPC</span>
           <span class="tp-auth">Andrea Costamagna, Chang Meng and Giovanni De Micheli</span><span class="tp-spk">Speaker: Andrea Costamagna · Synopsys</span><span class="tp-fmt">16 min talk + 4 min Q&amp;A</span></li>
         <li data-id="110" data-poster="0"><b>110</b> No Tree Required: Predicting Post-CTS Clock Timing from Placement Features Alone
@@ -213,6 +211,15 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
           <span class="tp-auth">Shengyuan Yan, Kaili Zhang, Wentao Huang, Lang Zeng, Bi Wang, Yue Zhang, Yuanqi Hu, Weisheng Zhao and Deming Zhang</span><span class="tp-spk">Speaker: Shengyuan Yan · Beihang University</span><span class="tp-fmt">5 min presentation</span></li>
         <li class="tp-po" data-id="72" data-poster="1"><span class="tp-ttag">T4</span><b>72</b> A Scalable End-to-End Framework for Multi-Objective Design Space Exploration: Application to AI Accelerators
           <span class="tp-auth">Lilia Zaourar, Benoit Tain, Dahibou Fall Sow, Raphael Millet and Mohamed Benazouz</span><span class="tp-spk">Speaker: Benoit Tain · CEA</span><span class="tp-fmt">5 min presentation</span></li>
+        <hr class="tp-pdiv"><span class="tp-plbl">PhD &amp; Student Forum Presentation</span>
+        <li class="tp-po" data-id="176" data-poster="1"><b>176</b> Sensor Fusion for Human Pose Estimation
+          <span class="tp-spk">Speaker: Ferdinando Pompanin</span><span class="tp-fmt">2 min presentation</span></li>
+        <li class="tp-po" data-id="165" data-poster="1"><b>165</b> AI-Assisted Hardware Verification and Debugging for RTL Design Automation
+          <span class="tp-spk">Speaker: Shubrojyoti Karmakar</span><span class="tp-fmt">2 min presentation</span></li>
+        <li class="tp-po" data-id="179" data-poster="1"><b>179</b> Hardware-Aware Design and Evaluation of Binary Neural Networks for Edge AI
+          <span class="tp-spk">Speaker: Bruno Lovison Franco</span><span class="tp-fmt">2 min presentation</span></li>
+        <li class="tp-po" data-id="180" data-poster="1"><b>180</b> Floorplanning, Mapping and Deadlock-Free Routing Co-Design for Application-Specific NoC Synthesis
+          <span class="tp-spk">Speaker: Shuang Liu</span><span class="tp-fmt">2 min presentation</span></li>
       </ul>
     </td>
     <td class="tp-ch">
