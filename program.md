@@ -222,12 +222,10 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
       <span class="tp-t">RS7 – Embedded Systems &amp; Low-Power Design</span>
       <span class="tp-s"><span class="tp-room">Megaron C</span>
       <span class="tp-mode">Papers: 16 min talk + 4 min Q&amp;A · Posters: 5 min presentation</span>
-      <span class="tp-chair" data-chair="Denisa-Andreea Constantinescu">Session Chair: Denisa-Andreea Constantinescu · EPFL / University of Basel, Switzerland</span>Tracks 5+7 · 3 papers + 2 poster presentations · 90 min</span>
+      <span class="tp-chair" data-chair="Denisa-Andreea Constantinescu">Session Chair: Denisa-Andreea Constantinescu · EPFL / University of Basel, Switzerland</span>Tracks 5+7 · 2 papers + 2 poster presentations · 90 min</span>
       <ul class="tp-pp">
         <li data-id="1" data-poster="0"><b>1</b> A Silicon-Validated High-Frequency RISC-V SoC for Extreme-Temperature Applications
           <span class="tp-auth">Malte Hawich, Tobias Stuckenberg, Jan Szücs, Malte Rücker, Rochus Nowosielski and Holger Blume</span><span class="tp-spk">Speaker: Malte Hawich · Leibniz University Hannover</span><span class="tp-fmt">16 min talk + 4 min Q&amp;A</span></li>
-        <li data-id="147" data-poster="0"><b>147</b> Interpretable Fuzzy Control for Lightweight Cache Replacement and Prefetch Throttling in RISC-V SoCs
-          <span class="tp-auth">Om Maheshwari and Dr. Bikram Paul</span><span class="tp-spk">Speaker: TBC</span><span class="tp-fmt">16 min talk + 4 min Q&amp;A</span></li>
         <li data-id="21" data-poster="0"><b>21</b> An event-Driven ASK Demodulator Based on Slope Measurements for low-Power Applications
           <span class="tp-auth">Gaël Ousset, Sylvain Engels, Estelle Lauga-Laroze, Xavier Lesage and Laurent Fesquet</span><span class="tp-spk">Speaker: Gaël Ousset · STMicroelectronics / TIMA</span><span class="tp-fmt">16 min talk + 4 min Q&amp;A</span></li>
         <hr class="tp-pdiv"><span class="tp-plbl">Poster presentations</span>
