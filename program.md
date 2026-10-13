@@ -445,7 +445,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
       <span class="tp-t">SS 150b – Sustainable Intelligence at the Edge (Part 2)</span>
       <span class="tp-s"><span class="tp-room">Panorama</span>
       <span class="tp-mode">Papers: 16 min talk + 4 min Q&amp;A</span>
-      <span class="tp-chair" data-chair="Cathal Hoare · Tiziana Margaria">Session Chair(s): Cathal Hoare · Tiziana Margaria (organizers)</span>Organizers: Cathal Hoare · Tiziana Margaria · 4 papers (B) · 90 min</span>
+      <span class="tp-chair" data-chair="Cathal Hoare · Tiziana Margaria">Session Chair(s): Cathal Hoare · Tiziana Margaria (organizers)</span>Organizers: Cathal Hoare · Tiziana Margaria · 3 papers · 90 min</span>
       <ul class="tp-pp">
         <li data-id="163" data-poster="0"><b>163</b> LLM-Driven Optimization of Large Language Model Inference
           <span class="tp-auth">Amir Aminifar</span><span class="tp-spk">Speaker: Amir Aminifar · Lund University</span><span class="tp-fmt">16 min talk + 4 min Q&amp;A</span></li>
