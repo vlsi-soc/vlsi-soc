@@ -347,7 +347,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
       <span class="tp-t">SS 150a – Sustainable Intelligence at the Edge (Part 1)</span>
       <span class="tp-s"><span class="tp-room">Panorama</span>
       <span class="tp-mode">Papers: 16 min talk + 4 min Q&amp;A</span>
-      <span class="tp-chair" data-chair="Cathal Hoare · Tiziana Margaria">Session Chair(s): Cathal Hoare · Tiziana Margaria (organizers)</span>Organizers: Cathal Hoare · Tiziana Margaria · 3 papers · 90 min</span>
+      <span class="tp-chair" data-chair="Cathal Hoare · Tiziana Margaria">Session Chair(s): Cathal Hoare · Tiziana Margaria (organizers)</span>Organizers: Cathal Hoare · Tiziana Margaria · 4 papers · 90 min</span>
       <ul class="tp-pp">
         <li data-id="158" data-poster="0"><b>158</b> TinySimpleNet: A SimpleNet for Unsupervised Industrial Anomaly Detection on Edge Devices
           <span class="tp-auth">Luigi Capogrosso, Enrico Fraccaroli, Michele Magno and Franco Fummi</span><span class="tp-spk">Speaker: Luigi Capogrosso · IT:U Austria</span><span class="tp-fmt">16 min talk + 4 min Q&amp;A</span></li>
@@ -355,6 +355,8 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
           <span class="tp-auth">Ferdinando Pompanin, Enrico Martini, Franco Fummi and Nicola Bombieri</span><span class="tp-spk">Speaker: Ferdinando Pompanin · University of Verona</span><span class="tp-fmt">16 min talk + 4 min Q&amp;A</span></li>
         <li data-id="160" data-poster="0"><b>160</b> Sustainable SoftPLCs at the Edge: An Open-Source Path to Right-Sizing and Retrofitting Industrial Automation
           <span class="tp-auth">Gioacchino Ivan Noto and Nicola Dall'Ora</span><span class="tp-spk">Speaker: Nicola Dall'Ora · Guglielmo Marconi University</span><span class="tp-fmt">16 min talk + 4 min Q&amp;A</span></li>
+        <li data-id="164" data-poster="0"><b>164</b> A Federated Cyber-Physical Edge Architecture for Smart Hospital Room Automation
+          <span class="tp-auth">Matteo Iervasi, Tawite Noe Marthe, Mascuud Mohamed Ali, Abdulaziz Abdulkadir Hassan and Florenc Demrozi</span><span class="tp-spk">Speaker: Florenc Demrozi · University of Stavanger</span><span class="tp-fmt">16 min talk + 4 min Q&amp;A</span></li>
       </ul>
     </td>
     <td class="tp-ch">
@@ -443,12 +445,10 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
       <span class="tp-t">SS 150b – Sustainable Intelligence at the Edge (Part 2)</span>
       <span class="tp-s"><span class="tp-room">Panorama</span>
       <span class="tp-mode">Papers: 16 min talk + 4 min Q&amp;A</span>
-      <span class="tp-chair" data-chair="Cathal Hoare · Tiziana Margaria">Session Chair(s): Cathal Hoare · Tiziana Margaria (organizers)</span>Organizers: Cathal Hoare · Tiziana Margaria · 4 papers · 90 min</span>
+      <span class="tp-chair" data-chair="Cathal Hoare · Tiziana Margaria">Session Chair(s): Cathal Hoare · Tiziana Margaria (organizers)</span>Organizers: Cathal Hoare · Tiziana Margaria · 4 papers (B) · 90 min</span>
       <ul class="tp-pp">
         <li data-id="163" data-poster="0"><b>163</b> LLM-Driven Optimization of Large Language Model Inference
           <span class="tp-auth">Amir Aminifar</span><span class="tp-spk">Speaker: Amir Aminifar · Lund University</span><span class="tp-fmt">16 min talk + 4 min Q&amp;A</span></li>
-        <li data-id="164" data-poster="0"><b>164</b> A Federated Cyber-Physical Edge Architecture for Smart Hospital Room Automation
-          <span class="tp-auth">Matteo Iervasi, Tawite Noe Marthe, Mascuud Mohamed Ali, Abdulaziz Abdulkadir Hassan and Florenc Demrozi</span><span class="tp-spk">Speaker: Florenc Demrozi · University of Stavanger</span><span class="tp-fmt">16 min talk + 4 min Q&amp;A</span></li>
         <li data-id="170" data-poster="0"><b>170</b> Toward a Unified Memristive Edge Platform for Sensing, Security, and Neuromorphic Computing
           <span class="tp-auth">Heba Abunahla</span><span class="tp-spk">Speaker: Heba Abunahla · TU Delft</span><span class="tp-fmt">16 min talk + 4 min Q&amp;A</span></li>
         <li data-id="171" data-poster="0"><b>171</b> Embedded Intelligence at the Edge: Recommender Systems, Efficient Simulation, and Operator-Centred Decision Support
