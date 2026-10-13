@@ -537,9 +537,10 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
     var o = ctx(li);
     o.type = 'paper'; o.el = li; o.id = li.dataset.id; o.poster = li.dataset.poster === '1';
     o.title = li.querySelector('b').nextSibling.textContent.trim();
-    o.authors = li.querySelector('.tp-auth').textContent;
-    o.speaker = li.querySelector('.tp-spk').textContent.replace(/^Speaker: /, '');
-    o.fmt = li.querySelector('.tp-fmt').textContent;
+    var txt = function (sel) { var e = li.querySelector(sel); return e ? e.textContent : ''; };
+    o.authors = txt('.tp-auth');
+    o.speaker = txt('.tp-spk').replace(/^Speaker: /, '');
+    o.fmt = txt('.tp-fmt');
     o.key = norm(o.id + ' ' + o.title + ' ' + o.authors + ' ' + o.speaker);
     idx.push(o);
   });
@@ -575,7 +576,7 @@ description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
           '<br><a href="#' + o.anchor + '">Show in program ↓</a></div>';
       }
       return '<div class="tp-card' + (o.poster ? ' po' : '') + '"><b>#' + esc(o.id) + ' – ' + esc(o.title) + '</b><br>' +
-        '<span class="k">Authors:</span> ' + esc(o.authors) + '<br><span class="k">Speaker:</span> ' + esc(o.speaker) + '<br>' + where(o) + '<br>' +
+        (o.authors ? '<span class="k">Authors:</span> ' + esc(o.authors) + '<br>' : '') + '<span class="k">Speaker:</span> ' + esc(o.speaker) + '<br>' + where(o) + '<br>' +
         '<span class="k">Presentation:</span> ' + esc(o.fmt) +
         (o.poster ? ' in the session; the poster is also displayed during the coffee breaks on Tue 15:45–16:05 and Wed 10:00–10:20' : '') +
         '<br><a href="#paper-' + esc(o.id) + '">Show in program ↓</a></div>';
