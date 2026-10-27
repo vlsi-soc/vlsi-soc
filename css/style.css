@@ -176,6 +176,14 @@
 
 .bg-slider {
 	background-color: #1C222B;
+	/* Confine the particles layer to the hero, whatever its height */
+	position: relative;
+	overflow: hidden;
+}
+
+.bg-slider #cont-special {
+	position: relative;
+	z-index: 1;
 }
 
 .img-mh {
@@ -494,7 +502,10 @@ table {
 /* PARTICLES */
 #particles-js {
 	position: absolute;
+	top: 0;
+	left: 0;
 	width: 100%;
+	height: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: #b61924;
