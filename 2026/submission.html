@@ -1,0 +1,923 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Submission | 34th IFIP/IEEE International Conference on Very Large Scale Integration SoC</title>
+  
+  <!-- META -->
+  <meta name="description" content="Call for papers and submission guidelines for VLSI-SoC 2026">
+  <meta property="og:title" content="Submission | 34th IFIP/IEEE International Conference on Very Large Scale Integration SoC">
+  <meta property="og:description" content="Call for papers and submission guidelines for VLSI-SoC 2026">
+  <meta property="og:type" content="website">
+  <meta name="keywords" content="VLSI-Soc, Limassol, VLSI, SoC, vlsi soc 2026">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Matteo Iervasi">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#4285f4">
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+    integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  
+  <!-- STYLES -->
+  <link rel="stylesheet" href="/2026/css/style.css">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,500,600" />
+  <link href="https://use.fontawesome.com/releases/v5.0.0/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+
+<style>
+  @media (min-width: 992px) and (max-width: 1192px) {
+    #cont-special.container {
+      max-width: 720px;
+    }
+  }
+</style>
+
+
+<body>
+  <!-- NAVBAR MENU -->
+  <nav class="navbar navbar-expand-xl fixed-top navbar-light bg-white">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    <a> Menu</a>
+  </button>
+  <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item ">
+        <a class="nav-link ops" href="/2026/">Home</a>
+      </li>
+
+      <li class="nav-item dropdown ">
+        <a class="nav-link ops" href="#" id="navbarDropdown" role="button"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Organization
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="/2026/committee.html#orgcomit">Organizing Committee</a>
+          <a class="dropdown-item" href="/2026/committee.html#progcomit">Program Committee</a>
+          <a class="dropdown-item" href="/2026/committee.html#stcomit">Steering Committee</a>
+        </div>
+      </li>
+
+      <li class="nav-item dropdown activex">
+        <a class="nav-link ops" href="#" id="navbarDropdown" role="button"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Submission
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="/2026/submission.html#call4paper">Call For Papers</a>
+          <a class="dropdown-item" href="/2026/submission.html#authorguide">Authors' Guidelines</a>
+          <a class="dropdown-item" href="/2026/submission.html#cameraready">Camera Ready</a>
+        </div>
+      </li>
+
+      <li class="nav-item dropdown ">
+        <a class="nav-link ops" href="#" id="navbarDropdown" role="button"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Special Sessions
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="/2026/specialsession.html#accepted-spec">Accepted Special Sessions</a>
+          <a class="dropdown-item" href="/2026/specialsession.html#spec">Call For Special Sessions</a>
+          <a class="dropdown-item" href="/2026/specialsession.html#cha">Special Session Chairs</a>
+          <a class="dropdown-item" href="/2026/specialsession.html#prop">Special Session Proposals</a>
+        </div>
+      </li>
+
+      <li class="nav-item ops ">
+        <a class="nav-link" href="/2026/phd.html#ref">PhD &amp; Student Forum</a>
+      </li>
+
+      <li class="nav-item dropdown ">
+        <a class="nav-link ops" href="#" id="navbarDropdown" role="button"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Program
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="/2026/program.html#key">Keynotes</a>
+          <a class="dropdown-item" href="/2026/program.html#pan">Panel sessions</a>
+          <a class="dropdown-item" href="/2026/program.html#tut">Tutorials</a>
+          <a class="dropdown-item" href="/2026/program.html#tec">Technical Program</a>
+          <a class="dropdown-item" href="/2026/program.html#soc">Social Program</a>
+        </div>
+      </li>
+
+      <li class="nav-item ops ">
+        <a class="nav-link" href="/2026/registration.html#reg">Registration</a>
+      </li>
+
+      <li class="nav-item dropdown ">
+        <a  class="nav-link ops" href="#" id="navbarDropdown" role="button"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Travel &amp; Stay
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="/2026/travel.html#venue">Venue</a>
+          <a class="dropdown-item" href="/2026/travel.html#travel">Travel</a>
+          <a class="dropdown-item" href="/2026/travel.html#accomodation">Accomodation</a>
+          <a class="dropdown-item" href="/2026/travel.html#tinfo">Touristic Information</a>
+        </div>
+      </li>
+
+      <li class="nav-item ops ">
+        <a class="nav-link" href="/2026/prevconference.html#prev">Previous Conferences</a>
+      </li>
+
+      <li class="nav-item ops ">
+        <a class="nav-link" href="/2026/sponsorship.html#sponsorship">Sponsorship</a>
+      </li>
+
+      <li class="nav-item ops">
+        <a class="nav-link" href="#footer">Contacts</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+  <!-- END NAVBAR-->
+
+  <!-- SLIDER -->
+<div class="bg-slider">
+  <!-- particles.js container -->
+  <div id="particles-js"></div>
+  <!-- SLIDER CONTAINER -->
+  <div id="cont-special" class="container">
+    <br /><br /><br />
+    <div class="row col-md-12 txtcenter">
+      <div class="col-md-5 txtcenter">
+        <img src="/2026/img/vlsi-logo.png" class="img-fluid" style="max-height:80px" />
+        <h3 class="ops-tt txtcenter mts-10 card-margin c-white">VLSI-SoC 2026</h3>
+      </div>
+
+      <div class="col-md-7" style="text-align:center !important">
+        <p class="ops-tt txtcenter mts-10 card-margin c-white" style="padding-top:18px">
+          <b>34<sup>th</sup> IFIP/IEEE</b> 
+          International Conference<br /> on <b> Very Large Scale Integration SoC</b>
+          <br />Limassol (Cyprus), 11-14 October, St. Raphael Resort.
+        </p>
+        <p class="txtcenter card-margin" style="margin-top:14px">
+          <a class="hero-cta" href="/2026/program.html#tec">
+            <i class="fas fa-calendar-alt"></i>&nbsp;View the Conference Program
+          </a>
+        </p>
+      </div>
+    </div>
+
+    <style>
+      .hero-cta {
+        display: inline-block;
+        color: #fff !important;
+        background-color: transparent;
+        border: 2px solid #fff;
+        border-radius: 30px;
+        padding: 10px 28px;
+        font-weight: 600;
+        letter-spacing: .3px;
+        text-decoration: none !important;
+        transition: background-color .25s ease, color .25s ease, transform .25s ease, box-shadow .25s ease;
+        animation: hero-cta-pulse 2.6s ease-in-out infinite;
+      }
+      .hero-cta:hover, .hero-cta:focus {
+        background-color: #fff;
+        color: #b61924 !important;
+        transform: translateY(-2px);
+        box-shadow: 0 6px 16px rgba(0,0,0,.25);
+        animation-play-state: paused;
+      }
+      @keyframes hero-cta-pulse {
+        0%, 100% { box-shadow: 0 0 0 0 rgba(255,255,255,.45); }
+        50% { box-shadow: 0 0 0 8px rgba(255,255,255,0); }
+      }
+    </style>
+
+    
+
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="padding-top:25px;padding-bottom:25px;">
+      <ol class="carousel-indicators">
+        
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        
+        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+        
+        <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+        
+        <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+        
+        <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+        
+        <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+        
+        <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+        
+        <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
+        
+        <li data-target="#carouselExampleIndicators" data-slide-to="12"></li>
+        
+        <li data-target="#carouselExampleIndicators" data-slide-to="13"></li>
+        
+        <li data-target="#carouselExampleIndicators" data-slide-to="14"></li>
+        
+        <li data-target="#carouselExampleIndicators" data-slide-to="15"></li>
+        
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        
+        
+        <div class="carousel-item active">
+          <img class="d-block img-fluid carousel-image" src="/2026/img/carousel/speakers-1.png" alt="Speakers 1" />
+        </div>
+        
+        
+        <div class="carousel-item ">
+          <img class="d-block img-fluid carousel-image" src="/2026/img/carousel/speakers-2.png" alt="Speakers 2" />
+        </div>
+        
+        
+        <div class="carousel-item ">
+          <img class="d-block img-fluid carousel-image" src="/2026/img/carousel/speakers-3.png" alt="Speakers 3" />
+        </div>
+        
+        
+        <div class="carousel-item ">
+          <img class="d-block img-fluid carousel-image" src="/2026/img/carousel/img1.jpg" alt="Image 1" />
+        </div>
+        
+        
+        <div class="carousel-item ">
+          <img class="d-block img-fluid carousel-image" src="/2026/img/carousel/img2.jpg" alt="Image 2" />
+        </div>
+        
+        
+        <div class="carousel-item ">
+          <img class="d-block img-fluid carousel-image" src="/2026/img/carousel/img3.jpg" alt="Image 3" />
+        </div>
+        
+        
+        <div class="carousel-item ">
+          <img class="d-block img-fluid carousel-image" src="/2026/img/carousel/img4.jpg" alt="Image 4" />
+        </div>
+        
+        
+        <div class="carousel-item ">
+          <img class="d-block img-fluid carousel-image" src="/2026/img/carousel/img5.jpg" alt="Image 5" />
+        </div>
+        
+        
+        <div class="carousel-item ">
+          <img class="d-block img-fluid carousel-image" src="/2026/img/carousel/img6.jpg" alt="Image 6" />
+        </div>
+        
+        
+        <div class="carousel-item ">
+          <img class="d-block img-fluid carousel-image" src="/2026/img/carousel/img7.jpg" alt="Image 7" />
+        </div>
+        
+        
+        <div class="carousel-item ">
+          <img class="d-block img-fluid carousel-image" src="/2026/img/carousel/img8.jpg" alt="Image 8" />
+        </div>
+        
+        
+        <div class="carousel-item ">
+          <img class="d-block img-fluid carousel-image" src="/2026/img/carousel/img9.jpg" alt="Image 9" />
+        </div>
+        
+        
+        <div class="carousel-item ">
+          <img class="d-block img-fluid carousel-image" src="/2026/img/carousel/img10.jpg" alt="Image 10" />
+        </div>
+        
+        
+        <div class="carousel-item ">
+          <img class="d-block img-fluid carousel-image" src="/2026/img/carousel/img11.jpg" alt="Image 11" />
+        </div>
+        
+        
+        <div class="carousel-item ">
+          <img class="d-block img-fluid carousel-image" src="/2026/img/carousel/img12.jpg" alt="Image 12" />
+        </div>
+        
+        
+        <div class="carousel-item ">
+          <img class="d-block img-fluid carousel-image" src="/2026/img/carousel/img13.png" alt="Image 13" />
+        </div>
+        
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    
+  </div>
+</div>
+<!-- END SLIDER CONTAINER -->
+
+<!-- QUICK LOGO -->
+<div>
+  <ul class="nav justify-content-center bg-white-logo">
+    
+    <li class="nav-item wow fadeIn">
+      <a href="http://www.ifip.org" title="International Federation for Information Processing">
+        <img src="/2026/img/logos/IFIP_r.png" class="img-mh img-fluid" alt="IFIP" />
+      </a>
+    </li>
+    
+    <li class="nav-item wow fadeIn">
+      <a href="https://www.ieee.org/index.html" title="Institute of Electrical and Electronics Engineers">
+        <img src="/2026/img/logos/ieee_80.png" class="img-mh img-fluid" alt="IEEE" />
+      </a>
+    </li>
+    
+    <li class="nav-item wow fadeIn">
+      <a href="http://ieee-cas.org" title="IEEE Circuits and Systems Society">
+        <img src="/2026/img/logos/CAS_r.png" class="img-mh img-fluid" alt="CAS" />
+      </a>
+    </li>
+    
+    <li class="nav-item wow fadeIn">
+      <a href="http://www.ieee-ceda.org" title="IEEE Council on Electronic Design Automation">
+        <img src="/2026/img/logos/CEDA_r.png" class="img-mh img-fluid" alt="CEDA" />
+      </a>
+    </li>
+    
+    <li class="nav-item wow fadeIn">
+      <a href="https://www.i-form.ie/" title="">
+        <img src="/2026/img/logos/i-form-logo.png" class="img-mh img-fluid" alt="I-Form" />
+      </a>
+    </li>
+    
+    <li class="nav-item wow fadeIn">
+      <a href="https://www.qualcomm.com/" title="Qualcomm">
+        <img src="/2026/img/logos/qualcomm-logo.png" class="img-mh img-fluid" alt="Qualcomm" />
+      </a>
+    </li>
+    
+    
+    <li class="nav-item wow fadeIn">
+      <a href="https://www.ul.ie/" title="University of Limerick">
+        <img src="/2026/img/logos/ul-logo.svg" class="img-mh img-fluid" alt="University of Limerick" />
+      </a>
+    </li>
+    
+    <li class="nav-item wow fadeIn">
+      <a href="https://www.ec-lyon.fr/" title="École Centrale de Lyon">
+        <img src="/2026/img/logos/lyon-logo.png" class="img-mh img-fluid" alt="École Centrale de Lyon" />
+      </a>
+    </li>
+    
+    <li class="nav-item wow fadeIn">
+      <a href="https://www.uis.no/en" title="University of Stavanger">
+        <img src="/2026/img/logos/UiS-logo.png" class="img-mh img-fluid" alt="University of Stavanger" />
+      </a>
+    </li>
+    
+    <li class="nav-item wow fadeIn">
+      <a href="https://www.uclancyprus.ac.cy/" title="UCLan Cyprus">
+        <img src="/2026/img/logos/uclan-logo.png" class="img-mh img-fluid" alt="UCLan Cyprus" />
+      </a>
+    </li>
+    
+  </ul>
+</div>
+
+<!-- END QUICK LOGO -->
+
+<!-- MAIN CONTENT -->
+<div class="container" id="call4paper">
+   <div class="justify-content-center txtcenter">
+      <h2 class="ops-tt txtcenter mts-10">CALL FOR PAPERS</h2>
+      <br />
+      <p class="ops-t txtcenter same-line">You can <b>view</b> or <b>download</b> the <i>call for papers</i> <a style="a-no ops-t" target="_blank" href="/2026/docs/VLSI-SOC-CFP.pdf">here <i class="fa fa-download same-line" aria-hidden="true"></i></a> </p>
+      <p class="ops-tt txtcenter c-azure"><b>Research topics of interest include, but are not limited to:</b></p>
+      <div class="row col-md-12 txtcenter mts-10" style="padding-bottom:80px">
+         <div class="col-md-6 text-left">
+            
+            <details class="topic-spoiler wow fadeIn" data-wow-delay="0.1s">
+               <summary class="ops-t">
+                  <span class="topic-label"><b>Track 1:</b></span>
+                  <span class="topic-title">Applications and Architectures for AI and ML</span>
+               </summary>
+               <p class="ops-t topic-description">This topic deals with advances in the field, focusing on algorithms for developing machine learning models, AI-inspired computation models, approximate computing, and security and privacy issues related to AI and ML applications. It also covers design automation at the intersection of ML/AI algorithms and hardware. Key areas include hardware-efficient architectures for deep learning inference and training, power and hardware-efficient computation methods, low bit-width implementations for activations and weights, dynamic evaluation of neural network models, and efficient methods for few- and one-shot learning algorithms.</p>
+               
+               <ul class="ops-t topic-subtopics">
+                  
+                  <li>Application of AI and ML</li>
+                  
+                  <li>Architectures for AI and ML</li>
+                  
+               </ul>
+               
+            </details>
+            
+            <details class="topic-spoiler wow fadeIn" data-wow-delay="0.1s">
+               <summary class="ops-t">
+                  <span class="topic-label"><b>Track 2:</b></span>
+                  <span class="topic-title">Communication Architectures and Technologies</span>
+               </summary>
+               <p class="ops-t topic-description">This topic deals with advancing communication architectures and technologies, with a special emphasis on 5G/6G networks. It includes innovative solutions in radio frequency (RF) technologies to enhance wireless communication systems, the design and optimization of network-on-chip (NoC) architectures, and ensuring efficient data transfer within complex systems. It also covers next-generation communication by integrating cutting-edge RF technologies into future networks.</p>
+               
+               <ul class="ops-t topic-subtopics">
+                  
+                  <li>5G/6G technologies</li>
+                  
+                  <li>RF</li>
+                  
+                  <li>Network on Chip</li>
+                  
+               </ul>
+               
+            </details>
+            
+            <details class="topic-spoiler wow fadeIn" data-wow-delay="0.1s">
+               <summary class="ops-t">
+                  <span class="topic-label"><b>Track 3:</b></span>
+                  <span class="topic-title">Computing Paradigms</span>
+               </summary>
+               <p class="ops-t topic-description">This topic deals with systems and accelerators based on novel computing paradigms, including associated modeling, validation, emulation, programming, integration, design, and exploration techniques. It covers emerging models of computation such as approximate computing, in- and near-memory computing, machine learning, reversible computing, evolutionary computing, and quantum computing, with a focus on architectures, encryption, error correction, and cryogenic computing.</p>
+               
+               <ul class="ops-t topic-subtopics">
+                  
+                  <li>Quantum computing</li>
+                  
+                  <li>Approximate computing</li>
+                  
+                  <li>Evolutionary computing</li>
+                  
+                  <li>In-memory computing</li>
+                  
+               </ul>
+               
+            </details>
+            
+            <details class="topic-spoiler wow fadeIn" data-wow-delay="0.1s">
+               <summary class="ops-t">
+                  <span class="topic-label"><b>Track 4:</b></span>
+                  <span class="topic-title">Digital Circuits Design and Synthesis</span>
+               </summary>
+               <p class="ops-t topic-description">This topic deals with the design of digital VLSI systems, which demands a complex design flow from high-level design description to layout description. The flow includes synthesis, verification, optimization, and estimation tools. Optimization is necessary at all levels of design abstraction, with a wide range of possible architectures to implement the same digital system, targeting low power, high performance, and resource efficiency. System-on-Chip optimization increasingly relies on hardware accelerators.</p>
+               
+               <ul class="ops-t topic-subtopics">
+                  
+                  <li>Digital circuits</li>
+                  
+                  <li>High-level and logic-level synthesis</li>
+                  
+                  <li>Reconfigurable architectures and systems</li>
+                  
+                  <li>SoC</li>
+                  
+               </ul>
+               
+            </details>
+            
+            <details class="topic-spoiler wow fadeIn" data-wow-delay="0.1s">
+               <summary class="ops-t">
+                  <span class="topic-label"><b>Track 5:</b></span>
+                  <span class="topic-title">Embedded System Design</span>
+               </summary>
+               <p class="ops-t topic-description">This topic deals with embedded systems design, focusing on the modeling, analysis, design, verification, and deployment of application-specific electronic systems that interact with their physical environment. The goal is to choose and design the proper combination of hardware and software components to meet system-level goals like speed, efficiency, reliability, security, and safety. Areas of interest include real-time systems, cyber-physical systems, parallel computing, networked systems, and dependable systems, with emphasis on model-based design, verification, and embedded software platforms.</p>
+               
+               <ul class="ops-t topic-subtopics">
+                  
+                  <li>Embedded software and toolchains</li>
+                  
+                  <li>Edge computing</li>
+                  
+                  <li>Cloud computing</li>
+                  
+                  <li>Parallel computing and architectures</li>
+                  
+               </ul>
+               
+            </details>
+            
+            <details class="topic-spoiler wow fadeIn" data-wow-delay="0.1s">
+               <summary class="ops-t">
+                  <span class="topic-label"><b>Track 6:</b></span>
+                  <span class="topic-title">Emerging Technologies and Applications</span>
+               </summary>
+               <p class="ops-t topic-description">This topic deals with emerging technologies such as artificial intelligence, machine learning, deep learning, edge computing, quantum computing, augmented reality, virtual reality, big data, and blockchain. Applications include the Internet of Things (IoT), autonomous vehicles, agrifood, recommendation systems, robotics, personalized healthcare, smart homes, and smart cities. From the technological point of view, it also encompasses 3D integration, chiplets, non-volatile memories, silicon photonics, design using advanced transistors (sub 2nm, CFETs, 2D material based).</p>
+               
+               <ul class="ops-t topic-subtopics">
+                  
+                  <li>Emerging technologies</li>
+                  
+               </ul>
+               
+            </details>
+            
+         </div>
+         <div class="col-md-6 text-left">
+            
+            <details class="topic-spoiler wow fadeIn" data-wow-delay="0.1s">
+               <summary class="ops-t">
+                  <span class="topic-label"><b>Track 7:</b></span>
+                  <span class="topic-title">Low-Power, Energy-Efficient and Thermal-Aware Design</span>
+               </summary>
+               <p class="ops-t topic-description">This topic deals with algorithms, design techniques, circuits, and tools for modeling, estimating, or optimizing power consumption and thermal performance in electronic circuits and systems. It covers ultra-low-power systems (e.g., for portable/wearable devices at the edge of the IoT) to high-performance systems (like data centers) and large-scale battery systems (such as electric vehicles). Areas of interest include dynamic/adaptive management techniques for temperature/power/energy optimization, cross-layer hardware/software optimization strategies, and new circuits and architectures for low-power, energy-efficient distributed, and heterogeneous systems.</p>
+               
+               <ul class="ops-t topic-subtopics">
+                  
+                  <li>Cryogenic processors</li>
+                  
+                  <li>Low-power design</li>
+                  
+               </ul>
+               
+            </details>
+            
+            <details class="topic-spoiler wow fadeIn" data-wow-delay="0.1s">
+               <summary class="ops-t">
+                  <span class="topic-label"><b>Track 8:</b></span>
+                  <span class="topic-title">Security</span>
+               </summary>
+               <p class="ops-t topic-description">This topic deals with cybersecurity issues related to the hardware infrastructure underlying computing, storage, or communication systems, particularly when hardware can no longer be considered a root of trust. It covers hardware threats and vulnerabilities, including physical attacks, Trojan horses, IP piracy, IC counterfeiting, backdoors, tampering, and reverse engineering. It also addresses hardware Trojan detection, side-channel attacks, and countermeasures, as well as the security of emerging technologies and physically unclonable functions (PUFs).</p>
+               
+               <ul class="ops-t topic-subtopics">
+                  
+                  <li>Hardware security</li>
+                  
+                  <li>IP Security</li>
+                  
+                  <li>Secure Hardware Synthesis</li>
+                  
+               </ul>
+               
+            </details>
+            
+            <details class="topic-spoiler wow fadeIn" data-wow-delay="0.1s">
+               <summary class="ops-t">
+                  <span class="topic-label"><b>Track 9:</b></span>
+                  <span class="topic-title">Sensing and Signal Processing Technologies</span>
+               </summary>
+               <p class="ops-t topic-description">This topic deals with sensing and signal processing technologies within intelligent environments and bio-related well-being applications. It explores the development and integration of sensor technologies, innovative signal processing techniques, and energy-efficient read-out circuits for environmental and in-body sensing applications. It also examines the design and architecture of signal processing systems tailored for smart environments, ensuring scalability, reliability, and energy efficiency.</p>
+               
+               <ul class="ops-t topic-subtopics">
+                  
+                  <li>Sensors and biosensors</li>
+                  
+                  <li>Signal processing</li>
+                  
+                  <li>Circuits and architectures for signal processing</li>
+                  
+               </ul>
+               
+            </details>
+            
+            <details class="topic-spoiler wow fadeIn" data-wow-delay="0.1s">
+               <summary class="ops-t">
+                  <span class="topic-label"><b>Track 10:</b></span>
+                  <span class="topic-title">Smart Systems, Devices and Applications</span>
+               </summary>
+               <p class="ops-t topic-description">This topic deals with IoT systems and applications, focusing on smart systems (e.g., smart cities, smart cars) and smart applications (e.g., smart irrigation, smart wildfire detection). It also covers systems and applications based on big data, cyber-physical systems, and smart sensors for IoT applications, including hardware and software security for these systems.</p>
+               
+               <ul class="ops-t topic-subtopics">
+                  
+                  <li>IoT, industrial IoT, IoMT</li>
+                  
+                  <li>Smart systems</li>
+                  
+                  <li>Cyber-physical systems</li>
+                  
+                  <li>Big data</li>
+                  
+               </ul>
+               
+            </details>
+            
+            <details class="topic-spoiler wow fadeIn" data-wow-delay="0.1s">
+               <summary class="ops-t">
+                  <span class="topic-label"><b>Track 11:</b></span>
+                  <span class="topic-title">System Specification, Simulation and Verification</span>
+               </summary>
+               <p class="ops-t topic-description">This topic deals with modeling and specification methodologies for complex HW-SW systems, including simulation-based, semi-formal, or formal validation and verification of SoCs and emerging architectures at any level. It covers testbench and assertion generation, coverage metrics, checker synthesis and optimization, and acceleration-driven and emulation-based approaches for verification and validation.</p>
+               
+               <ul class="ops-t topic-subtopics">
+                  
+                  <li>Simulation</li>
+                  
+                  <li>Verification</li>
+                  
+                  <li>System specification and modelling</li>
+                  
+                  <li>Hardware description languages</li>
+                  
+                  <li>Prototyping and virtual prototyping</li>
+                  
+               </ul>
+               
+            </details>
+            
+            <details class="topic-spoiler wow fadeIn" data-wow-delay="0.1s">
+               <summary class="ops-t">
+                  <span class="topic-label"><b>Track 12:</b></span>
+                  <span class="topic-title">Test and Dependability</span>
+               </summary>
+               <p class="ops-t topic-description">This topic deals with test and dependability of digital, analog/RF, mixed-signal, and embedded systems. It covers defect and fault modeling, fault simulation, test generation, design-for-test, on-line test, test infrastructure, failure analysis, fault diagnosis, fault tolerance, and functional safety and reliability.</p>
+               
+               <ul class="ops-t topic-subtopics">
+                  
+                  <li>Design for testability</li>
+                  
+                  <li>Fault tolerance</li>
+                  
+                  <li>Fault modelling</li>
+                  
+                  <li>Testing</li>
+                  
+                  <li>Reliability</li>
+                  
+               </ul>
+               
+            </details>
+            
+         </div>
+      </div>
+      <br />
+   </div>
+</div>
+
+<div class="bxshadow-top bg-gray-ns">
+   <div class="container" style="padding-top:80px">
+      <div class="justify-content-center txtcenter" id="authorguide">
+         <div class="row col-md-12">
+            <div class="col-md-4 align-left-mobile" style="text-align:right;">
+               <i class="fa fa-info-circle inline-mobile" style="display:none;color:black" aria-hidden="true"></i>
+               <p class="ops c-orange inline-mobile"><b>DEADLINES</b></p>
+            </div>
+            <div class="col-md-8" style="text-align:left;border-left: solid 1px #E85F28">
+               <p class="ops-2t"><b>Abstract registration: May 04, 2026<br />Full paper submission: May 11, 2026<br />Special session proposal: May 11, 2026<br />Notification of acceptance: June 29, 2026<br />Camera ready: July 20, 2026</b></p>
+            </div>
+         </div><br /><br />
+         <h3 id="committee" class="ops-tt txtcenter">AUTHORS' GUIDELINES</h3>
+         <br />
+         <div class="row col-md-12">
+            <div class="col-md-4 align-left-mobile" style="text-align:right;">
+               <i class="fa fa-info-circle inline-mobile" style="display:none;color:black" aria-hidden="true"></i>
+               <p class="ops c-azure inline-mobile"><b>PAPERS SUBMISSION</b></p>
+            </div>
+            <div class="col-md-8" style="text-align:left;border-left: solid 1px #477ED2">
+               <p class="ops-2t">Papers should present original research and industrial results not published or
+                  submitted for publication in other forums. Electronic submission in PDF format to
+                  <a class="a-no ops" href="https://easychair.org/conferences/?conf=ifipieeevlsisoc2026"> easychair VLSI-SOC
+                     2026 </a> website is required. The proceedings will be published by IEEE and will be made
+                  available through IEEE Xplore.
+                  A selection of the conference best papers will be invited to submit an extended version to be
+                  included as chapters of a book to be published by Springer.
+               </p>
+            </div>
+         </div>
+         <br />
+         <div class="row col-md-12">
+            <div class="col-md-4 align-left-mobile" style="text-align:right;">
+               <i class="fa fa-info-circle inline-mobile" style="display:none;color:black" aria-hidden="true"></i>
+               <p class="ops c-azure inline-mobile"><b>PAPERS FORMAT</b></p>
+            </div>
+            <div class="col-md-8" style="text-align:left;border-left: solid 1px #477ED2">
+               <p class="ops-2t">Papers should not exceed 4 pages + 1 page with only references (single-spaced, 2 columns, 10pt font). Submissions
+                  should be camera-ready, following the IEEE proceedings specifications.</p>
+            </div>
+         </div>
+         <br />
+         <div class="row col-md-12">
+            <div class="col-md-4 align-left-mobile" style="text-align:right;">
+               <i class="fa fa-info-circle inline-mobile" style="display:none;color:black" aria-hidden="true"></i>
+               <p class="ops c-azure inline-mobile"><b>PAPERS PUBBLICATION AND SPEAKERS REGISTRATION</b></p>
+            </div>
+            <div class="col-md-8" style="text-align:left;border-left: solid 1px #477ED2">
+               <p class="ops-2t">Papers will be accepted for regular or poster presentation at the conference. Every
+                  accepted paper MUST have at least one author
+                  registered at the conference by the time the camera-ready paper is submitted; the registered author
+                  is also expected to attend the conference and present the paper. A limited
+                  number of travel grants are available to needy PhD students from emerging countries.
+               </p>
+            </div>
+         </div>
+         <br />
+         <div class="row col-md-12">
+            <div class="col-md-4 align-left-mobile" style="text-align:right;">
+               <i class="fa fa-info-circle inline-mobile" style="display:none;color:black" aria-hidden="true"></i>
+               <p class="ops c-azure inline-mobile"><b>INSTRUCTIONS FOR ACCEPTED PAPERS</b></p>
+            </div>
+            <div class="col-md-8" style="text-align:left;border-left: solid 1px #477ED2">
+               <p class="ops-2t">
+                  These instructions apply to accepted <b>regular</b> and <b>poster</b> papers (special session
+                  proposals are not treated as camera-ready papers at this stage). You can <b>view</b> or
+                  <b>download</b> the full camera-ready instructions
+                  <a class="a-no ops" target="_blank" href="/2026/docs/VLSI-SoC_2026_Camera-Ready_Instructions.pdf">here <i class="fa fa-download same-line" aria-hidden="true"></i></a>.
+               </p>
+               <p class="ops-2t">
+                  <b>Camera-ready deadline:</b> July 20, 2026<br />
+                  <b>Page limit:</b> 4 pages plus 1 additional page containing only references<br />
+                  <b>Format:</b> IEEE conference format, single-spaced, two columns, 10 pt font<br />
+                  <b>PDF validation:</b> final PDFs must be validated through IEEE PDF eXpress<br />
+                  <b>Submission:</b> final papers must be submitted through the EasyChair proceedings author role for
+                  IFIP/IEEE VLSI-SoC 2026<br />
+                  <b>Copyright:</b> the IEEE electronic copyright form must be completed through the
+                  EasyChair/IEEE workflow<br />
+                  <b>Registration:</b> at least one author of each accepted paper must register by the camera-ready
+                  deadline and is expected to attend and present the paper
+               </p>
+            </div>
+         </div>
+         <br /><br />
+      </div>
+   </div>
+   <div class="bxshadow-top bg-white-ns">
+      <div class="container" style="padding-top:80px">
+         <div class="justify-content-center" id="cameraready">
+            <h3 id="committee" class="ops-tt txtcenter">CAMERA-READY SUBMISSIONS</h3>
+            <br />
+            <p class="ops-tt txtcenter c-azure">
+               Camera-ready deadline: <b>July 20, 2026</b>
+            </p>
+            <p class="ops-2t txtcenter">
+               Final papers must be submitted through the
+               <a class="a-no ops" href="https://easychair.org/conferences/?conf=ifipieeevlsisoc2026">EasyChair
+                  proceedings author role</a> for IFIP/IEEE VLSI-SoC 2026, after validation through IEEE PDF
+               eXpress and completion of the IEEE electronic copyright form via the EasyChair/IEEE workflow. See
+               the <a class="a-no ops" target="_blank" href="/2026/docs/VLSI-SoC_2026_Camera-Ready_Instructions.pdf">full
+                  instructions <i class="fa fa-download same-line" aria-hidden="true"></i></a> for details.
+            </p>
+         </div>
+      </div>
+   </div>
+</div>
+
+
+  <footer class="footer bg-footer" style="padding-top:80px" id="footer">
+  <div class="container">
+    <div class="row col-md-12">
+      <div class="col-md-4 txtcenter">
+        <h5 class="ops-tt c-white">CONTACTS</h5>
+        <br />
+        
+        <i class="fa fa-user same-line c-white" aria-hidden="true"></i>
+        <p class="ops-2t c-gray same-line" style="color:#F8CF5F !important;"> Tiziana Margaria</p>
+        <br />
+        <i class="fa fa-envelope same-line c-white" aria-hidden="true"></i>
+        <p class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray"
+            href="mailto:tiziana.margaria@ul.ie">tiziana.margaria@ul.ie</a></p>
+        <br />
+        <i class="fa fa-phone same-line c-white" aria-hidden="true"></i>
+        <p class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray" href="tel:+353 61 213072">(+353) 61 213072</a>
+        </p>
+        <br /><br />
+        
+        <i class="fa fa-user same-line c-white" aria-hidden="true"></i>
+        <p class="ops-2t c-gray same-line" style="color:#F8CF5F !important;"> Ian O'Connor</p>
+        <br />
+        <i class="fa fa-envelope same-line c-white" aria-hidden="true"></i>
+        <p class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray"
+            href="mailto:ian.oconnor@ec-lyon.fr">ian.oconnor@ec-lyon.fr</a></p>
+        <br />
+        <i class="fa fa-phone same-line c-white" aria-hidden="true"></i>
+        <p class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray" href="tel:+33 645 478 120">(+33) 645 478 120</a>
+        </p>
+        
+        
+      </div>
+      <div class="col-md-4 txtcenter margin-mobile">
+        <h5 class="ops-tt c-white">SPONSOR/SUPPORTER</h5>
+        <p class="ops-tt c-gray"><i>We are grateful to all our academic, institutional, and industrial sponsors:</i>
+        </p>
+
+        
+        <h5 class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray" href="http://www.ifip.org">- IFIP</a></h5>
+        <br />
+        
+        <h5 class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray" href="https://www.ieee.org/index.html">- IEEE</a></h5>
+        <br />
+        
+        <h5 class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray" href="http://ieee-cas.org">- CAS</a></h5>
+        <br />
+        
+        <h5 class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray" href="http://www.ieee-ceda.org">- CEDA</a></h5>
+        <br />
+        
+        <h5 class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray" href="https://www.i-form.ie/">- I-Form</a></h5>
+        <br />
+        
+        <h5 class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray" href="https://www.qualcomm.com/">- Qualcomm</a></h5>
+        <br />
+        
+        
+        <h5 class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray" href="https://www.ul.ie/">- University of Limerick</a></h5>
+        <br />
+        
+        <h5 class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray" href="https://www.ec-lyon.fr/">- École Centrale de Lyon</a></h5>
+        <br />
+        
+        <h5 class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray" href="https://www.uis.no/en">- University of Stavanger</a></h5>
+        <br />
+        
+        <h5 class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray" href="https://www.uclancyprus.ac.cy/">- UCLan Cyprus</a></h5>
+        <br />
+        
+      </div>
+      <div class="col-md-4 txtcenter margin-mobile">
+        <img src="/2026/img/vlsi-logo.png" width="150" height="100" alt="">
+        <br /><br />
+        <i class="fa fa-globe same-line c-white" aria-hidden="true"></i>
+        <h5 class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray" href="/2026/travel.html"> Travel To Limassol</a>
+        </h5>
+        <br />
+        <br />
+        <i class="fa fa-bed same-line c-white" aria-hidden="true"></i>
+        <h5 class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray" href="/2026/travel.html"> St. Raphael Resort</a>
+        </h5>
+        <br />
+      </div>
+    </div>
+    <div class="divider-dashed"></div>
+    <div class="row col-lg-12 txt-center">
+      <p class="ops-tt c-gray">© VLSI-SoC 2026 | All Right Reserved</p>
+      <a href="https://validator.w3.org/check?uri=referer" style="margin-left:50px"><img
+          src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0!" height="18" width="50" /></a>
+    </div>
+  </div>
+</footer>
+
+<!-- Cookie Consent Banner -->
+<div id="cookie-consent" style="position: fixed; bottom: 0; width: 100%; background-color: #343a40; color: white; padding: 10px 20px; z-index: 9999; display: flex; align-items: center; justify-content: space-between; box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);">
+  <div style="flex: 1; font-size: 14px;">
+    IEEE websites place cookies on your device to give you the best user experience. By using our websites, you agree to the placement of these cookies. To learn more, read our 
+    <a href="https://www.ieee.org/security-privacy.html" target="_blank" style="color: #17a2b8; text-decoration: underline;">Privacy Policy</a>.
+  </div>
+  <button id="accept-cookies" style="background-color: #17a2b8; border: none; color: white; padding: 5px 15px; font-size: 14px; border-radius: 3px; cursor: pointer;">
+    Accept
+  </button>
+</div>
+
+<!-- Optional JAVASCRIPTS -->
+<script src="/2026/js/wow.min.js"></script>
+<script>
+  new WOW().init();
+</script>
+<!-- particles .js -->
+<script src="/2026/js/particles.js"></script>
+<script src="/2026/js/app.js"></script>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+  integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+  integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+  crossorigin="anonymous"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const consentBanner = document.getElementById("cookie-consent");
+    const acceptButton = document.getElementById("accept-cookies");
+
+    // Function to hide the banner and set the cookie
+    function acceptCookies() {
+      // Hide the banner
+      consentBanner.style.display = "none";
+
+      // Set a cookie to remember the consent
+      document.cookie = "cookieConsent=true; max-age=31536000; path=/"; // 1 year duration
+    }
+
+    // Check if the cookie already exists
+    if (document.cookie.split(";").some((item) => item.trim().startsWith("cookieConsent=true"))) {
+      // If cookieConsent is found, hide the banner
+      consentBanner.style.display = "none";
+    }
+
+    // Attach event listener to the "Accept" button
+    acceptButton.addEventListener("click", acceptCookies);
+  });
+</script>
+
+
+  
+  <!-- ARCHIVE NOTICE (only in snapshots built with _config_archive.yml) -->
+  <div style="position:fixed;bottom:0;left:0;right:0;z-index:1040;background-color:#292C33;color:#fff;text-align:center;padding:8px 16px;font-size:14px">
+    This is the archived website of VLSI-SoC 2026.
+    <a href="/" style="color:#F8CF5F;font-weight:600">Go to the current VLSI-SoC conference &rarr;</a>
+  </div>
+  
+</body>
+
+</html>

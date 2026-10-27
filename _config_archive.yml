@@ -1,0 +1,3 @@
+# Overrides used only when building a frozen snapshot of a past edition
+# (see "Archiving a past edition" in README.md)
+archived: true

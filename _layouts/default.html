@@ -11,6 +11,14 @@
   {{ content }}
 
   {% include footer.html %}
+
+  {% if site.archived %}
+  <!-- ARCHIVE NOTICE (only in snapshots built with _config_archive.yml) -->
+  <div style="position:fixed;bottom:0;left:0;right:0;z-index:1040;background-color:#292C33;color:#fff;text-align:center;padding:8px 16px;font-size:14px">
+    This is the archived website of {{ site.data.conference.name }}.
+    <a href="/" style="color:#F8CF5F;font-weight:600">Go to the current VLSI-SoC conference &rarr;</a>
+  </div>
+  {% endif %}
 </body>
 
 </html>
