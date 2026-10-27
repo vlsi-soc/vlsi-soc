@@ -63,7 +63,7 @@ description: "IFIP/IEEE International Conference on Very Large Scale Integration
         <div class="col-md-6 wow fadeIn" style="text-align:left;border-left: solid 1px white">
           <p class="ops-2t c-gray">
             {% for member in site.data.steering_committee.members %}
-              {{ member.name }}{% if member.role %} ({{ member.role }}){% endif %}, {{ member.affiliation }}
+              {{ member.name }}{% if member.role %} ({{ member.role }}){% endif %}{% if member.affiliation %}, {{ member.affiliation }}{% endif %}
               {% unless forloop.last %}<br />{% endunless %}
             {% endfor %}
           </p>

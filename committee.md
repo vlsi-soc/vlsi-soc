@@ -86,7 +86,7 @@ description: "Organizing, Program, and Steering Committees for VLSI-SoC 2027"
           <div class="col-md-6 wow fadeIn" style="text-align:left;border-left: solid 1px  #5A8FDC">
             <p class="ops-2t">
               {% for member in site.data.steering_committee.members %}
-                {{ member.name }}{% if member.role %} ({{ member.role }}){% endif %}, {{ member.affiliation }}
+                {{ member.name }}{% if member.role %} ({{ member.role }}){% endif %}{% if member.affiliation %}, {{ member.affiliation }}{% endif %}
                 {% unless forloop.last %}<br />{% endunless %}
               {% endfor %}
             </p>
