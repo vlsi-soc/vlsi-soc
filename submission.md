@@ -1,5 +1,6 @@
 ---
 layout: default
+published: false
 title: "Submission"
 description: "Call for papers and submission guidelines for VLSI-SoC 2026"
 ---

@@ -4,25 +4,25 @@ categories:
     icon: "fa-clock"
     deadlines:
       - label: "Abstract registration"
-        date: "May 04, 2026"
+        date: "TBA"
       
       - label: "Full paper submission"
-        date: "May 11, 2026"
+        date: "TBA"
       
       - label: "Special session proposal"
-        date: "May 11, 2026"
+        date: "TBA"
       
       - label: "Notification of acceptance"
-        date: "June 29, 2026"
+        date: "TBA"
       
       - label: "Camera ready"
-        date: "July 20, 2026"
+        date: "TBA"
   
   - name: "PhD Contributions"
     icon: "fa-clock"
     deadlines:
       - label: "PhD & Student Forum submission"
-        date: "August 24, 2026"
+        date: "TBA"
       
       - label: "Notification of acceptance"
-        date: "September 06, 2026"
+        date: "TBA"

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "VLSI-SoC 2026"
+title: "VLSI-SoC 2027"
 description: "IFIP/IEEE International Conference on Very Large Scale Integration SoC (VLSI-SoC)"
 ---
 

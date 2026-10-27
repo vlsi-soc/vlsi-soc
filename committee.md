@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Committee"
-description: "Organizing, Program, and Steering Committees for VLSI-SoC 2026"
+description: "Organizing, Program, and Steering Committees for VLSI-SoC 2027"
 ---
 
 {% include hero-carousel.html %}
@@ -65,6 +65,8 @@ description: "Organizing, Program, and Steering Committees for VLSI-SoC 2026"
           </details>
         </div>
         <br />
+        {% else %}
+        <p class="ops-t c-white txtcenter">To be announced</p>
         {% endfor %}
       </div>
     </div>

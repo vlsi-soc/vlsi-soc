@@ -1,5 +1,6 @@
 ---
 layout: default
+published: false
 title: "Travel & Stay"
 description: "Venue, travel information, and accommodation for VLSI-SoC 2026"
 ---

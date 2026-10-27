@@ -1,9 +1,5 @@
 # Conference News and Updates
 news_items:
-  - date: "October 8, 2025"
-    title: "Website is live!"
-    content: "Stay tuned for more updates."
-  
-  - date: "January 15, 2026"
-    title: "Call for Papers Released"
-    content: "The official Call for Papers for VLSI-SOC 2026 is now available. Submit your best work!"
+  - date: "October 27, 2026"
+    title: "Thank you for VLSI-SoC 2026!"
+    content: "VLSI-SoC 2026 in Limassol, Cyprus, has come to an end. Thank you to all authors, speakers, and participants! The <a href=\"/2026/\">VLSI-SoC 2026 website</a> remains available in the archive. Details about VLSI-SoC 2027 will be announced soon."

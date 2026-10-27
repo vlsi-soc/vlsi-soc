@@ -1,5 +1,6 @@
 ---
 layout: default
+published: false
 title: "PhD & Student Forum"
 description: "PhD & Student Forum call for VLSI-SoC 2026"
 ---

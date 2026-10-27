@@ -1,5 +1,6 @@
 ---
 layout: default
+published: false
 title: "Special Sessions"
 description: "Special sessions call and proposals for VLSI-SoC 2026"
 ---

@@ -1,9 +1,14 @@
 # Previous VLSI-SoC Conferences
 conferences:
+  - city: "TBA"
+    year: 2027
+    country: "TBA"
+    highlight: true  # Current conference
+
   - city: "Limassol"
     year: 2026
     country: "Cyprus"
-    highlight: true  # Current conference
+    url: "/2026/"
   
   - city: "Puerto Varas"
     year: 2025

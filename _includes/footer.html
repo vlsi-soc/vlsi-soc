@@ -35,15 +35,17 @@
       <div class="col-md-4 txtcenter margin-mobile">
         <img src="{{ '/img/vlsi-logo.png' | relative_url }}" width="150" height="100" alt="">
         <br /><br />
+        {% if site.data.conference.show_full_nav %}
         <i class="fa fa-globe same-line c-white" aria-hidden="true"></i>
-        <h5 class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray" href="{{ '/travel.html' | relative_url }}"> Travel To Limassol</a>
+        <h5 class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray" href="{{ '/travel.html' | relative_url }}"> Travel To {{ site.data.conference.location }}</a>
         </h5>
         <br />
         <br />
         <i class="fa fa-bed same-line c-white" aria-hidden="true"></i>
-        <h5 class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray" href="{{ '/travel.html' | relative_url }}"> St. Raphael Resort</a>
+        <h5 class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray" href="{{ '/travel.html' | relative_url }}"> {{ site.data.conference.venue }}</a>
         </h5>
         <br />
+        {% endif %}
       </div>
     </div>
     <div class="divider-dashed"></div>

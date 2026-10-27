@@ -1,5 +1,6 @@
 ---
 layout: default
+published: false
 title: "Registration"
 description: "Registration information and fees for VLSI-SoC 2026"
 ---

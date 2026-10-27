@@ -15,7 +15,7 @@
     <div class="col-md-6 {% if role.key == 'phd_student_forum_chairs' or role.key == 'award_chairs' %}align-left-mobile {% endif %}wow fadeIn" style="text-align:left;border-left: solid 1px {% if include.dark_bg %}white{% else %}#5A8FDC{% endif %}">
       <p class="ops-2t {% if include.dark_bg %}c-gray{% else %}{% endif %}">
         {% for member in role.members %}
-          <b>{{ member.name }}</b> ({{ member.affiliation }}){% unless forloop.last %}<br />{% endunless %}
+          <b>{{ member.name }}</b>{% if member.affiliation %} ({{ member.affiliation }}){% endif %}{% unless forloop.last %}<br />{% endunless %}
         {% endfor %}
       </p>
     </div>

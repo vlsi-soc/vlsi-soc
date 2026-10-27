@@ -1,5 +1,6 @@
 ---
 layout: default
+published: false
 title: "Program"
 description: "Conference program, keynotes, and schedule for VLSI-SoC 2026"
 ---

@@ -22,6 +22,7 @@
         </div>
       </li>
 
+      {% if site.data.conference.show_full_nav %}
       <li class="nav-item dropdown {% if page.url contains 'submission' %}activex{% endif %}">
         <a class="nav-link ops" href="#" id="navbarDropdown" role="button"
           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -82,13 +83,18 @@
         </div>
       </li>
 
+      {% endif %}
+
       <li class="nav-item ops {% if page.url contains 'prevconference' %}active{% endif %}">
         <a class="nav-link" href="{{ '/prevconference.html' | relative_url }}#prev">Previous Conferences</a>
       </li>
 
+      {% if site.data.conference.show_full_nav %}
       <li class="nav-item ops {% if page.url contains 'sponsorship' %}active{% endif %}">
         <a class="nav-link" href="{{ '/sponsorship.html' | relative_url }}#sponsorship">Sponsorship</a>
       </li>
+
+      {% endif %}
 
       <li class="nav-item ops">
         <a class="nav-link" href="#footer">Contacts</a>

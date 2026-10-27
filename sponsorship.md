@@ -1,5 +1,6 @@
 ---
 layout: default
+published: false
 title: "Sponsorship"
 description: "VLSI-SoC Sponsorship Opportunities"
 ---

@@ -1,10 +1,13 @@
 # Conference Information
-name: "VLSI-SoC 2026"
-full_name: "34th IFIP/IEEE International Conference on Very Large Scale Integration SoC"
-location: "Limassol (Cyprus)"
-dates: "11-14 October"
-venue: "St. Raphael Resort"
-year: 2026
-edition: 34
-edition_text: "34th"
-social_event: "13 October"
+name: "VLSI-SoC 2027"
+full_name: "35th IFIP/IEEE International Conference on Very Large Scale Integration SoC"
+location: "TBA"
+dates: "TBA"
+venue: "TBA"
+year: 2027
+edition: 35
+edition_text: "35th"
+social_event: "TBA"
+# Set to true once the Submission/Program/Registration/Travel/... pages have
+# 2027 content (also remove `published: false` from those pages)
+show_full_nav: false
